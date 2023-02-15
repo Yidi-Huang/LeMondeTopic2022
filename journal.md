@@ -13,12 +13,19 @@
 
 ZHANG : J'ai initié un projet intitulé ppe2-projet_CHZ et a ensuite  les branches  `main`, `page`.
 
-## 8 février 2023
+### 8 février 2023
 
+HUANG : L'exercice 1 nous permet de nous familiariser avec les fonctionnements de nouvelles commandes. La création de branche pour chacun d'entre nous est la première étape pour une coopération dans un projet. 
+
+Pendant ce processus, nous avons découvert que les fichiers et les dossiers par défaut sont déterminés par ceux qui sont sur la main, ce qui nous indique l'importance de partir de notre propre branche à main pour ne pas déranger directement la création d'autres branches.
+
+La commande merge sert d'un outil de fuisionnement entre deux branches, ce qui est pratique pour un travail de groupe. Pour atteindre l'objectif de l'exercice 1, il faut d'abord fuisionner les branches par deux, et finalement avec main. En même temps, le gitk nous aidera à éviter les conflits en fusionnant tous les commits de chaque membre.
 
 ### 11 février 2023
 
-ZHANG: Après m'être confronté à plusieures conflits de la fonction `git merge`, j'ai décidé d'utiliser VScode pour éviter d'effacer le contenu de mes camarades par hasard.
+ZHANG : Après m'être confronté à plusieures conflits de la fonction `git merge`, j'ai décidé d'utiliser VScode pour éviter d'effacer le contenu de mes camarades par hasard.
+
+HUANG : Concernant l'exercice 2, la tâche consiste à trouver la fréquence d'apparaence d'un mot dans le corpus. Cette tâche est divisée en 3 parties, dont trier les mots d'un fichier, chercher le nombre d'apparence du mot dans le corpus et compter le nombre d'articles où le mot apparaît. 
 
 ### 14 février 2023
 
