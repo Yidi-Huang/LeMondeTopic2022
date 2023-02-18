@@ -32,3 +32,12 @@ HUANG : Concernant l'exercice 2, la tâche consiste à trouver la fréquence d'a
 ZHANG: Dans la deuxim̀eme séance, nous avons repris encore les connaisances relatives à des commandes nouvellement apprises, telles que git merge, git checkout, git rebase, git branch, etc à l'aide du tutoriel animé disponible sur icampus. En suivant le tutoriel, on se met à comprendre un peu le principe de fonction merge et branch sur Gitlab qui va nous accompagner tout au long de l'aventure du projet de ce semestre.
 
 Sur Gitlab, j'ai initié de nouveau un répertoire intitulté le même nom --- PPE2-chz après avoir testé quelques fonctions. Nous avons créé donc selon la consigne de l'exercice chacun une branche et ensuite ajouté nos propres dumps-textes. Une fois que l'exercice a été finalisé, nous avons pu publier un tag. Et je me suis occupé dans l'exo2 du permier rôle dans la rédaction des codes python. Nous avons mergé tous dans la branche main.
+
+### 18 février 2023
+HUANG : On a décidé d'utiliser le programme python sur icampus. Donc on a changé du programme fuisionné par nous trois à la nouvelle version sur la branche main.
+
+Pour l'exerice 1 r2, j'ai ajouté des lignes en important argparse et sys. Maintenant le corpus peut être affiché avec le programme, mais il y a un problème sur les retours de lignes. 
+
+Le programme Python peut être lancé avec la commande : `python3 extraire_lexique.py Corpus/*.txt`
+
+
