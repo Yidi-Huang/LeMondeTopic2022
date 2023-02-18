@@ -36,7 +36,7 @@ Sur Gitlab, j'ai initié de nouveau un répertoire intitulté le même nom --- P
 ### 18 février 2023
 HUANG : On a décidé d'utiliser le programme python sur icampus. Donc on a changé du programme fuisionné par nous trois à la nouvelle version sur la branche main.
 
-Pour l'exerice 1 r2, j'ai ajouté des lignes en important argparse et sys. Maintenant le corpus peut être affiché avec le programme, mais il y a un problème sur les retours de lignes. 
+Pour l'exercice 1 r2, j'ai ajouté des lignes pour la nouvelle fonction afficher() en important argparse et sys. Maintenant le corpus peut être affiché avec le programme, mais il y a un problème sur les retours de lignes. 
 
 Le programme Python peut être lancé avec la commande : `python3 extraire_lexique.py Corpus/*.txt`
 
