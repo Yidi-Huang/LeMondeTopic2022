@@ -1,6 +1,10 @@
 from pathlib import Path
 from typing import List, Dict
 
+import argparse
+import sys
+
+
 def lire_corpus():
     corpus_dir = Path("./Corpus")
     resultat = []
@@ -40,5 +44,23 @@ def main():
         print(f"{k}: {v}")
 
 
-if __name__ == "__main__":
-    main()
+
+def afficher(fichiers):
+    lexique = []
+    for fichier in fichiers:
+        with open(fichier, 'r') as f:
+            for ligne in f:
+                mots = ligne.strip().split()
+                for mot in mots:
+                    if mot not in lexique:
+                        lexique.append(mot)
+    return lexique
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser()
+    parser.add_argument('fichiers', nargs='+', type=str, help='les fichiers à lire')
+    args = parser.parse_args()
+    lexique = afficher(args.fichiers)
+    for mot in lexique:
+        sys.stdout.write(mot + '\n')
+
