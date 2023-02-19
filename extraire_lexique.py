@@ -19,17 +19,6 @@ def term_freq(corpus: List[str]) -> Dict[str,int]:
                 resultat[word] = 1
     return resultat
 
-def doc_freq(corpus: List[str]) -> Dict[str,int]:
-    resultat = {}
-    for doc in corpus:
-        words = set(doc.split())
-        for word in words:
-            if word in resultat:
-                resultat[word] += 1
-            else:
-                resultat[word] = 1
-    return resultat
-
 def nb_doc(corpus: List[str]) -> Dict[str, int]:
     resultat={}
 
@@ -37,7 +26,7 @@ def nb_doc(corpus: List[str]) -> Dict[str, int]:
         texte = set(corpus.split())
 
         for mot in corpus:
-            if mot in dic:
+            if mot in resultat:
                 resultat[mot] += 1
             else:
                 resultat[mot] = 1
@@ -46,7 +35,7 @@ def nb_doc(corpus: List[str]) -> Dict[str, int]:
 def main():
     corpus = lire_corpus()
     print("doc freq")
-    for k, v in doc_freq(corpus).items():
+    for k, v in nb_doc(corpus).items():
         print(f"{k}: {v}")
     print("term freq")
     for k, v in term_freq(corpus).items():
