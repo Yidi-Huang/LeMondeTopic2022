@@ -57,10 +57,10 @@ def afficher(fichiers):
     return lexique
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser()
-    parser.add_argument('fichiers', nargs='+', type=str, help='les fichiers à lire')
-    args = parser.parse_args()
-    lexique = afficher(args.fichiers)
+    parser2 = argparse.ArgumentParser()
+    parser2.add_argument('fichiers', nargs='+', type=str, help='les fichiers à lire')
+    args2 = parser2.parse_args()
+    lexique = afficher(args2.fichiers)
     for mot in lexique:
         sys.stdout.write(mot + '\n')
 
