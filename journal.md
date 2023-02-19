@@ -8,11 +8,15 @@
 
 - Weixuan CHENG
 
+***
 
+## **Semaine 1**
 ### 2 février 2023
 
-ZHANG : J'ai initié un projet intitulé ppe2-projet_CHZ et a ensuite  les branches  `main`, `page`.
+ZHANG : J'ai initié un projet intitulé ppe2-projet_CHZ et les branches  `main`, `page`.
+___
 
+## **Semaine 2**
 ### 8 février 2023
 
 HUANG : L'exercice 1 nous permet de nous familiariser avec les fonctionnements de nouvelles commandes. La création de branche pour chacun d'entre nous est la première étape pour une coopération dans un projet. 
@@ -27,6 +31,9 @@ ZHANG : Après m'être confronté à plusieures conflits de la fonction `git mer
 
 HUANG : Concernant l'exercice 2, la tâche consiste à trouver la fréquence d'apparaence d'un mot dans le corpus. Cette tâche est divisée en 3 parties, dont trier les mots d'un fichier, chercher le nombre d'apparence du mot dans le corpus et compter le nombre d'articles où le mot apparaît. 
 
+___
+
+## **Semaine 3**
 ### 14 février 2023
 
 ZHANG: Dans la deuxim̀eme séance, nous avons repris encore les connaisances relatives à des commandes nouvellement apprises, telles que git merge, git checkout, git rebase, git branch, etc à l'aide du tutoriel animé disponible sur icampus. En suivant le tutoriel, on se met à comprendre un peu le principe de fonction merge et branch sur Gitlab qui va nous accompagner tout au long de l'aventure du projet de ce semestre.
