@@ -41,10 +41,16 @@ ZHANG: Dans la deuxim̀eme séance, nous avons repris encore les connaisances re
 Sur Gitlab, j'ai initié de nouveau un répertoire intitulté le même nom --- PPE2-chz après avoir testé quelques fonctions. Nous avons créé donc selon la consigne de l'exercice chacun une branche et ensuite ajouté nos propres dumps-textes. Une fois que l'exercice a été finalisé, nous avons pu publier un tag. Et je me suis occupé dans l'exo2 du permier rôle dans la rédaction des codes python. Nous avons mergé tous dans la branche main.
 
 ### 18 février 2023
-HUANG : On a décidé d'utiliser le programme python sur icampus. Donc on a changé du programme fuisionné par nous trois à la nouvelle version sur la branche main.
+HUANG : On a décidé de récupérer le programme python sur icampus. Donc on a changé du programme fuisionné par nous trois à la nouvelle version sur la branche main.
 
 Pour l'exercice 1 r2, j'ai ajouté des lignes pour la nouvelle fonction afficher() en important argparse et sys. Maintenant le corpus peut être affiché avec le programme, mais il y a un problème sur les retours de lignes. 
 
 Le programme Python peut être lancé avec la commande : `python3 extraire_lexique.py Corpus/*.txt`
 
+### 19 février 2023
+ZHANG : Par souci de l'accessibilité des fichiers chinois, j'ai tout d'abord renouvelé les dumps textes chinois segmentés dans la branche main. 
+
+Et je me suis mis à répondre à la fonction du rôle 1 dans TP2 tout en établissant une nouvelle branche -- zxh-s3.  
+
+Pour cette fonction-là, il m'est nécessaire d'importer le module de base -sys et -argparser et -glob pour permettre de lancer le programme avec la pipe. Ensuite j'ai créé un nouveau tag -- s3ex1r1 pour capturer le point de l'historique de rôle 1. 
 
