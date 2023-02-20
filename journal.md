@@ -10,10 +10,36 @@
 
 ***
 
+## Objectif 
+Apprendre à travailler en groupe sur Gitlab
+
+
 ## **Semaine 1**
+1. Réviser les commandes Git, surtout les suivantes :
+    - git clone 
+    - git fetch
+    **Branche**
+    - git branche
+    - git checkout
+    - git merge
+    - git rebase
+    **Dépôt**
+    - git push
+    **Etat**
+    - git reset
+    - git revert
+    **Autre**
+    - git tag
+
+2. Créer un dépôt Gitlab central du projet sur Gitlab 
+3. Tous les membres clonent le dépôt Gitlab central dans leur ordinateur
+
+
 ### 2 février 2023
 
-ZHANG : J'ai initié un projet intitulé ppe2-projet_CHZ et les branches  `main`, `page`.
+ZHANG : J'ai initié un projet intitulé ppe2-projet_CHZ et les branches  `main`, `page`. 
+
+
 ___
 
 ## **Semaine 2**
