@@ -17,17 +17,17 @@ Apprendre à travailler en groupe sur Gitlab
 ## **Semaine 1**
 1. Réviser les commandes Git, surtout les suivantes :
     - git clone 
-    - git fetch
+    - git fetch  
     **Branche**
     - git branche
     - git checkout
     - git merge
-    - git rebase
+    - git rebase  
     **Dépôt**
-    - git push
+    - git push  
     **Etat**
     - git reset
-    - git revert
+    - git revert  
     **Autre**
     - git tag
 
