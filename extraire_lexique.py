@@ -78,6 +78,6 @@ if __name__ == '__main__':
     args2 = parser2.parse_args()
     lexique = afficher(args2.fichiers)
     for mot in lexique:
-        sys.stdout.write(mot + '\n')
+        sys.stdout.write(mot)
 
 
