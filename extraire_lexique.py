@@ -3,6 +3,7 @@ from typing import List, Dict
 import argparse
 import sys
 import glob
+import os
 
 parser = argparse.ArgumentParser(description = 'lire le corpus du dossier')
 parser.add_argument('path', nargs='+', type=str, required = True, help='nom du dossier du chemin que vous souhaitez lire')
@@ -53,17 +54,6 @@ def main():
     for k, v in term_freq(corpus).items():
         print(f"{k}: {v}")
 
-if __name__ == '__main__':
-    main(args.path)
-
-
-
-
-################################lecture et listing les fichiers############################################
-import os
-import sys
-import argparse
-
 def afficher(fichiers):
     lexique = []
     for fichier in fichiers:
@@ -96,6 +86,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     list_files(args.répertoire)
+    main(args.path)
 
 
 
