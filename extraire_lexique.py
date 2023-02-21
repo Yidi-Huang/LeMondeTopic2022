@@ -45,4 +45,25 @@ def main():
 if __name__ == "__main__":
     main()
 
+################################lecture et listing les fichiers############################################
+import os
+import sys
+import argparse
+
+
+def list_files(répertoire):
+    répertoire = Path("./Corpus")
+    for nom_file in os.listdir(répertoire):
+        if os.path.isfile(os.path.join(répertoire, nom_file)):
+            print(nom_file)
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description='Lister les files dans un répertoire')
+    parser.add_argument('répertoire', metavar='dir', type=str, help='le répertoire pour la liste de files est')
+    args = parser.parse_args()
+
+    list_files(args.répertoire)
+
+
+
 
