@@ -56,7 +56,7 @@ def main():
         print(f"{k}: {v}")
 
 if __name__ == '__main__':
-    print main(args.path)
+    main(args.path)
 
 
 
