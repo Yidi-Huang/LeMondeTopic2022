@@ -65,14 +65,6 @@ def afficher(fichiers):
                         lexique.append(mot)
     return lexique
 
-if __name__ == '__main__':
-    parser2 = argparse.ArgumentParser()
-    parser2.add_argument('fichiers', nargs='+', type=str, help='les fichiers à lire')
-    args2 = parser2.parse_args()
-    lexique = afficher(args2.fichiers)
-    for mot in lexique:
-        sys.stdout.write(mot)
-
 
 def list_files(répertoire):
     répertoire = Path("./Corpus")
@@ -87,6 +79,13 @@ if __name__ == '__main__':
 
     list_files(args.répertoire)
     main(args.path)
+    
+    parser2 = argparse.ArgumentParser()
+    parser2.add_argument('fichiers', nargs='+', type=str, help='les fichiers à lire')
+    args2 = parser2.parse_args()
+    lexique = afficher(args2.fichiers)
+    for mot in lexique:
+        sys.stdout.write(mot)
 
 
 
