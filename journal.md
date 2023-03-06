@@ -97,4 +97,16 @@ Le programme Python peut être lancé avec la commande : `python3 extraire_lexiq
 
 CHENG :
 Nous avons approfondi l'apprentissage du travail en groupe sur Gitlab, tel que la vérification du graphe du travail en utilisant la commande gitk-all. De plus, l'apprentissage du script de bash est aussi un des contenus d'apprentissage de cette semaine.
-Néanmoins, j'ai rencontré beaucoup de difficultés pendant l'exercice de la rédaction du script de bash de cette semaine. 
+Néanmoins, j'ai rencontré beaucoup de difficultés pendant l'exercice de la rédaction du script de bash de cette semaine.
+
+### 19 février 2023
+ZHANG : Par souci de l'accessibilité des fichiers chinois, j'ai tout d'abord renouvelé les dumps textes chinois segmentés dans la branche main. 
+
+Et je me suis mis à répondre à la fonction du rôle 1 dans TP2 tout en établissant une nouvelle branche -- zxh-s3.  
+
+Pour cette fonction-là, il m'est selon l'explication vue en cours nécessaire d'importer le module de base `sys` `argparser` `glob` pour permettre de lancer le programme avec la pipe.	Au bout de la contemplation attanchée à la consigne du TP2, j'ai donc cherché à employer **un arguement-parser** afin de rajouter **un argument particulier comme le chemin des corpus** lors du lancement de la commande sur terminale. Après m'est galéré plusieures heures dans cet exercercie *pénible* et m'essayé sur mon ordi localement , enfin j'ai créé un tag -- s3ex1r1 pour capturer le point de l'historique de rôle 1 en indiquant que cela a fini malgré des incertitudes.
+
+### 21 février 2023
+HUANG : Pour résoudre le problème de ex1r2 sur le retour à la ligne, j'ai changé un peu de code afin d'affihcer les mots en évitant les retours dernière chauqe mot.
+
+En plus, le problème de chemin réside dans notre projet, car le programme python doit partir de `exercices`, au lieu de `Corpus`, il faut évidemment changer d'endroit du programme python ou le `path` dans le programme.
