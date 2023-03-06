@@ -49,9 +49,9 @@ def nb_doc(corpus: List[str]) -> Dict[str, int]:
     return resultat
 
 def main():
-	parser.add_argument("fichiers", help = "fichiers a lire comme documents du corpus {r1}",nargs = "*")
-	parser.add_argument("-r1", action = "store_true", help = "on lit les fichiers en argument")
-	parser.add_argument("-r2",action = "store_ture", help = "on lit le corpus depuis stdin")
+    parser.add_argument("fichiers", help = "fichiers a lire comme documents du corpus {r1}",nargs = "*")
+    parser.add_argument("-r1", action = "store_true", help = "on lit les fichiers en argument")
+    parser.add_argument("-r2",action = "store_ture", help = "on lit le corpus depuis stdin")
     parser.add_argument("-r3",action = "store_ture", help = "on lit les chemins de fichiers depuis stdin")
     args = parser.parse_args()
     if args.r1 and len(args.fichiers) > 0:
