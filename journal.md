@@ -110,3 +110,10 @@ Pour cette fonction-là, il m'est selon l'explication vue en cours nécessaire d
 HUANG : Pour résoudre le problème de ex1r2 sur le retour à la ligne, j'ai changé un peu de code afin d'affihcer les mots en évitant les retours dernière chauqe mot.
 
 En plus, le problème de chemin réside dans notre projet, car le programme python doit partir de `exercices`, au lieu de `Corpus`, il faut évidemment changer d'endroit du programme python ou le `path` dans le programme.
+
+___
+
+## **Semaine 4**
+
+### 7 mars 2023
+ZHANG: Ayant regardé l'explication de l'exo TP2 présenté dans le cours visio de la semaine dernière, l'objectif de la tâche se montrait plutôt éclairci pour moi. Ainsi, j'ai récupéré la version du programme vu en cours dans une branche *TP2_corrigé* nouvellement établie. L'idée serait de nous amener à reconsidérer et ensuite modifier notre propre version au terme de la discussion entre nous.
