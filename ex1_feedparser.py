@@ -1,9 +1,7 @@
-def extraire_td(rss_file):
-	import sys
-	import feedparser
-	
-	# Chemin du fichier XML
-	rss_file = sys.argv[1]
+import sys
+import feedparser
+
+def extraire_td(rss_file):	
 	
 	# Analyse du fichier XML
 	feed = feedparser.parse(rss_file)
@@ -14,6 +12,12 @@ def extraire_td(rss_file):
     		description = entry.description
     		print(f"{title}")
    		print(f"{description}\n")
-    
-    
+
+if __name__ == '__main__':
+	if sys.argv:
+		rss_file = sys.argv[1]
+		extraire_td(rss_file)
+	else:
+		print('Il manque un argument du chemin du fichier')
+  
 
