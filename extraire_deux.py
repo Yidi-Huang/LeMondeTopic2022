@@ -56,7 +56,7 @@ def extraire_par_date():
                             output_xml = extraire_td(xml_file)
                             feed = feedparser.parse(output_xml) 
                             category_elem = ET.Element("category")
-                            category_elem.set("name", new_dict[str(xml_file_name])                             
+                            category_elem.set("name", new_dict[str(xml_file_name)])                             
                             # Parcourir tous les articles dans le fichier XML
                             for entry in feed.entries:
                                 # Créer un élément pour la catégorie et y ajouter les articles
@@ -113,8 +113,8 @@ def extraire_par_categorie():
                                 if os.path.exists(xml_files[0]): 
                                     for xml_file in xml_files:
                                         date_elem =ET.Element("date")
-                                        date.set("month", month_dir)
-                                        date.set("day", day_dir)
+                                        date_elem.set("month", month_dir)
+                                        date_elem.set("day", day_dir)
                                         output_xml = extraire_td(xml_file)
                                         feed = feedparser.parse(output_xml) 
                                         for entry in feed.entries:
