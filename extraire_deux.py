@@ -54,16 +54,24 @@ def extraire_par_date():
                     if xml_file_name in category_xml_file:
                         for xml_file in xml_files:
                             output_xml = extraire_td(xml_file)
-                            with open (output_xml, "r", encoding="utf-8") as f:
-                                root = ET.parse(f).getroot()                        
-                            # Créer un élément pour la catégorie et y ajouter les articles
-                            category_elem = ET.SubElement(date_elem, category)
-                            category_elem.set(new_dict[str(xml_file_name)],category, name=new_dict[str(xml_file_name)])                        
-                            article_elem = ET.SubElement(category_elem, "article")
-                            title_elem = ET.SubElement(article_elem, "title")
-                            title_elem.text = output_xml["title"]
-                            desc_elem = ET.SubElement(article_elem, "description")
-                            desc_elem.text = output_xml["description"]
+                            feed = feedparser.parse(output_xml) 
+                            category_elem = ET.Element("category")
+                            category_elem.set("name", new_dict[str(xml_file_name])                             
+                            # Parcourir tous les articles dans le fichier XML
+                            for entry in feed.entries:
+                                # Créer un élément pour la catégorie et y ajouter les articles
+                                title = entry.title
+                                description = entry.description                        
+                                article_elem = ET.Element("article")
+                                title_elem = ET.Element("title")
+                                title_elem.text = title
+                                article_elem.append(title_elem)
+                                desc_elem = ET.Element("description")
+                                desc_elem.text = description
+                                article_elem.append(desc_elem)
+
+                                category_elem.append(article_elem)
+                            date_elem.append(category_elem)
     
         # Créer un objet ElementTree avec l'élément racine date et écrire le fichier XML
         tree = ET.ElementTree(date_elem)
@@ -78,7 +86,8 @@ def extraire_par_categorie():
         print("Catégorie invalide.")
     else:
         # Créer un élément racine pour le fichier XML
-        root = ET.Element(category)
+        root = ET.Element("category")
+        root.set("name", category)
         # Parcourir tous les dossiers de mois et jours
         for month_dir in os.listdir(xml_folder):
             month_path = os.path.join(xml_folder, month_dir)
@@ -100,20 +109,27 @@ def extraire_par_categorie():
                                 hour_path = os.path.join(day_path, hour_dir)
                                 if not os.path.exists(hour_path):
                                     continue
-
-                                # Vérifier si le dossier contient le fichier XML correspondant à la catégorie
-                                xml_path = os.path.join(hour_path, f"{categories_dict[category]}.xml")
-                                if os.path.exists(xml_path):
-                                    # Lire le fichier XML et afficher le titre et la description
-                                    feed = feedparser.parse(xml_path)
-                                    for entry in feed.entries:
-                                        article = ET.SubElement(root, "article")
-                                        date = ET.SubElement(article, "date")
-                                        date.text = f"{month_dir}/{day_dir}"
-                                        title = ET.SubElement(article, "title")
-                                        title.text = entry.title
-                                        description = ET.SubElement(article, "description")
-                                        description.text = entry.description 
+                                xml_files = [os.path.join(hour_path,f"{categories_dict[category]}.xml")]
+                                if os.path.exists(xml_files[0]): 
+                                    for xml_file in xml_files:
+                                        date_elem =ET.Element("date")
+                                        date.set("month", month_dir)
+                                        date.set("day", day_dir)
+                                        output_xml = extraire_td(xml_file)
+                                        feed = feedparser.parse(output_xml) 
+                                        for entry in feed.entries:
+                                            # Créer un élément pour la catégorie et y ajouter les articles
+                                            title = entry.title
+                                            description = entry.description                        
+                                            article_elem = ET.Element("article")
+                                            title_elem = ET.Element("title")
+                                            title_elem.text = title
+                                            article_elem.append(title_elem)
+                                            desc_elem = ET.Element("description")
+                                            desc_elem.text = description
+                                            article_elem.append(desc_elem)
+                                            date_elem.append(article_elem)
+                                        root.append(date_elem)
         # Écrire le fichier XML
         tree = ET.ElementTree(root)
         tree.write(f"articles_par_{category}.xml", xml_declaration=True, encoding="utf-8")
