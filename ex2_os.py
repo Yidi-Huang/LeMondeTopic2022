@@ -58,7 +58,7 @@ def extraire_par_date():
                                 root = ET.parse(f).getroot()                        
                             # Créer un élément pour la catégorie et y ajouter les articles
                             category_elem = ET.SubElement(date_elem, category)
-                            category_elem.set(new_dict[str(xml_file_name)],category)                        
+                            category_elem.set(new_dict[str(xml_file_name)],category, name=new_dict[str(xml_file_name)])                        
                             article_elem = ET.SubElement(category_elem, "article")
                             title_elem = ET.SubElement(article_elem, "title")
                             title_elem.text = output_xml["title"]
@@ -87,7 +87,7 @@ def extraire_par_categorie():
 
             for day_dir in os.listdir(month_path):
                 if day_dir == ".DS_Store" or "._.DS_Store":  # ignore .DS_Store fichier
-                    pass
+                    continue
                 else:
                     day_path = os.path.join(month_path, day_dir)
                     if not os.path.exists(day_path):
@@ -95,7 +95,7 @@ def extraire_par_categorie():
                     
                     for hour_dir in os.listdir(day_path):
                             if hour_dir == ".DS_Store":  
-                                pass
+                                continue
                             else:
                                 hour_path = os.path.join(day_path, hour_dir)
                                 if not os.path.exists(hour_path):
