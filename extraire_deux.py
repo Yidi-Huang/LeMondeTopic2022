@@ -65,10 +65,10 @@ def extraire_par_date():
                             desc_elem = ET.SubElement(article_elem, "description")
                             desc_elem.text = output_xml["description"]
     
-    # Créer un objet ElementTree avec l'élément racine date et écrire le fichier XML
-    tree = ET.ElementTree(date_elem)
-    tree.write(f"articles_par_{month}{day}.xml", xml_declaration=True, encoding="utf-8")
-    print(f"Le fichier XML pour la date '{month}{day}' a été créé avec succès.") 
+        # Créer un objet ElementTree avec l'élément racine date et écrire le fichier XML
+        tree = ET.ElementTree(date_elem)
+        tree.write(f"articles_par_{month}{day}.xml", xml_declaration=True, encoding="utf-8")
+        print(f"Le fichier XML pour la date '{month}{day}' a été créé avec succès.") 
 
 def extraire_par_categorie():
     category = input("Entrez la catégorie (une, international, europe) : ")
@@ -114,10 +114,10 @@ def extraire_par_categorie():
                                         title.text = entry.title
                                         description = ET.SubElement(article, "description")
                                         description.text = entry.description 
-    # Écrire le fichier XML
-    tree = ET.ElementTree(root)
-    tree.write(f"articles_par_{category}.xml", xml_declaration=True, encoding="utf-8")
-    print(f"Le fichier XML pour la catégorie '{category}' a été créé avec succès.")                       
+        # Écrire le fichier XML
+        tree = ET.ElementTree(root)
+        tree.write(f"articles_par_{category}.xml", xml_declaration=True, encoding="utf-8")
+        print(f"Le fichier XML pour la catégorie '{category}' a été créé avec succès.")                       
 
 def main():
     parser = argparse.ArgumentParser()
