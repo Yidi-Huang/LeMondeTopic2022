@@ -1,12 +1,11 @@
 import xml.etree.ElementTree as ET
 import feedparser
 import pathlib
-import sys
 import argparse
 from pathlib import Path
 
 # Définir le chemin du dossier contenant les fichiers XML
-xml_folder = pathlib.Path("/home/zhang/文档/2022")
+xml_folder = pathlib.Path("/home/weixuan/文档/M1S8-PPE2/Corpus/X-arborescence-filsdumonde-2022-tljours-19h/2022")
 
 # Définir le dictionnaire de correspondance entre les catégories et les noms de fichiers XML
 categories_dict = {
@@ -32,7 +31,7 @@ new_dict = {valeur: cle for cle, valeur in categories_dict.items()}
 
 def extraire_par_date():
     # Demander la date à rechercher
-    month = input("Entrez le mois (en lettres, par exemple : Jan, Feb, etc.) : ")
+    month = input("Entrez le mois (en lettres, par exemple : Jan, Feb, MAR (Veuillez saisir les trois premiers lettres)etc.) : ")
     day = input("Entrez le jour (sous la forme 01, 02, ..., 31) : ")
     # Vérifier si le dossier existe
     date_dir = xml_folder / month / day
