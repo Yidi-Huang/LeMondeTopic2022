@@ -1,10 +1,10 @@
 import feedparser
-import pathlib
-import sys
+import argparse
 from pathlib import Path
+import sys
 
 # Définir le chemin du dossier contenant les fichiers XML
-xml_folder = pathlib.Path("X-arborescence-filsdumonde-2022-tljours-19h/2022")
+xml_folder = Path("X-arborescence-filsdumonde-2022-tljours-19h/2022")
 
 # Définir le dictionnaire de correspondance entre les catégories et les noms de fichiers XML
 categories_dict = {
@@ -26,15 +26,18 @@ categories_dict = {
     "sciences":"env_sciences"
 }
 
-# Demander à l'utilisateur s'il veut chercher par catégorie ou par date
-search_type = input("Chercher par catégorie (c) ou par date (d) ? ")
+parser = argparse.ArgumentParser(description='Chercher des articles dans des fichiers XML.')
+parser.add_argument('-t', '--search_type', type=str, required=True,
+                    help='Le type de recherche : "c" pour la catégorie, "d" pour la date')
+parser.add_argument("-c", "--category", type=str, help="Entrez la catégorie (une, international, europe)")
+parser.add_argument('-m', '--month', type=str, help='Le mois à rechercher (en lettres, par exemple : Jan, Feb, etc.)')
+parser.add_argument('-d', '--day', type=str, help='Le jour à rechercher (sous la forme 01, 02, ..., 31)')
 
-if search_type == "d":
-    # Demander la date à rechercher
-    month = input("Entrez le mois (en lettres, par exemple : Jan, Feb, etc.) : ")
-    day = input("Entrez le jour (sous la forme 01, 02, ..., 31) : ")
+args = parser.parse_args()
+
+if args.search_type == "d":
     # Vérifier si le dossier existe
-    date_dir = xml_folder / month / day
+    date_dir = xml_folder / args.month / args.day
     if not date_dir.is_dir():
         print("Le dossier pour cette date n'existe pas.", file=sys.stdout)
     else:
@@ -51,19 +54,15 @@ if search_type == "d":
                         # Lire le fichier XML et afficher le titre et la description
                         feed = feedparser.parse(xml_file.as_posix())
                         for entry in feed.entries:
-                            print(f"{category}\n{month} {day}\n{entry.title}\n{entry.description}\n", file=sys.stdout)
+                            print(f"{category}\n{args.month} {args.day}\n{entry.title}\n{entry.description}\n", file=sys.stdout)
 
-####################
-if search_type == "c":
-    # Demander la catégorie à rechercher
-    category = input("Entrez la catégorie (une, international, europe) : ")
-
+if args.search_type == "c":
     # Vérifier si la catégorie est valide
-    if category not in categories_dict:
+    if args.category not in categories_dict:
         print("Catégorie invalide.", file=sys.stdout)
     else:
         # Parcourir tous les dossiers de mois et jours
-        for month_dir in Path("X-arborescence-filsdumonde-2022-tljours-19h/2022").iterdir():
+        for month_dir in xml_folder.iterdir():
             if not month_dir.is_dir():
                 continue
 
@@ -76,9 +75,12 @@ if search_type == "c":
                         continue
 
                     # Vérifier si le dossier contient le fichier XML correspondant à la catégorie
-                    xml_path = hour_dir / f"{categories_dict[category]}.xml"
+                    xml_path = hour_dir / f"{categories_dict[args.category]}.xml"
                     if xml_path.exists():
                         # Lire le fichier XML et afficher le titre et la description
                         feed = feedparser.parse(xml_path.as_posix())
                         for entry in feed.entries:
-                            print(f"{category}\n{month_dir.name} {day_dir.name}\n{entry.title}\n{entry.description}\n", file=sys.stdout)
+                            print(f"{args.category}\n{month_dir.name} {day_dir.name}\n{entry.title}\n{entry.description}\n", file=sys.stdout)
+
+## exemple dans le terminal : python3 ex2_extraire_pathlib.py -t c -c europe
+##                            python3 ex2_extraire_pathlib.py -t d -m Jan -d 01
