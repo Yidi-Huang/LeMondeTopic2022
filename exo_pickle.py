@@ -69,6 +69,7 @@ start_date: Optional[date]=None, end_date: Optional[date] = None):
                         #yield(xml_file.name, extraire_td(xml_file.as_posix()))
                         yield(xml_file)
 
+
 def write_in_pickle(pickle_file, content):
     article_list = []
     for title, description in content:
@@ -109,3 +110,4 @@ def main():
                 print(title,desc)
 if __name__ == "__main__":
     main()
+
