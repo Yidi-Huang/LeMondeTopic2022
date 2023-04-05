@@ -16,21 +16,7 @@ def extraire_td(rss_file):
 	for entry in feed.entries:
 		title = entry.title
 		description = entry.description
-       		 # Créer un nouvel élément pour l'article et y ajouter les informations
-		article_elem = ET.Element("article")
-		title_elem = ET.Element("title")
-		title_elem.text = title
-		article_elem.append(title_elem)
-		desc_elem = ET.Element("description")
-		desc_elem.text = description
-		article_elem.append(desc_elem)
-
-        	# Ajouter l'élément article à l'élément racine
-		root.append(article_elem)		
-    # Créer un objet ElementTree avec l'élément racine et écrire le fichier XML
-	tree = ET.ElementTree(root)
-	output = tree.write("titre_desc.xml",xml_declaration = True, encoding = 'utf-8')
-	return output
+		yield title, description
 
 def main():
 	parser = argparse.ArgumentParser(description='Extraction des titres et descriptions des articles d\'un flux RSS')

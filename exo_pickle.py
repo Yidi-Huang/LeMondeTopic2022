@@ -42,6 +42,8 @@ categories_dict = {
 }
 new_dict = {valeur: cle for cle, valeur in categories_dict.items()}
 
+def convert_month(m:str) -> int:
+   return MONTHS.index(m) + 1
 
 def parcours_dossier(corpus_dir:Path, categories: Optional[List[str]] = None, 
 start_date: Optional[date]=None, end_date: Optional[date] = None):
@@ -53,19 +55,18 @@ start_date: Optional[date]=None, end_date: Optional[date] = None):
     for month_dir in corpus_dir.iterdir():
         if not month_dir.is_dir():
             continue
+        m = convert_month(month_dir.name)
         for day_dir in month_dir.iterdir():
             if not day_dir.is_dir():
                 continue
-            d = date.isoformat(f"2022-{MONTHS.index(day_dir.name) + 1:02}-{day_dir.name}")
+            d = date.fromisoformat(f"2022-{m:02}-{day_dir.name}")
             if (start_date is not None and d < start_date) or (end_date is not None and d > end_date):
                 continue
             for hour_dir in day_dir.iterdir():
                 if not hour_dir.is_dir():
                     continue
                 for xml_file in hour_dir.iterdir():
-                    if xml_file.name not in categories.keys():
-                        continue
-                    elif xml_file.name.endswith(".xml") and any([xml_file.name.startswith(c) for c in categories]):
+                    if xml_file.name.endswith(".xml") and any([xml_file.name.startswith(c) for c in categories]):
                         #yield(xml_file.name, extraire_td(xml_file.as_posix()))
                         yield(xml_file)
 
@@ -77,7 +78,7 @@ def write_in_pickle(pickle_file, content):
         article_dict["title"] = title
         article_dict["desc"] = description
         article_list.append(article_dict)
-    with open(pickle_file, "ab") as f:
+    with open(pickle_file, "wb") as f:
         pickle.dump(article_list, f)
 
 def write_in_xml(xml_file, root):
@@ -95,19 +96,21 @@ def main():
     for file in parcours_dossier(Path(args.corpus_dir), start_date = date.fromisoformat(args.s), 
                                 end_date = date.fromisoformat(args.e), categories = args.categories):
         if args.o:
-            content = extraire_td(file)
-            write_in_pickle("data.pickle", content)
-            with open ("data.pickle", "rb") as f:
-                data = pickle.load(f)
-            root = ET.Element("root")
-            for title,desc in data:
-                doc = ET.SubElement(root, "doc")
-                ET.SubElement(doc, "title").text = title
-                ET.SubElement(doc, "desc").text = desc
-            write_in_xml(args.o, root)
+            content += extraire_td(file)
         else:
             for title,desc in extraire_td(file):
                 print(title,desc)
+        
+    write_in_pickle("data.pickle", content)
+    with open ("data.pickle", "rb") as f:
+        data = pickle.load(f)
+        root = ET.Element("root")
+        for title,desc in data:
+            doc = ET.SubElement(root, "doc")
+            ET.SubElement(doc, "title").text = title
+            ET.SubElement(doc, "desc").text = desc
+        write_in_xml(args.o, root)
+        
 if __name__ == "__main__":
     main()
 
