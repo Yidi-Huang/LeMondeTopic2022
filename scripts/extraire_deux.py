@@ -103,3 +103,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
+#exemple d'utilisation: python3 extraire_deux.py -s 2022-01-01 -e 2022-01-31 -o corpus.xml /home/.../corpus une international
