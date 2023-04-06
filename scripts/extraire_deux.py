@@ -1,12 +1,24 @@
+from typing import Optional, List
+from extraire_un import extraire_td
 import xml.etree.ElementTree as ET
-import feedparser
-import pathlib
-import sys
 import argparse
 from pathlib import Path
+from datetime import date # pour renvoyer dans le bon ordre chronologique
 
-# Définir le chemin du dossier contenant les fichiers XML
-xml_folder = pathlib.Path("/home/zhang/文档/2022")
+MONTHS = ["Jan",
+          "Feb",
+          "Mar",
+          "Apr",
+          "May",
+          "Jun",
+          "Jul",
+          "Aug", 
+          "Sep",
+          "Oct",
+          "Nov", 
+          "Dec"]
+
+DAYS = [f"{x:02}" for x in range(1,32)]
 
 # Définir le dictionnaire de correspondance entre les catégories et les noms de fichiers XML
 categories_dict = {
@@ -29,111 +41,65 @@ categories_dict = {
 }
 new_dict = {valeur: cle for cle, valeur in categories_dict.items()}
 
+def convert_month(m:str) -> int:
+   return MONTHS.index(m) + 1
 
-def extraire_par_date():
-    # Demander la date à rechercher
-    month = input("Entrez le mois (en lettres, par exemple : Jan, Feb, etc.) : ")
-    day = input("Entrez le jour (sous la forme 01, 02, ..., 31) : ")
-    # Vérifier si le dossier existe
-    date_dir = xml_folder / month / day
-    if not date_dir.is_dir():
-        print("Le dossier pour cette date n'existe pas.")
+def parcours_dossier(corpus_dir:Path, categories: Optional[List[str]] = None, 
+start_date: Optional[date]=None, end_date: Optional[date] = None):
+    if categories is not None and len(categories) > 0:
+        categories = [categories_dict[c.lower()] for c in categories]
     else:
-    	# Créer un élément racine pour la date
-        date_elem = ET.Element("date")
-        date_elem.set("month", month)
-        date_elem.set("day", day)
-        # Parcourir tous les dossiers d'heure pour cette date
-        for hour_dir in date_dir.iterdir():
-            if not hour_dir.is_dir():
+        categories = categories_dict.values()
+
+    for month_dir in corpus_dir.iterdir():
+        if not month_dir.is_dir():
+            continue
+        m = convert_month(month_dir.name)
+        for day_dir in month_dir.iterdir():
+            if not day_dir.is_dir():
                 continue
-
-            # Parcourir tous les fichiers XML dans ce dossier d'heure
-            for xml_file in hour_dir.iterdir():
-                # Vérifier si le fichier XML correspond à une catégorie valide
-                for category, category_xml_file in categories_dict.items():
-                    if category_xml_file in xml_file.name:
-                        category_elem = ET.Element("category")
-                        category_elem.set("name", new_dict[str(xml_file.name)[0:-4]])
-                        # Lire le fichier XML et afficher le titre et la description
-                        feed = feedparser.parse(xml_file.as_posix())
-                        for entry in feed.entries:
-                            title = entry.title
-                            description = entry.description                        
-                            article_elem = ET.Element("article")
-                            title_elem = ET.Element("title")
-                            title_elem.text = title
-                            article_elem.append(title_elem)
-                            desc_elem = ET.Element("description")
-                            desc_elem.text = description
-                            article_elem.append(desc_elem)
-                            category_elem.append(article_elem)
-                        date_elem.append(category_elem)                                
-                                                        
-    tree = ET.ElementTree(date_elem)
-    tree.write(f"articles_par_{month}{day}.xml", xml_declaration=True, encoding="utf-8")
-    print(f"Le fichier XML pour la date '{month}{day}' a été créé avec succès.") 
-
-def extraire_par_categorie():
-    # Demander la catégorie à rechercher
-    category = input("Entrez la catégorie (une, international, europe) : ")
-
-    # Vérifier si la catégorie est valide
-    if category not in categories_dict.keys():
-        print("Catégorie invalide.")
-    else:
-        # Créer un élément racine pour le fichier XML
-        category_element = ET.Element("category")
-        category_element.set("name", category)
-        # Parcourir tous les dossiers de mois et jours
-        for month_dir in xml_folder.iterdir():
-            if not month_dir.is_dir():
+            d = date.fromisoformat(f"2022-{m:02}-{day_dir.name}")
+            if (start_date is not None and d < start_date) or (end_date is not None and d > end_date):
                 continue
-
-            for day_dir in month_dir.iterdir():
-                if not day_dir.is_dir():
+            for hour_dir in day_dir.iterdir():
+                if not hour_dir.is_dir():
                     continue
-
-                for hour_dir in day_dir.iterdir():
-                    if not hour_dir.is_dir():
-                        continue
-                    
-                    xml_path = hour_dir / f"{categories_dict[category]}.xml"                    
-                    if xml_path.exists():
-                        date_elem =ET.Element("date")
-                        date_elem.set("month", month_dir.name)
-                        date_elem.set("day", day_dir.name)
-                        # Lire le fichier XML et afficher le titre et la description
-                        feed = feedparser.parse(xml_path.as_posix())
-                        for entry in feed.entries:
-                            # Créer un élément pour la catégorie et y ajouter les articles
-                            title = entry.title
-                            description = entry.description                        
-                            article_elem = ET.Element("article")
-                            title_elem = ET.Element("title")
-                            title_elem.text = title
-                            article_elem.append(title_elem)
-                            desc_elem = ET.Element("description")
-                            desc_elem.text = description
-                            article_elem.append(desc_elem)
-                            date_elem.append(article_elem)
-                        category_element.append(date_elem)
-        
-        tree = ET.ElementTree(category_element)
-        tree.write(f"articles_par_{category}.xml", xml_declaration=True, encoding="utf-8")
-        print(f"Le fichier XML pour la catégorie '{category}' a été créé avec succès.")     
+                for xml_file in hour_dir.iterdir():
+                    if xml_file.name.endswith(".xml") and any([xml_file.name.startswith(c) for c in categories]):
+                        #yield(xml_file.name, extraire_td(xml_file.as_posix()))
+                        yield(xml_file)
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("-d", "--date", help="Rechercher par date", action="store_true")
-    parser.add_argument("-c", "--category", help="Rechercher par catégorie", action="store_true")
+    parser.add_argument("-s", help="start date (iso format)", default="2022-01-01")
+    parser.add_argument("-e", help="end date (iso format)", default="2023-01-01")
+    parser.add_argument("-o", help="output xml file (stdout si non spécifié)")
+    parser.add_argument("corpus_dir", help="la racine du dossier")
+    parser.add_argument("categories",nargs="*", help="catégories à retenir")
     args = parser.parse_args()
-    if args.date:
-        extraire_par_date()
-    elif args.category:
-        extraire_par_categorie()
-    else:
-        parser.print_help()
+    root = ET.Element("Corpus")
+    root.attrib['begin'] = args.s
+    root.attrib['end'] = args.e
+    if len(args.categories) == 1:
+        root.attrib['categories'] = args.categories[0]
+    elif len(args.categories) > 1:
+        root.attrib['categories'] = ";".join(args.categories)
+    for file in parcours_dossier(Path(args.corpus_dir), start_date = date.fromisoformat(args.s), 
+                                end_date = date.fromisoformat(args.e), categories = args.categories):
+        
+        if args.o is None:
+            for title,desc in extraire_td(file):
+                print(title,desc)
+        elif args.o:
+            for title,desc in extraire_td(file):
+                article = ET.SubElement(root, "article")
+                article.attrib['date'] = date.fromisoformat(f"2022-{convert_month(file.parent.parent.parent.name):02}-{file.parent.parent.name}").isoformat()
+                title_elem = ET.SubElement(article, "title")
+                desc_elem = ET.SubElement(article, "desc")
+                title_elem.text = title
+                desc_elem.text = desc 
+        tree = ET.ElementTree(root)
+        tree.write(args.o,xml_declaration=True,encoding="utf-8",method="xml")
 
 if __name__ == "__main__":
     main()
