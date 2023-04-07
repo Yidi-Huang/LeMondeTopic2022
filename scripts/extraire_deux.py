@@ -1,4 +1,5 @@
 import xml.etree.ElementTree as ET
+import datetime
 import feedparser
 import pathlib
 import sys
@@ -30,12 +31,11 @@ categories_dict = {
 new_dict = {valeur: cle for cle, valeur in categories_dict.items()}
 
 
-def extraire_par_date():
-    # Demander la date à rechercher
-    month = input("Entrez le mois (en lettres, par exemple : Jan, Feb, etc.) : ")
-    day = input("Entrez le jour (sous la forme 01, 02, ..., 31) : ")
+def extraire_par_date(xml_folder, month,day):
+   
     # Vérifier si le dossier existe
     date_dir = xml_folder / month / day
+    dates=[]
     if not date_dir.is_dir():
         print("Le dossier pour cette date n'existe pas.")
     else:
@@ -75,6 +75,7 @@ def extraire_par_date():
     print(f"Le fichier XML pour la date '{month}{day}' a été créé avec succès.") 
 
 def extraire_par_categorie():
+    dates=[]
     # Demander la catégorie à rechercher
     category = input("Entrez la catégorie (une, international, europe) : ")
 
@@ -97,7 +98,20 @@ def extraire_par_categorie():
                 for hour_dir in day_dir.iterdir():
                     if not hour_dir.is_dir():
                         continue
-                    
+
+                    month = datetime.datetime.strptime(month_dir.name, '%b')
+                    day = datetime.datetime.strptime(day_dir.name, '%d')
+                    date = datetime.datetime(month.year, month.month, day.day)
+                    dates.append(date)
+
+                    # trier les dates en ordre croissant
+                    sorted_dates = sorted(dates)
+
+                    for date in sorted_dates:
+                        month = date.strftime('%b')
+                        day = date.strftime('%d')
+                        extraire_par_date(month, day)
+
                     xml_path = hour_dir / f"{categories_dict[category]}.xml"                    
                     if xml_path.exists():
                         date_elem =ET.Element("date")
