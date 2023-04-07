@@ -8,6 +8,21 @@ from pathlib import Path
 
 # Définir le chemin du dossier contenant les fichiers XML
 xml_folder = pathlib.Path("/home/zhang/文档/2022")
+# 
+MONTHS = ["Jan",
+          "Feb",
+          "Mar",
+          "Apr",
+          "May",
+          "Jun",
+          "Jul",
+          "Aug", 
+          "Sep",
+          "Oct",
+          "Nov", 
+          "Dec"]
+          
+DAYS = [f"{x:02}" for x in range(1,32)]
 
 # Définir le dictionnaire de correspondance entre les catégories et les noms de fichiers XML
 categories_dict = {
