@@ -1,0 +1,2414 @@
+<corpus begin="2022-01-01" end="2022-01-02" categorie="sport">
+  <content>
+    <article>
+      <title>Coupe de France de football&#160;: Bastia et Nancy cr&#233;ent la surprise</title>
+      <description>Les deux clubs de Ligue 2 ont &#233;cart&#233; respectivement Clermont et Rennes, deux clubs de Ligue 1. Brest et Montpellier ont domin&#233; Bordeaux et Strasbourg. Nantes est &#233;galement qualifi&#233;.</description>
+      <categorie />
+      <analyse>
+        <token forme="Coupe" lemma="coupe" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="France" lemma="France" pos="PROPN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="football" lemma="football" pos="NOUN" />
+        <token forme=":" lemma=":" pos="PUNCT" />
+        <token forme="Bastia" lemma="Bastia" pos="PROPN" />
+        <token forme="et" lemma="et" pos="CCONJ" />
+        <token forme="Nancy" lemma="Nancy" pos="PROPN" />
+        <token forme="cr&#233;ent" lemma="cr&#233;er" pos="VERB" />
+        <token forme="la" lemma="le" pos="DET" />
+        <token forme="surprise" lemma="surprise" pos="NOUN" />
+        <token forme="Les" lemma="le" pos="DET" />
+        <token forme="deux" lemma="deux" pos="NUM" />
+        <token forme="clubs" lemma="club" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="Ligue" lemma="ligue" pos="NOUN" />
+        <token forme="2" lemma="2" pos="NUM" />
+        <token forme="ont" lemma="avoir" pos="AUX" />
+        <token forme="&#233;cart&#233;" lemma="&#233;carter" pos="VERB" />
+        <token forme="respectivement" lemma="respectivement" pos="ADV" />
+        <token forme="Clermont" lemma="Clermont" pos="PROPN" />
+        <token forme="et" lemma="et" pos="CCONJ" />
+        <token forme="Rennes" lemma="Rennes" pos="PROPN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="deux" lemma="deux" pos="NUM" />
+        <token forme="clubs" lemma="club" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="Ligue" lemma="ligue" pos="NOUN" />
+        <token forme="1" lemma="1" pos="NUM" />
+        <token forme="." lemma="." pos="PUNCT" />
+        <token forme="Brest" lemma="Brest" pos="PROPN" />
+        <token forme="et" lemma="et" pos="CCONJ" />
+        <token forme="Montpellier" lemma="Montpellier" pos="PROPN" />
+        <token forme="ont" lemma="avoir" pos="AUX" />
+        <token forme="domin&#233;" lemma="dominer" pos="VERB" />
+        <token forme="Bordeaux" lemma="Bordeaux" pos="PROPN" />
+        <token forme="et" lemma="et" pos="CCONJ" />
+        <token forme="Strasbourg" lemma="Strasbourg" pos="PROPN" />
+        <token forme="." lemma="." pos="PUNCT" />
+        <token forme="Nantes" lemma="Nantes" pos="PROPN" />
+        <token forme="est" lemma="&#234;tre" pos="AUX" />
+        <token forme="&#233;galement" lemma="&#233;galement" pos="ADV" />
+        <token forme="qualifi&#233;" lemma="qualifier" pos="VERB" />
+        <token forme="." lemma="." pos="PUNCT" />
+      </analyse>
+    </article>
+    <article>
+      <title>Covid-19&#160;: Lionel Messi et trois joueurs du PSG positifs, la pand&#233;mie bouscule le football europ&#233;en</title>
+      <description>Quatre joueurs du PSG, dont la star argentine, ont &#233;t&#233; diagnostiqu&#233;s positifs, a annonc&#233; le club, dimanche. La pand&#233;mie n&#8217;&#233;pargne aucun championnat europ&#233;en.</description>
+      <categorie />
+      <analyse>
+        <token forme="Covid-19" lemma="Covid-19" pos="PROPN" />
+        <token forme=":" lemma=":" pos="PUNCT" />
+        <token forme="Lionel" lemma="Lionel" pos="PROPN" />
+        <token forme="Messi" lemma="Messi" pos="PROPN" />
+        <token forme="et" lemma="et" pos="CCONJ" />
+        <token forme="trois" lemma="trois" pos="NUM" />
+        <token forme="joueurs" lemma="joueur" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="PSG" lemma="PSG" pos="PROPN" />
+        <token forme="positifs" lemma="positif" pos="ADJ" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="la" lemma="le" pos="DET" />
+        <token forme="pand&#233;mie" lemma="pand&#233;mie" pos="NOUN" />
+        <token forme="bouscule" lemma="bousculer" pos="VERB" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="football" lemma="football" pos="NOUN" />
+        <token forme="europ&#233;en" lemma="europ&#233;en" pos="ADJ" />
+        <token forme="Quatre" lemma="Quatre" pos="NUM" />
+        <token forme="joueurs" lemma="joueur" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="PSG" lemma="PSG" pos="PROPN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="dont" lemma="dont" pos="PRON" />
+        <token forme="la" lemma="le" pos="DET" />
+        <token forme="star" lemma="star" pos="NOUN" />
+        <token forme="argentine" lemma="argentin" pos="ADJ" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="ont" lemma="avoir" pos="AUX" />
+        <token forme="&#233;t&#233;" lemma="&#234;tre" pos="AUX" />
+        <token forme="diagnostiqu&#233;s" lemma="diagnostiquer" pos="VERB" />
+        <token forme="positifs" lemma="positif" pos="ADJ" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="a" lemma="avoir" pos="AUX" />
+        <token forme="annonc&#233;" lemma="annoncer" pos="VERB" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="club" lemma="club" pos="NOUN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="dimanche" lemma="dimanche" pos="NOUN" />
+        <token forme="." lemma="." pos="PUNCT" />
+        <token forme="La" lemma="le" pos="DET" />
+        <token forme="pand&#233;mie" lemma="pand&#233;mie" pos="NOUN" />
+        <token forme="n&#8217;" lemma="ne" pos="ADV" />
+        <token forme="&#233;pargne" lemma="&#233;pargner" pos="VERB" />
+        <token forme="aucun" lemma="aucun" pos="DET" />
+        <token forme="championnat" lemma="championnat" pos="NOUN" />
+        <token forme="europ&#233;en" lemma="europ&#233;en" pos="ADJ" />
+        <token forme="." lemma="." pos="PUNCT" />
+      </analyse>
+    </article>
+    <article>
+      <title>Les grands rendez-vous du sport africain en&#160;2022</title>
+      <description>Pour le continent, l&#8217;ann&#233;e sportive commencera en fanfare le 9&#160;janvier, avec le coup d&#8217;envoi de la Coupe d&#8217;Afrique des nations de football au Cameroun.</description>
+      <categorie />
+      <analyse>
+        <token forme="Les" lemma="le" pos="DET" />
+        <token forme="grands" lemma="grand" pos="ADJ" />
+        <token forme="rendez" lemma="rendez" pos="NOUN" />
+        <token forme="-vous" lemma="il" pos="PRON" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="sport" lemma="sport" pos="NOUN" />
+        <token forme="africain" lemma="africain" pos="ADJ" />
+        <token forme="en" lemma="en" pos="ADP" />
+        <token forme="2022" lemma="2022" pos="NUM" />
+        <token forme="Pour" lemma="pour" pos="ADP" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="continent" lemma="continent" pos="NOUN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="l&#8217;" lemma="le" pos="DET" />
+        <token forme="ann&#233;e" lemma="ann&#233;e" pos="NOUN" />
+        <token forme="sportive" lemma="sportif" pos="ADJ" />
+        <token forme="commencera" lemma="commencer" pos="VERB" />
+        <token forme="en" lemma="en" pos="ADP" />
+        <token forme="fanfare" lemma="fanfare" pos="NOUN" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="9" lemma="9" pos="NUM" />
+        <token forme="janvier" lemma="janvier" pos="NOUN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="avec" lemma="avec" pos="ADP" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="coup" lemma="coup" pos="NOUN" />
+        <token forme="d&#8217;" lemma="de" pos="ADP" />
+        <token forme="envoi" lemma="envoi" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="la" lemma="le" pos="DET" />
+        <token forme="Coupe" lemma="coupe" pos="NOUN" />
+        <token forme="d&#8217;" lemma="de" pos="ADP" />
+        <token forme="Afrique" lemma="Afrique" pos="PROPN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="les" lemma="le" pos="DET" />
+        <token forme="nations" lemma="nation" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="football" lemma="football" pos="NOUN" />
+        <token forme="&#224;" lemma="&#224;" pos="ADP" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="Cameroun" lemma="Cameroun" pos="PROPN" />
+        <token forme="." lemma="." pos="PUNCT" />
+      </analyse>
+    </article>
+    <article>
+      <title>Dakar 2022&#160;: le pilote fran&#231;ais Philippe Boutron bless&#233; dans l&#8217;explosion de sa voiture</title>
+      <description>Bless&#233; &#224; la jambe, il a &#233;t&#233; op&#233;r&#233; en Arabie saoudite et doit &#234;tre rapatri&#233; en France. Des investigations sont en cours pour &#233;lucider les circonstances de l&#8217;explosion.</description>
+      <categorie />
+      <analyse>
+        <token forme="Dakar" lemma="Dakar" pos="PROPN" />
+        <token forme="2022" lemma="2022" pos="NUM" />
+        <token forme=":" lemma=":" pos="PUNCT" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="pilote" lemma="pilote" pos="NOUN" />
+        <token forme="fran&#231;ais" lemma="fran&#231;ais" pos="ADJ" />
+        <token forme="Philippe" lemma="Philippe" pos="PROPN" />
+        <token forme="Boutron" lemma="Boutron" pos="PROPN" />
+        <token forme="bless&#233;" lemma="blesser" pos="VERB" />
+        <token forme="dans" lemma="dans" pos="ADP" />
+        <token forme="l&#8217;" lemma="le" pos="DET" />
+        <token forme="explosion" lemma="explosion" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="sa" lemma="son" pos="DET" />
+        <token forme="voiture" lemma="voiture" pos="NOUN" />
+        <token forme="Bless&#233;" lemma="blesser" pos="VERB" />
+        <token forme="&#224;" lemma="&#224;" pos="ADP" />
+        <token forme="la" lemma="le" pos="DET" />
+        <token forme="jambe" lemma="jambe" pos="NOUN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="il" lemma="il" pos="PRON" />
+        <token forme="a" lemma="avoir" pos="AUX" />
+        <token forme="&#233;t&#233;" lemma="&#234;tre" pos="AUX" />
+        <token forme="op&#233;r&#233;" lemma="op&#233;rer" pos="VERB" />
+        <token forme="en" lemma="en" pos="ADP" />
+        <token forme="Arabie" lemma="Arabie" pos="PROPN" />
+        <token forme="saoudite" lemma="saoudite" pos="X" />
+        <token forme="et" lemma="et" pos="CCONJ" />
+        <token forme="doit" lemma="devoir" pos="VERB" />
+        <token forme="&#234;tre" lemma="&#234;tre" pos="AUX" />
+        <token forme="rapatri&#233;" lemma="rapatrier" pos="VERB" />
+        <token forme="en" lemma="en" pos="ADP" />
+        <token forme="France" lemma="France" pos="PROPN" />
+        <token forme="." lemma="." pos="PUNCT" />
+        <token forme="Des" lemma="un" pos="DET" />
+        <token forme="investigations" lemma="investigation" pos="NOUN" />
+        <token forme="sont" lemma="&#234;tre" pos="AUX" />
+        <token forme="en" lemma="en" pos="ADP" />
+        <token forme="cours" lemma="cours" pos="NOUN" />
+        <token forme="pour" lemma="pour" pos="ADP" />
+        <token forme="&#233;lucider" lemma="&#233;lucider" pos="VERB" />
+        <token forme="les" lemma="le" pos="DET" />
+        <token forme="circonstances" lemma="circonstance" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="l&#8217;" lemma="le" pos="DET" />
+        <token forme="explosion" lemma="explosion" pos="NOUN" />
+        <token forme="." lemma="." pos="PUNCT" />
+      </analyse>
+    </article>
+    <article>
+      <title>Handball&#160;: l&#8217;international fran&#231;ais Elohim Prandi hospitalis&#233; apr&#232;s une agression au couteau</title>
+      <description>L&#8217;arri&#232;re gauche, qui est hors de danger, s&#8217;annon&#231;ait comme un atout fort de la s&#233;lection de Guillaume Gille pour l&#8217;Euro, organis&#233; du 13 au 30&#160;janvier. Une enqu&#234;te a &#233;t&#233; ouverte du chef de tentative d&#8217;homicide et confi&#233;e &#224; la police judiciaire.</description>
+      <categorie />
+      <analyse>
+        <token forme="Handball" lemma="Handball" pos="PROPN" />
+        <token forme=":" lemma=":" pos="PUNCT" />
+        <token forme="l&#8217;" lemma="le" pos="DET" />
+        <token forme="international" lemma="international" pos="NOUN" />
+        <token forme="fran&#231;ais" lemma="fran&#231;ais" pos="ADJ" />
+        <token forme="Elohim" lemma="Elohim" pos="PROPN" />
+        <token forme="Prandi" lemma="Prandi" pos="PROPN" />
+        <token forme="hospitalis&#233;" lemma="hospitaliser" pos="VERB" />
+        <token forme="apr&#232;s" lemma="apr&#232;s" pos="ADP" />
+        <token forme="une" lemma="un" pos="DET" />
+        <token forme="agression" lemma="agression" pos="NOUN" />
+        <token forme="&#224;" lemma="&#224;" pos="ADP" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="couteau" lemma="couteau" pos="NOUN" />
+        <token forme="L&#8217;" lemma="le" pos="DET" />
+        <token forme="arri&#232;re" lemma="arri&#232;re" pos="NOUN" />
+        <token forme="gauche" lemma="gauche" pos="ADJ" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="qui" lemma="qui" pos="PRON" />
+        <token forme="est" lemma="&#234;tre" pos="AUX" />
+        <token forme="hors" lemma="hors" pos="ADV" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="danger" lemma="danger" pos="NOUN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="s&#8217;" lemma="se" pos="PRON" />
+        <token forme="annon&#231;ait" lemma="annoncer" pos="VERB" />
+        <token forme="comme" lemma="comme" pos="ADP" />
+        <token forme="un" lemma="un" pos="DET" />
+        <token forme="atout" lemma="atout" pos="NOUN" />
+        <token forme="fort" lemma="fort" pos="ADJ" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="la" lemma="le" pos="DET" />
+        <token forme="s&#233;lection" lemma="s&#233;lection" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="Guillaume" lemma="Guillaume" pos="PROPN" />
+        <token forme="Gille" lemma="Gille" pos="PROPN" />
+        <token forme="pour" lemma="pour" pos="ADP" />
+        <token forme="l&#8217;" lemma="le" pos="DET" />
+        <token forme="Euro" lemma="Euro" pos="PROPN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="organis&#233;" lemma="organiser" pos="VERB" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="13" lemma="13" pos="NUM" />
+        <token forme="&#224;" lemma="&#224;" pos="ADP" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="30" lemma="30" pos="NUM" />
+        <token forme="janvier" lemma="janvier" pos="NOUN" />
+        <token forme="." lemma="." pos="PUNCT" />
+        <token forme="Une" lemma="un" pos="DET" />
+        <token forme="enqu&#234;te" lemma="enqu&#234;te" pos="NOUN" />
+        <token forme="a" lemma="avoir" pos="AUX" />
+        <token forme="&#233;t&#233;" lemma="&#234;tre" pos="AUX" />
+        <token forme="ouverte" lemma="ouvrir" pos="VERB" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="chef" lemma="chef" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="tentative" lemma="tentative" pos="NOUN" />
+        <token forme="d&#8217;" lemma="de" pos="ADP" />
+        <token forme="homicide" lemma="homicide" pos="NOUN" />
+        <token forme="et" lemma="et" pos="CCONJ" />
+        <token forme="confi&#233;e" lemma="confier" pos="VERB" />
+        <token forme="&#224;" lemma="&#224;" pos="ADP" />
+        <token forme="la" lemma="le" pos="DET" />
+        <token forme="police" lemma="police" pos="NOUN" />
+        <token forme="judiciaire" lemma="judiciaire" pos="ADJ" />
+        <token forme="." lemma="." pos="PUNCT" />
+      </analyse>
+    </article>
+    <article>
+      <title>Jeux olympiques&#160;: de Tokyo &#224; Paris, la gageure du sport fran&#231;ais</title>
+      <description>Apr&#232;s le bilan &#171;&#160;mitig&#233;&#160;&#187; des Bleus au Japon, les athl&#232;tes tricolores ont pour objectif d&#8217;int&#233;grer en&#160;2024, &#224; domicile, le Top 5 des m&#233;dailles. Un objectif illusoire&#160;?</description>
+      <categorie />
+      <analyse>
+        <token forme="Jeux" lemma="jeu" pos="NOUN" />
+        <token forme="olympiques" lemma="olympique" pos="ADJ" />
+        <token forme=":" lemma=":" pos="PUNCT" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="Tokyo" lemma="Tokyo" pos="PROPN" />
+        <token forme="&#224;" lemma="&#224;" pos="ADP" />
+        <token forme="Paris" lemma="Paris" pos="PROPN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="la" lemma="le" pos="DET" />
+        <token forme="gageure" lemma="gageure" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="sport" lemma="sport" pos="NOUN" />
+        <token forme="fran&#231;ais" lemma="fran&#231;ais" pos="ADJ" />
+        <token forme="Apr&#232;s" lemma="apr&#232;s" pos="ADP" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="bilan" lemma="bilan" pos="NOUN" />
+        <token forme="&#171;" lemma="&#171;" pos="PUNCT" />
+        <token forme="mitig&#233;" lemma="mitig&#233;" pos="ADJ" />
+        <token forme="&#187;" lemma="&#187;" pos="PUNCT" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="les" lemma="le" pos="DET" />
+        <token forme="Bleus" lemma="Bleus" pos="PROPN" />
+        <token forme="&#224;" lemma="&#224;" pos="ADP" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="Japon" lemma="Japon" pos="PROPN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="les" lemma="le" pos="DET" />
+        <token forme="athl&#232;tes" lemma="athl&#232;te" pos="NOUN" />
+        <token forme="tricolores" lemma="tricolore" pos="ADJ" />
+        <token forme="ont" lemma="avoir" pos="VERB" />
+        <token forme="pour" lemma="pour" pos="ADP" />
+        <token forme="objectif" lemma="objectif" pos="NOUN" />
+        <token forme="d&#8217;" lemma="de" pos="ADP" />
+        <token forme="int&#233;grer" lemma="int&#233;grer" pos="VERB" />
+        <token forme="en" lemma="en" pos="ADP" />
+        <token forme="2024" lemma="2024" pos="NUM" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="&#224;" lemma="&#224;" pos="ADP" />
+        <token forme="domicile" lemma="domicile" pos="NOUN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="Top" lemma="top" pos="NOUN" />
+        <token forme="5" lemma="5" pos="NUM" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="les" lemma="le" pos="DET" />
+        <token forme="m&#233;dailles" lemma="m&#233;daille" pos="NOUN" />
+        <token forme="." lemma="." pos="PUNCT" />
+        <token forme="Un" lemma="un" pos="DET" />
+        <token forme="objectif" lemma="objectif" pos="NOUN" />
+        <token forme="illusoire" lemma="illusoire" pos="ADJ" />
+        <token forme="?" lemma="?" pos="PUNCT" />
+      </analyse>
+    </article>
+    <article>
+      <title>Football&#160;: les supporteurs de Lille interdits de d&#233;placement &#224; Lens</title>
+      <description>Le minist&#232;re de l&#8217;int&#233;rieur consid&#232;re qu&#8217;il y a &#171;&#160;un risque r&#233;el et s&#233;rieux d&#8217;affrontement&#160;&#187; entre les supporteurs des deux clubs &#224; l&#8217;occasion du match de Coupe de France qui les opposera, mardi 4&#160;janvier.</description>
+      <categorie />
+      <analyse>
+        <token forme="Football" lemma="football" pos="NOUN" />
+        <token forme=":" lemma=":" pos="PUNCT" />
+        <token forme="les" lemma="le" pos="DET" />
+        <token forme="supporteurs" lemma="supporter" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="Lille" lemma="Lille" pos="PROPN" />
+        <token forme="interdits" lemma="interdire" pos="VERB" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="d&#233;placement" lemma="d&#233;placement" pos="NOUN" />
+        <token forme="&#224;" lemma="&#224;" pos="ADP" />
+        <token forme="Lens" lemma="Lens" pos="PROPN" />
+        <token forme="Le" lemma="le" pos="DET" />
+        <token forme="minist&#232;re" lemma="minist&#232;re" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="l&#8217;" lemma="le" pos="DET" />
+        <token forme="int&#233;rieur" lemma="int&#233;rieur" pos="NOUN" />
+        <token forme="consid&#232;re" lemma="consid&#233;rer" pos="VERB" />
+        <token forme="qu&#8217;" lemma="que" pos="SCONJ" />
+        <token forme="il" lemma="il" pos="PRON" />
+        <token forme="y" lemma="y" pos="PRON" />
+        <token forme="a" lemma="avoir" pos="VERB" />
+        <token forme="&#171;" lemma="&#171;" pos="PUNCT" />
+        <token forme="un" lemma="un" pos="DET" />
+        <token forme="risque" lemma="risque" pos="NOUN" />
+        <token forme="r&#233;el" lemma="r&#233;el" pos="ADJ" />
+        <token forme="et" lemma="et" pos="CCONJ" />
+        <token forme="s&#233;rieux" lemma="s&#233;rieux" pos="ADJ" />
+        <token forme="d&#8217;" lemma="de" pos="ADP" />
+        <token forme="affrontement" lemma="affrontement" pos="NOUN" />
+        <token forme="&#187;" lemma="&#187;" pos="PUNCT" />
+        <token forme="entre" lemma="entre" pos="ADP" />
+        <token forme="les" lemma="le" pos="DET" />
+        <token forme="supporteurs" lemma="supporter" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="les" lemma="le" pos="DET" />
+        <token forme="deux" lemma="deux" pos="NUM" />
+        <token forme="clubs" lemma="club" pos="NOUN" />
+        <token forme="&#224;" lemma="&#224;" pos="ADP" />
+        <token forme="l&#8217;" lemma="le" pos="DET" />
+        <token forme="occasion" lemma="occasion" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="match" lemma="match" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="Coupe" lemma="coupe" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="France" lemma="France" pos="PROPN" />
+        <token forme="qui" lemma="qui" pos="PRON" />
+        <token forme="les" lemma="le" pos="PRON" />
+        <token forme="opposera" lemma="opposer" pos="VERB" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="mardi" lemma="mardi" pos="NOUN" />
+        <token forme="4" lemma="4" pos="NUM" />
+        <token forme="janvier" lemma="janvier" pos="NOUN" />
+        <token forme="." lemma="." pos="PUNCT" />
+      </analyse>
+    </article>
+    <article>
+      <title>Au Gabon, trois entra&#238;neurs de football mis en examen pour p&#233;docriminalit&#233;</title>
+      <description>L&#8217;affaire a &#233;t&#233; r&#233;v&#233;l&#233;e par le quotidien britannique &#171;&#160;The Guardian&#160;&#187; le 16&#160;d&#233;cembre. L&#8217;enqu&#234;te sera &#233;largie &#224; toutes les f&#233;d&#233;rations sportives nationales.</description>
+      <categorie />
+      <analyse>
+        <token forme="&#224;" lemma="&#224;" pos="ADP" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="Gabon" lemma="Gabon" pos="PROPN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="trois" lemma="trois" pos="NUM" />
+        <token forme="entra&#238;neurs" lemma="entra&#238;neur" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="football" lemma="football" pos="NOUN" />
+        <token forme="mis" lemma="mettre" pos="VERB" />
+        <token forme="en" lemma="en" pos="ADP" />
+        <token forme="examen" lemma="examen" pos="NOUN" />
+        <token forme="pour" lemma="pour" pos="ADP" />
+        <token forme="p&#233;docriminalit&#233;" lemma="p&#233;docriminalit&#233;" pos="NOUN" />
+        <token forme="L&#8217;" lemma="le" pos="DET" />
+        <token forme="affaire" lemma="affaire" pos="NOUN" />
+        <token forme="a" lemma="avoir" pos="AUX" />
+        <token forme="&#233;t&#233;" lemma="&#234;tre" pos="AUX" />
+        <token forme="r&#233;v&#233;l&#233;e" lemma="r&#233;v&#233;ler" pos="VERB" />
+        <token forme="par" lemma="par" pos="ADP" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="quotidien" lemma="quotidien" pos="NOUN" />
+        <token forme="britannique" lemma="britannique" pos="ADJ" />
+        <token forme="&#171;" lemma="&#171;" pos="PUNCT" />
+        <token forme="The" lemma="The" pos="PROPN" />
+        <token forme="Guardian" lemma="Guardian" pos="PROPN" />
+        <token forme="&#187;" lemma="&#187;" pos="PUNCT" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="16" lemma="16" pos="NUM" />
+        <token forme="d&#233;cembre" lemma="d&#233;cembre" pos="NOUN" />
+        <token forme="." lemma="." pos="PUNCT" />
+        <token forme="L&#8217;" lemma="le" pos="DET" />
+        <token forme="enqu&#234;te" lemma="enqu&#234;te" pos="NOUN" />
+        <token forme="sera" lemma="&#234;tre" pos="AUX" />
+        <token forme="&#233;largie" lemma="&#233;largir" pos="VERB" />
+        <token forme="&#224;" lemma="&#224;" pos="ADP" />
+        <token forme="toutes" lemma="tout" pos="ADJ" />
+        <token forme="les" lemma="le" pos="DET" />
+        <token forme="f&#233;d&#233;rations" lemma="f&#233;d&#233;ration" pos="NOUN" />
+        <token forme="sportives" lemma="sportif" pos="ADJ" />
+        <token forme="nationales" lemma="national" pos="ADJ" />
+        <token forme="." lemma="." pos="PUNCT" />
+      </analyse>
+    </article>
+    <article>
+      <title>Super Ligue, Mondial tous les deux ans&#160;: en&#160;2021, le football a &#233;tal&#233; ses d&#233;chirements</title>
+      <description>L&#8217;ann&#233;e &#233;coul&#233;e a vu la tentative de s&#233;cession de quelques grands clubs europ&#233;ens, avec la Super Ligue, et la volont&#233; de la FIFA de passer &#224; une Coupe du monde bisannuelle, en opposition avec l&#8217;UEFA.</description>
+      <categorie />
+      <analyse>
+        <token forme="Super" lemma="super" pos="ADJ" />
+        <token forme="Ligue" lemma="ligue" pos="NOUN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="Mondial" lemma="Mondial" pos="PROPN" />
+        <token forme="tous" lemma="tout" pos="ADJ" />
+        <token forme="les" lemma="le" pos="DET" />
+        <token forme="deux" lemma="deux" pos="NUM" />
+        <token forme="ans" lemma="an" pos="NOUN" />
+        <token forme=":" lemma=":" pos="PUNCT" />
+        <token forme="en" lemma="en" pos="ADP" />
+        <token forme="2021" lemma="2021" pos="NUM" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="football" lemma="football" pos="NOUN" />
+        <token forme="a" lemma="avoir" pos="AUX" />
+        <token forme="&#233;tal&#233;" lemma="&#233;taler" pos="VERB" />
+        <token forme="ses" lemma="son" pos="DET" />
+        <token forme="d&#233;chirements" lemma="d&#233;chirement" pos="NOUN" />
+        <token forme="L&#8217;" lemma="le" pos="DET" />
+        <token forme="ann&#233;e" lemma="ann&#233;e" pos="NOUN" />
+        <token forme="&#233;coul&#233;e" lemma="&#233;couler" pos="ADJ" />
+        <token forme="a" lemma="avoir" pos="AUX" />
+        <token forme="vu" lemma="voir" pos="VERB" />
+        <token forme="la" lemma="le" pos="DET" />
+        <token forme="tentative" lemma="tentative" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="s&#233;cession" lemma="s&#233;cession" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="quelques" lemma="quelque" pos="DET" />
+        <token forme="grands" lemma="grand" pos="ADJ" />
+        <token forme="clubs" lemma="club" pos="NOUN" />
+        <token forme="europ&#233;ens" lemma="europ&#233;en" pos="ADJ" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="avec" lemma="avec" pos="ADP" />
+        <token forme="la" lemma="le" pos="DET" />
+        <token forme="Super" lemma="Super" pos="PROPN" />
+        <token forme="Ligue" lemma="ligue" pos="NOUN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="et" lemma="et" pos="CCONJ" />
+        <token forme="la" lemma="le" pos="DET" />
+        <token forme="volont&#233;" lemma="volont&#233;" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="la" lemma="le" pos="DET" />
+        <token forme="FIFA" lemma="FIFA" pos="PROPN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="passer" lemma="passer" pos="VERB" />
+        <token forme="&#224;" lemma="&#224;" pos="ADP" />
+        <token forme="une" lemma="un" pos="DET" />
+        <token forme="Coupe" lemma="coupe" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="monde" lemma="monde" pos="NOUN" />
+        <token forme="bisannuelle" lemma="bisannuel" pos="ADJ" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="en" lemma="en" pos="ADP" />
+        <token forme="opposition" lemma="opposition" pos="NOUN" />
+        <token forme="avec" lemma="avec" pos="ADP" />
+        <token forme="l&#8217;" lemma="le" pos="DET" />
+        <token forme="UEFA" lemma="UEFA" pos="PROPN" />
+        <token forme="." lemma="." pos="PUNCT" />
+      </analyse>
+    </article>
+    <article>
+      <title>Le succ&#232;s de Sorare gr&#226;ce &#224; ses vignettes num&#233;riques de footballeurs</title>
+      <description>Acheter des images virtuelles de joueurs, les revendre&#8230; Cr&#233;&#233; par deux Fran&#231;ais, le jeu de fantasy football, qui m&#234;le performances sportives r&#233;elles et cryptomonnaie, d&#233;cha&#238;ne les passions et l&#232;ve des fonds.</description>
+      <categorie />
+      <analyse>
+        <token forme="Le" lemma="le" pos="DET" />
+        <token forme="succ&#232;s" lemma="succ&#232;s" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="Sorare" lemma="Sorare" pos="PROPN" />
+        <token forme="gr&#226;ce" lemma="gr&#226;ce" pos="NOUN" />
+        <token forme="&#224;" lemma="&#224;" pos="ADP" />
+        <token forme="ses" lemma="son" pos="DET" />
+        <token forme="vignettes" lemma="vignette" pos="NOUN" />
+        <token forme="num&#233;riques" lemma="num&#233;rique" pos="ADJ" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="footballeurs" lemma="footballeur" pos="NOUN" />
+        <token forme="Acheter" lemma="acheter" pos="VERB" />
+        <token forme="des" lemma="un" pos="DET" />
+        <token forme="images" lemma="image" pos="NOUN" />
+        <token forme="virtuelles" lemma="vittuel" pos="ADJ" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="joueurs" lemma="joueur" pos="NOUN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="les" lemma="le" pos="PRON" />
+        <token forme="revendre" lemma="revendre" pos="VERB" />
+        <token forme="&#8230;" lemma="..." pos="PUNCT" />
+        <token forme="Cr&#233;&#233;" lemma="cr&#233;er" pos="VERB" />
+        <token forme="par" lemma="par" pos="ADP" />
+        <token forme="deux" lemma="deux" pos="NUM" />
+        <token forme="Fran&#231;ais" lemma="fran&#231;ais" pos="NOUN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="jeu" lemma="jeu" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="fantasy" lemma="fantasy" pos="NOUN" />
+        <token forme="football" lemma="football" pos="NOUN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="qui" lemma="qui" pos="PRON" />
+        <token forme="m&#234;le" lemma="m&#234;ler" pos="VERB" />
+        <token forme="performances" lemma="performance" pos="NOUN" />
+        <token forme="sportives" lemma="sportif" pos="ADJ" />
+        <token forme="r&#233;elles" lemma="r&#233;el" pos="ADJ" />
+        <token forme="et" lemma="et" pos="CCONJ" />
+        <token forme="cryptomonnaie" lemma="cryptomonnaie" pos="NOUN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="d&#233;cha&#238;ne" lemma="d&#233;cha&#238;ner" pos="VERB" />
+        <token forme="les" lemma="le" pos="DET" />
+        <token forme="passions" lemma="passion" pos="NOUN" />
+        <token forme="et" lemma="et" pos="CCONJ" />
+        <token forme="l&#232;ve" lemma="lever" pos="VERB" />
+        <token forme="des" lemma="un" pos="DET" />
+        <token forme="fonds" lemma="fonds" pos="NOUN" />
+        <token forme="." lemma="." pos="PUNCT" />
+      </analyse>
+    </article>
+    <article>
+      <title>AS Monaco&#160;: Niko Kovac, l&#8217;entra&#238;neur du club, a &#233;t&#233; limog&#233;</title>
+      <description>Niko Kovac paie le manque de r&#233;sultats du club, &#233;limin&#233; d&#232;s le tour pr&#233;liminaire de Ligue des champions, et ses relations devenues compliqu&#233;es avec certains cadres de l&#8217;&#233;quipe, dont le capitaine, l&#8217;international fran&#231;ais Wissam Ben Yedder.</description>
+      <categorie />
+      <analyse>
+        <token forme="AS" lemma="AS" pos="PROPN" />
+        <token forme="Monaco" lemma="Monaco" pos="PROPN" />
+        <token forme=":" lemma=":" pos="PUNCT" />
+        <token forme="Niko" lemma="Niko" pos="PROPN" />
+        <token forme="Kovac" lemma="Kovac" pos="PROPN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="l&#8217;" lemma="le" pos="DET" />
+        <token forme="entra&#238;neur" lemma="entra&#238;neur" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="club" lemma="club" pos="NOUN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="a" lemma="avoir" pos="AUX" />
+        <token forme="&#233;t&#233;" lemma="&#234;tre" pos="AUX" />
+        <token forme="limog&#233;" lemma="limoger" pos="VERB" />
+        <token forme="Niko" lemma="Niko" pos="PROPN" />
+        <token forme="Kovac" lemma="Kovac" pos="PROPN" />
+        <token forme="paie" lemma="payer" pos="VERB" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="manque" lemma="manque" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="r&#233;sultats" lemma="r&#233;sultat" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="club" lemma="club" pos="NOUN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="&#233;limin&#233;" lemma="&#233;liminer" pos="VERB" />
+        <token forme="d&#232;s" lemma="d&#232;s" pos="ADP" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="tour" lemma="tour" pos="NOUN" />
+        <token forme="pr&#233;liminaire" lemma="pr&#233;liminaire" pos="ADJ" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="Ligue" lemma="ligue" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="les" lemma="le" pos="DET" />
+        <token forme="champions" lemma="champion" pos="NOUN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="et" lemma="et" pos="CCONJ" />
+        <token forme="ses" lemma="son" pos="DET" />
+        <token forme="relations" lemma="relation" pos="NOUN" />
+        <token forme="devenues" lemma="devenir" pos="VERB" />
+        <token forme="compliqu&#233;es" lemma="compliquer" pos="VERB" />
+        <token forme="avec" lemma="avec" pos="ADP" />
+        <token forme="certains" lemma="certain" pos="DET" />
+        <token forme="cadres" lemma="cadre" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="l&#8217;" lemma="le" pos="DET" />
+        <token forme="&#233;quipe" lemma="&#233;quipe" pos="NOUN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="dont" lemma="dont" pos="PRON" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="capitaine" lemma="capitaine" pos="NOUN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="l&#8217;" lemma="le" pos="DET" />
+        <token forme="international" lemma="international" pos="NOUN" />
+        <token forme="fran&#231;ais" lemma="fran&#231;ais" pos="ADJ" />
+        <token forme="Wissam" lemma="Wissam" pos="PROPN" />
+        <token forme="Ben" lemma="Ben" pos="PROPN" />
+        <token forme="Yedder" lemma="Yedder" pos="PROPN" />
+        <token forme="." lemma="." pos="PUNCT" />
+      </analyse>
+    </article>
+    <article>
+      <title>Explosion des cas de Covid-19&#160;: les clubs sportifs fran&#231;ais confront&#233;s &#224;&#160;des calendriers bouscul&#233;s</title>
+      <description>La crise sanitaire fait de nouveau vaciller le milieu sportif. De nombreux cas positifs ont &#233;t&#233; recens&#233;s en football, basket, handball, rugby et volley, entra&#238;nant reports et annulations, voire de possibles forfaits.</description>
+      <categorie />
+      <analyse>
+        <token forme="Explosion" lemma="explosion" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="les" lemma="le" pos="DET" />
+        <token forme="cas" lemma="cas" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="Covid-19" lemma="Covid-19" pos="PROPN" />
+        <token forme=":" lemma=":" pos="PUNCT" />
+        <token forme="les" lemma="le" pos="DET" />
+        <token forme="clubs" lemma="club" pos="NOUN" />
+        <token forme="sportifs" lemma="sportif" pos="ADJ" />
+        <token forme="fran&#231;ais" lemma="fran&#231;ais" pos="ADJ" />
+        <token forme="confront&#233;s" lemma="confronter" pos="VERB" />
+        <token forme="&#224;" lemma="&#224;" pos="ADP" />
+        <token forme="des" lemma="un" pos="DET" />
+        <token forme="calendriers" lemma="calendrier" pos="NOUN" />
+        <token forme="bouscul&#233;s" lemma="bousculer" pos="VERB" />
+        <token forme="La" lemma="le" pos="DET" />
+        <token forme="crise" lemma="crise" pos="NOUN" />
+        <token forme="sanitaire" lemma="sanitaire" pos="ADJ" />
+        <token forme="fait" lemma="faire" pos="AUX" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="nouveau" lemma="nouveau" pos="ADJ" />
+        <token forme="vaciller" lemma="vaciller" pos="VERB" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="milieu" lemma="milieu" pos="NOUN" />
+        <token forme="sportif" lemma="sportif" pos="ADJ" />
+        <token forme="." lemma="." pos="PUNCT" />
+        <token forme="De" lemma="un" pos="DET" />
+        <token forme="nombreux" lemma="nombreux" pos="ADJ" />
+        <token forme="cas" lemma="cas" pos="NOUN" />
+        <token forme="positifs" lemma="positif" pos="ADJ" />
+        <token forme="ont" lemma="avoir" pos="AUX" />
+        <token forme="&#233;t&#233;" lemma="&#234;tre" pos="AUX" />
+        <token forme="recens&#233;s" lemma="recenser" pos="VERB" />
+        <token forme="en" lemma="en" pos="ADP" />
+        <token forme="football" lemma="football" pos="NOUN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="basket" lemma="basket" pos="NOUN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="handball" lemma="handball" pos="NOUN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="rugby" lemma="rugby" pos="NOUN" />
+        <token forme="et" lemma="et" pos="CCONJ" />
+        <token forme="volley" lemma="volley" pos="NOUN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="entra&#238;nant" lemma="entra&#238;ner" pos="VERB" />
+        <token forme="reports" lemma="report" pos="NOUN" />
+        <token forme="et" lemma="et" pos="CCONJ" />
+        <token forme="annulations" lemma="annulation" pos="NOUN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="voire" lemma="voire" pos="CCONJ" />
+        <token forme="de" lemma="un" pos="DET" />
+        <token forme="possibles" lemma="possible" pos="ADJ" />
+        <token forme="forfaits" lemma="forfait" pos="NOUN" />
+        <token forme="." lemma="." pos="PUNCT" />
+      </analyse>
+    </article>
+    <article>
+      <title>Ligue&#160;1&#160;: Troyes se s&#233;pare de son entra&#238;neur Laurent Batlles</title>
+      <description>Cette annonce, au c&#339;ur d&#8217;une saison en dents de scie, n&#8217;&#233;tait pas attendue. Selon le club, il s&#8217;agit d&#8217;une d&#233;cision prise &#171;&#160;d&#8217;un commun accord&#160;&#187;.</description>
+      <categorie />
+      <analyse>
+        <token forme="Ligue" lemma="ligue" pos="NOUN" />
+        <token forme="1" lemma="1" pos="NUM" />
+        <token forme=":" lemma=":" pos="PUNCT" />
+        <token forme="Troyes" lemma="Troyes" pos="PROPN" />
+        <token forme="se" lemma="se" pos="PRON" />
+        <token forme="s&#233;pare" lemma="s&#233;parer" pos="VERB" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="son" lemma="son" pos="DET" />
+        <token forme="entra&#238;neur" lemma="entra&#238;neur" pos="NOUN" />
+        <token forme="Laurent" lemma="Laurent" pos="PROPN" />
+        <token forme="Batlles" lemma="Batlles" pos="PROPN" />
+        <token forme="Cette" lemma="ce" pos="DET" />
+        <token forme="annonce" lemma="annonce" pos="NOUN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="&#224;" lemma="&#224;" pos="ADP" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="c&#339;ur" lemma="c&#339;ur" pos="NOUN" />
+        <token forme="d&#8217;" lemma="de" pos="ADP" />
+        <token forme="une" lemma="un" pos="DET" />
+        <token forme="saison" lemma="saison" pos="NOUN" />
+        <token forme="en" lemma="en" pos="ADP" />
+        <token forme="dents" lemma="dent" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="scie" lemma="scie" pos="NOUN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="n&#8217;" lemma="ne" pos="ADV" />
+        <token forme="&#233;tait" lemma="&#234;tre" pos="AUX" />
+        <token forme="pas" lemma="pas" pos="ADV" />
+        <token forme="attendue" lemma="attendre" pos="VERB" />
+        <token forme="." lemma="." pos="PUNCT" />
+        <token forme="Selon" lemma="selon" pos="ADP" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="club" lemma="club" pos="NOUN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="il" lemma="il" pos="PRON" />
+        <token forme="s&#8217;" lemma="se" pos="PRON" />
+        <token forme="agit" lemma="agir" pos="VERB" />
+        <token forme="d&#8217;" lemma="de" pos="ADP" />
+        <token forme="une" lemma="un" pos="DET" />
+        <token forme="d&#233;cision" lemma="d&#233;cision" pos="NOUN" />
+        <token forme="prise" lemma="prendre" pos="VERB" />
+        <token forme="&#171;" lemma="&#171;" pos="PUNCT" />
+        <token forme="d&#8217;" lemma="de" pos="ADP" />
+        <token forme="un" lemma="un" pos="DET" />
+        <token forme="commun" lemma="commun" pos="ADJ" />
+        <token forme="accord" lemma="accord" pos="NOUN" />
+        <token forme="&#187;" lemma="&#187;" pos="PUNCT" />
+        <token forme="." lemma="." pos="PUNCT" />
+      </analyse>
+    </article>
+    <article>
+      <title>La Chine interdit les tatouages &#224; ses footballeurs</title>
+      <description>Les joueurs de la s&#233;lection nationale ont dor&#233;navant &#171;&#160;l&#8217;interdiction formelle d&#8217;avoir de nouveaux tatouages&#160;&#187;, a annonc&#233; le minist&#232;re des sports.</description>
+      <categorie />
+      <analyse>
+        <token forme="La" lemma="le" pos="DET" />
+        <token forme="Chine" lemma="Chine" pos="PROPN" />
+        <token forme="interdit" lemma="interdire" pos="VERB" />
+        <token forme="les" lemma="le" pos="DET" />
+        <token forme="tatouages" lemma="tatouage" pos="NOUN" />
+        <token forme="&#224;" lemma="&#224;" pos="ADP" />
+        <token forme="ses" lemma="son" pos="DET" />
+        <token forme="footballeurs" lemma="footballeur" pos="NOUN" />
+        <token forme="Les" lemma="le" pos="DET" />
+        <token forme="joueurs" lemma="joueur" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="la" lemma="le" pos="DET" />
+        <token forme="s&#233;lection" lemma="s&#233;lection" pos="NOUN" />
+        <token forme="nationale" lemma="national" pos="ADJ" />
+        <token forme="ont" lemma="avoir" pos="VERB" />
+        <token forme="dor&#233;navant" lemma="dor&#233;navant" pos="ADV" />
+        <token forme="&#171;" lemma="&#171;" pos="PUNCT" />
+        <token forme="l&#8217;" lemma="le" pos="DET" />
+        <token forme="interdiction" lemma="interdiction" pos="NOUN" />
+        <token forme="formelle" lemma="formel" pos="ADJ" />
+        <token forme="d&#8217;" lemma="de" pos="ADP" />
+        <token forme="avoir" lemma="avoir" pos="VERB" />
+        <token forme="de" lemma="un" pos="DET" />
+        <token forme="nouveaux" lemma="nouveau" pos="ADJ" />
+        <token forme="tatouages" lemma="tatouage" pos="NOUN" />
+        <token forme="&#187;" lemma="&#187;" pos="PUNCT" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="a" lemma="avoir" pos="AUX" />
+        <token forme="annonc&#233;" lemma="annoncer" pos="VERB" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="minist&#232;re" lemma="minist&#232;re" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="les" lemma="le" pos="DET" />
+        <token forme="sports" lemma="sport" pos="NOUN" />
+        <token forme="." lemma="." pos="PUNCT" />
+      </analyse>
+    </article>
+    <article>
+      <title>&#171;&#160;La concurrence dans le sport europ&#233;en doit &#234;tre am&#233;nag&#233;e par de nouveaux m&#233;canismes de r&#233;gulation&#160;&#187;</title>
+      <description>R&#233;gis Juanico, d&#233;put&#233; (G&#233;n&#233;ration.s) de la Loire, vice-pr&#233;sident de la commission des affaires culturelles et de l&#8217;&#233;ducation &#224; l&#8217;Assembl&#233;e nationale, s&#8217;inqui&#232;te, dans une tribune au &#171;&#160;Monde&#160;&#187;, de la privatisation des grandes comp&#233;titions sportives par des int&#233;r&#234;ts priv&#233;s qui, selon lui, captent le &#171;&#160;bien commun&#160;&#187;, et propose un nouveau mod&#232;le.</description>
+      <categorie />
+      <analyse>
+        <token forme="&#171;" lemma="&#171;" pos="PUNCT" />
+        <token forme="La" lemma="le" pos="DET" />
+        <token forme="concurrence" lemma="concurrence" pos="NOUN" />
+        <token forme="dans" lemma="dans" pos="ADP" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="sport" lemma="sport" pos="NOUN" />
+        <token forme="europ&#233;en" lemma="europ&#233;en" pos="ADJ" />
+        <token forme="doit" lemma="devoir" pos="VERB" />
+        <token forme="&#234;tre" lemma="&#234;tre" pos="AUX" />
+        <token forme="am&#233;nag&#233;e" lemma="am&#233;nager" pos="VERB" />
+        <token forme="par" lemma="par" pos="ADP" />
+        <token forme="de" lemma="un" pos="DET" />
+        <token forme="nouveaux" lemma="nouveau" pos="ADJ" />
+        <token forme="m&#233;canismes" lemma="m&#233;canisme" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="r&#233;gulation" lemma="r&#233;gulation" pos="NOUN" />
+        <token forme="&#187;" lemma="&#187;" pos="PUNCT" />
+        <token forme="R&#233;gis" lemma="R&#233;gis" pos="PROPN" />
+        <token forme="Juanico" lemma="Juanico" pos="PROPN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="d&#233;put&#233;" lemma="d&#233;put&#233;" pos="NOUN" />
+        <token forme="(" lemma="(" pos="PUNCT" />
+        <token forme="G&#233;n&#233;ration.s" lemma="G&#233;n&#233;ration.s" pos="PROPN" />
+        <token forme=")" lemma=")" pos="PUNCT" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="la" lemma="le" pos="DET" />
+        <token forme="Loire" lemma="Loire" pos="PROPN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="vice-pr&#233;sident" lemma="vice-pr&#233;sident" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="la" lemma="le" pos="DET" />
+        <token forme="commission" lemma="commission" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="les" lemma="le" pos="DET" />
+        <token forme="affaires" lemma="affaire" pos="NOUN" />
+        <token forme="culturelles" lemma="culturel" pos="ADJ" />
+        <token forme="et" lemma="et" pos="CCONJ" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="l&#8217;" lemma="le" pos="DET" />
+        <token forme="&#233;ducation" lemma="&#233;ducation" pos="NOUN" />
+        <token forme="&#224;" lemma="&#224;" pos="ADP" />
+        <token forme="l&#8217;" lemma="le" pos="DET" />
+        <token forme="Assembl&#233;e" lemma="assembl&#233;e" pos="NOUN" />
+        <token forme="nationale" lemma="national" pos="ADJ" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="s&#8217;" lemma="se" pos="PRON" />
+        <token forme="inqui&#232;te" lemma="inqui&#233;ter" pos="VERB" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="dans" lemma="dans" pos="ADP" />
+        <token forme="une" lemma="un" pos="DET" />
+        <token forme="tribune" lemma="tribune" pos="NOUN" />
+        <token forme="&#224;" lemma="&#224;" pos="ADP" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="&#171;" lemma="&#171;" pos="PUNCT" />
+        <token forme="Monde" lemma="monde" pos="NOUN" />
+        <token forme="&#187;" lemma="&#187;" pos="PUNCT" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="la" lemma="le" pos="DET" />
+        <token forme="privatisation" lemma="privatisation" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="les" lemma="le" pos="DET" />
+        <token forme="grandes" lemma="grand" pos="ADJ" />
+        <token forme="comp&#233;titions" lemma="comp&#233;tition" pos="NOUN" />
+        <token forme="sportives" lemma="sportif" pos="ADJ" />
+        <token forme="par" lemma="par" pos="ADP" />
+        <token forme="des" lemma="un" pos="DET" />
+        <token forme="int&#233;r&#234;ts" lemma="int&#233;r&#234;t" pos="NOUN" />
+        <token forme="priv&#233;s" lemma="priv&#233;" pos="ADJ" />
+        <token forme="qui" lemma="qui" pos="PRON" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="selon" lemma="selon" pos="ADP" />
+        <token forme="lui" lemma="lui" pos="PRON" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="captent" lemma="capter" pos="VERB" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="&#171;" lemma="&#171;" pos="PUNCT" />
+        <token forme="bien" lemma="bien" pos="NOUN" />
+        <token forme="commun" lemma="commun" pos="ADJ" />
+        <token forme="&#187;" lemma="&#187;" pos="PUNCT" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="et" lemma="et" pos="CCONJ" />
+        <token forme="propose" lemma="proposer" pos="VERB" />
+        <token forme="un" lemma="un" pos="DET" />
+        <token forme="nouveau" lemma="nouveau" pos="ADJ" />
+        <token forme="mod&#232;le" lemma="mod&#232;le" pos="NOUN" />
+        <token forme="." lemma="." pos="PUNCT" />
+      </analyse>
+    </article>
+    <article>
+      <title>La revanche dor&#233;e d&#8217;Agbegnenou, le doubl&#233; arc-en-ciel d&#8217;Alaphilippe, le bel &#233;t&#233; des sports co fran&#231;ais&#160;: dix moments forts de l&#8217;ann&#233;e sportive</title>
+      <description>Du retour gagnant du nageur Florent Manaudou &#224; la moisson de m&#233;dailles de la d&#233;l&#233;gation tricolore aux Jeux paralympiques, &#171;&#160;Le Monde&#160;&#187; revient sur quelques belles performances de l&#8217;ann&#233;e &#233;coul&#233;e.</description>
+      <categorie />
+      <analyse>
+        <token forme="La" lemma="le" pos="DET" />
+        <token forme="revanche" lemma="revanche" pos="NOUN" />
+        <token forme="dor&#233;e" lemma="dor&#233;" pos="ADJ" />
+        <token forme="d&#8217;" lemma="de" pos="ADP" />
+        <token forme="Agbegnenou" lemma="Agbegnenou" pos="PROPN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="doubl&#233;" lemma="doubl&#233;" pos="NOUN" />
+        <token forme="arc-en-ciel" lemma="arc-en-ciel" pos="NOUN" />
+        <token forme="d&#8217;" lemma="de" pos="ADP" />
+        <token forme="Alaphilippe" lemma="Alaphilippe" pos="PROPN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="bel" lemma="beau" pos="ADJ" />
+        <token forme="&#233;t&#233;" lemma="&#233;t&#233;" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="les" lemma="le" pos="DET" />
+        <token forme="sports" lemma="sport" pos="NOUN" />
+        <token forme="co" lemma="co" pos="NOUN" />
+        <token forme="fran&#231;ais" lemma="fran&#231;ais" pos="ADJ" />
+        <token forme=":" lemma=":" pos="PUNCT" />
+        <token forme="dix" lemma="dix" pos="NUM" />
+        <token forme="moments" lemma="moment" pos="NOUN" />
+        <token forme="forts" lemma="fort" pos="ADJ" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="l&#8217;" lemma="le" pos="DET" />
+        <token forme="ann&#233;e" lemma="ann&#233;e" pos="NOUN" />
+        <token forme="sportive" lemma="sportif" pos="ADJ" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="retour" lemma="retour" pos="NOUN" />
+        <token forme="gagnant" lemma="gagner" pos="ADJ" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="nageur" lemma="nageur" pos="NOUN" />
+        <token forme="Florent" lemma="Florent" pos="PROPN" />
+        <token forme="Manaudou" lemma="Manaudou" pos="PROPN" />
+        <token forme="&#224;" lemma="&#224;" pos="ADP" />
+        <token forme="la" lemma="le" pos="DET" />
+        <token forme="moisson" lemma="moisson" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="m&#233;dailles" lemma="m&#233;daille" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="la" lemma="le" pos="DET" />
+        <token forme="d&#233;l&#233;gation" lemma="d&#233;l&#233;gation" pos="NOUN" />
+        <token forme="tricolore" lemma="tricolore" pos="ADJ" />
+        <token forme="&#224;" lemma="&#224;" pos="ADP" />
+        <token forme="les" lemma="le" pos="DET" />
+        <token forme="Jeux" lemma="jeu" pos="NOUN" />
+        <token forme="paralympiques" lemma="paralympique" pos="ADJ" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="&#171;" lemma="&#171;" pos="PUNCT" />
+        <token forme="Le" lemma="le" pos="DET" />
+        <token forme="Monde" lemma="monde" pos="NOUN" />
+        <token forme="&#187;" lemma="&#187;" pos="PUNCT" />
+        <token forme="revient" lemma="revenir" pos="VERB" />
+        <token forme="sur" lemma="sur" pos="ADP" />
+        <token forme="quelques" lemma="quelque" pos="DET" />
+        <token forme="belles" lemma="beau" pos="ADJ" />
+        <token forme="performances" lemma="performance" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="l&#8217;" lemma="le" pos="DET" />
+        <token forme="ann&#233;e" lemma="ann&#233;e" pos="NOUN" />
+        <token forme="&#233;coul&#233;e" lemma="&#233;couler" pos="VERB" />
+        <token forme="." lemma="." pos="PUNCT" />
+      </analyse>
+    </article>
+    <article>
+      <title>OGC Nice&#160;: Antoine Bonifaci, &#171;&#160;l&#233;gende&#160;&#187; du club et ex-international, est mort</title>
+      <description>L&#8217;ancien joueur avait 90&#160;ans. C&#8217;est une &#171;&#160;l&#233;gende du club rouge et noir&#160;&#187; qui s&#8217;est &#233;teinte le 29&#160;d&#233;cembre, regrette le club.</description>
+      <categorie />
+      <analyse>
+        <token forme="OGC" lemma="OGC" pos="PROPN" />
+        <token forme="Nice" lemma="Nice" pos="PROPN" />
+        <token forme=":" lemma=":" pos="PUNCT" />
+        <token forme="Antoine" lemma="Antoine" pos="PROPN" />
+        <token forme="Bonifaci" lemma="Bonifaci" pos="PROPN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="&#171;" lemma="&#171;" pos="PUNCT" />
+        <token forme="l&#233;gende" lemma="l&#233;gende" pos="NOUN" />
+        <token forme="&#187;" lemma="&#187;" pos="PUNCT" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="club" lemma="club" pos="NOUN" />
+        <token forme="et" lemma="et" pos="CCONJ" />
+        <token forme="ex-international" lemma="ex-international" pos="NOUN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="est" lemma="&#234;tre" pos="AUX" />
+        <token forme="mort" lemma="mourir" pos="VERB" />
+        <token forme="L&#8217;" lemma="le" pos="DET" />
+        <token forme="ancien" lemma="ancien" pos="ADJ" />
+        <token forme="joueur" lemma="joueur" pos="NOUN" />
+        <token forme="avait" lemma="avoir" pos="VERB" />
+        <token forme="90" lemma="90" pos="NUM" />
+        <token forme="ans" lemma="an" pos="NOUN" />
+        <token forme="." lemma="." pos="PUNCT" />
+        <token forme="C&#8217;" lemma="ce" pos="PRON" />
+        <token forme="est" lemma="&#234;tre" pos="AUX" />
+        <token forme="une" lemma="un" pos="DET" />
+        <token forme="&#171;" lemma="&#171;" pos="PUNCT" />
+        <token forme="l&#233;gende" lemma="l&#233;gende" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="club" lemma="club" pos="NOUN" />
+        <token forme="rouge" lemma="rouge" pos="ADJ" />
+        <token forme="et" lemma="et" pos="CCONJ" />
+        <token forme="noir" lemma="noir" pos="ADJ" />
+        <token forme="&#187;" lemma="&#187;" pos="PUNCT" />
+        <token forme="qui" lemma="qui" pos="PRON" />
+        <token forme="s&#8217;" lemma="se" pos="PRON" />
+        <token forme="est" lemma="&#234;tre" pos="AUX" />
+        <token forme="&#233;teinte" lemma="&#233;teindre" pos="VERB" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="29" lemma="29" pos="NUM" />
+        <token forme="d&#233;cembre" lemma="d&#233;cembre" pos="NOUN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="regrette" lemma="regretter" pos="VERB" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="club" lemma="club" pos="NOUN" />
+        <token forme="." lemma="." pos="PUNCT" />
+      </analyse>
+    </article>
+    <article>
+      <title>Chine, burn-out, vaccin&#160;: trois mots cl&#233;s de l&#8217;ann&#233;e sportive 2021</title>
+      <description>De l&#8217;affaire Peng Shuai &#224; la prise de parole de Naomi Osaka et Simone Biles, en passant par les r&#233;ticences de Novak Djokovic, tour d&#8217;horizon de ce qu&#8217;il s&#8217;est (aussi) pass&#233; en&#160;2021 dans le milieu sportif.</description>
+      <categorie />
+      <analyse>
+        <token forme="Chine" lemma="Chine" pos="PROPN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="burn-out" lemma="burn-out" pos="NOUN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="vaccin" lemma="vaccin" pos="NOUN" />
+        <token forme=":" lemma=":" pos="PUNCT" />
+        <token forme="trois" lemma="trois" pos="NUM" />
+        <token forme="mots" lemma="mot" pos="NOUN" />
+        <token forme="cl&#233;s" lemma="cl&#233;" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="l&#8217;" lemma="le" pos="DET" />
+        <token forme="ann&#233;e" lemma="ann&#233;e" pos="NOUN" />
+        <token forme="sportive" lemma="sportif" pos="ADJ" />
+        <token forme="2021" lemma="2021" pos="NUM" />
+        <token forme="De" lemma="de" pos="ADP" />
+        <token forme="l&#8217;" lemma="le" pos="DET" />
+        <token forme="affaire" lemma="affaire" pos="NOUN" />
+        <token forme="Peng" lemma="Peng" pos="PROPN" />
+        <token forme="Shuai" lemma="Shuai" pos="PROPN" />
+        <token forme="&#224;" lemma="&#224;" pos="ADP" />
+        <token forme="la" lemma="le" pos="DET" />
+        <token forme="prise" lemma="prise" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="parole" lemma="parole" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="Naomi" lemma="Naomi" pos="PROPN" />
+        <token forme="Osaka" lemma="Osaka" pos="PROPN" />
+        <token forme="et" lemma="et" pos="CCONJ" />
+        <token forme="Simone" lemma="Simone" pos="PROPN" />
+        <token forme="Biles" lemma="Biles" pos="PROPN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="en" lemma="en" pos="ADP" />
+        <token forme="passant" lemma="passer" pos="VERB" />
+        <token forme="par" lemma="par" pos="ADP" />
+        <token forme="les" lemma="le" pos="DET" />
+        <token forme="r&#233;ticences" lemma="r&#233;ticence" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="Novak" lemma="Novak" pos="PROPN" />
+        <token forme="Djokovic" lemma="Djokovic" pos="PROPN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="tour" lemma="tour" pos="NOUN" />
+        <token forme="d&#8217;" lemma="de" pos="ADP" />
+        <token forme="horizon" lemma="horizon" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="ce" lemma="ce" pos="PRON" />
+        <token forme="qu&#8217;" lemma="que" pos="PRON" />
+        <token forme="il" lemma="il" pos="PRON" />
+        <token forme="s&#8217;" lemma="se" pos="PRON" />
+        <token forme="est" lemma="&#234;tre" pos="AUX" />
+        <token forme="(" lemma="(" pos="PUNCT" />
+        <token forme="aussi" lemma="aussi" pos="ADV" />
+        <token forme=")" lemma=")" pos="PUNCT" />
+        <token forme="pass&#233;" lemma="passer" pos="VERB" />
+        <token forme="en" lemma="en" pos="ADP" />
+        <token forme="2021" lemma="2021" pos="NUM" />
+        <token forme="dans" lemma="dans" pos="ADP" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="milieu" lemma="milieu" pos="NOUN" />
+        <token forme="sportif" lemma="sportif" pos="ADJ" />
+        <token forme="." lemma="." pos="PUNCT" />
+      </analyse>
+    </article>
+    <article>
+      <title>Euro de football, athl&#233;tisme, tennis, violences dans les stades&#8230; les &#171;&#160;rat&#233;s&#160;&#187; de l&#8217;ann&#233;e sportive 2021</title>
+      <description>De la sortie pr&#233;matur&#233;e des Bleus dans la comp&#233;tition europ&#233;enne, &#224; la crise de la F&#233;d&#233;ration fran&#231;aise d&#8217;athl&#233;tisme en passant par la multiplication des incidents dans les enceintes de football, &#171;&#160;Le&#160;Monde&#160;&#187; revient sur quelques &#171;&#160;couacs&#160;&#187; de l&#8217;ann&#233;e &#233;coul&#233;e.</description>
+      <categorie />
+      <analyse>
+        <token forme="Euro" lemma="Euro" pos="PROPN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="football" lemma="football" pos="NOUN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="athl&#233;tisme" lemma="athl&#233;tisme" pos="NOUN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="tennis" lemma="tennis" pos="NOUN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="violences" lemma="violence" pos="NOUN" />
+        <token forme="dans" lemma="dans" pos="ADP" />
+        <token forme="les" lemma="le" pos="DET" />
+        <token forme="stades" lemma="stade" pos="NOUN" />
+        <token forme="&#8230;" lemma="..." pos="PUNCT" />
+        <token forme="les" lemma="le" pos="DET" />
+        <token forme="&#171;" lemma="&#171;" pos="PUNCT" />
+        <token forme="rat&#233;s" lemma="rat&#233;" pos="NOUN" />
+        <token forme="&#187;" lemma="&#187;" pos="PUNCT" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="l&#8217;" lemma="le" pos="DET" />
+        <token forme="ann&#233;e" lemma="ann&#233;e" pos="NOUN" />
+        <token forme="sportive" lemma="sportif" pos="ADJ" />
+        <token forme="2021" lemma="2021" pos="NUM" />
+        <token forme="De" lemma="de" pos="ADP" />
+        <token forme="la" lemma="le" pos="DET" />
+        <token forme="sortie" lemma="sortie" pos="NOUN" />
+        <token forme="pr&#233;matur&#233;e" lemma="pr&#233;matur&#233;" pos="ADJ" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="les" lemma="le" pos="DET" />
+        <token forme="Bleus" lemma="Bleus" pos="NOUN" />
+        <token forme="dans" lemma="dans" pos="ADP" />
+        <token forme="la" lemma="le" pos="DET" />
+        <token forme="comp&#233;tition" lemma="comp&#233;tition" pos="NOUN" />
+        <token forme="europ&#233;enne" lemma="europ&#233;en" pos="ADJ" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="&#224;" lemma="&#224;" pos="ADP" />
+        <token forme="la" lemma="le" pos="DET" />
+        <token forme="crise" lemma="crise" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="la" lemma="le" pos="DET" />
+        <token forme="F&#233;d&#233;ration" lemma="f&#233;d&#233;ration" pos="NOUN" />
+        <token forme="fran&#231;aise" lemma="fran&#231;ais" pos="ADJ" />
+        <token forme="d&#8217;" lemma="de" pos="ADP" />
+        <token forme="athl&#233;tisme" lemma="athl&#233;tisme" pos="NOUN" />
+        <token forme="en" lemma="en" pos="ADP" />
+        <token forme="passant" lemma="passer" pos="VERB" />
+        <token forme="par" lemma="par" pos="ADP" />
+        <token forme="la" lemma="le" pos="DET" />
+        <token forme="multiplication" lemma="multiplication" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="les" lemma="le" pos="DET" />
+        <token forme="incidents" lemma="incident" pos="NOUN" />
+        <token forme="dans" lemma="dans" pos="ADP" />
+        <token forme="les" lemma="le" pos="DET" />
+        <token forme="enceintes" lemma="enceinte" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="football" lemma="football" pos="NOUN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="&#171;" lemma="&#171;" pos="PUNCT" />
+        <token forme="Le" lemma="le" pos="DET" />
+        <token forme="Monde" lemma="monde" pos="NOUN" />
+        <token forme="&#187;" lemma="&#187;" pos="PUNCT" />
+        <token forme="revient" lemma="revenir" pos="VERB" />
+        <token forme="sur" lemma="sur" pos="ADP" />
+        <token forme="quelques" lemma="quelque" pos="DET" />
+        <token forme="&#171;" lemma="&#171;" pos="PUNCT" />
+        <token forme="couacs" lemma="couacs" pos="NOUN" />
+        <token forme="&#187;" lemma="&#187;" pos="PUNCT" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="l&#8217;" lemma="le" pos="DET" />
+        <token forme="ann&#233;e" lemma="ann&#233;e" pos="NOUN" />
+        <token forme="&#233;coul&#233;e" lemma="&#233;couler" pos="VERB" />
+        <token forme="." lemma="." pos="PUNCT" />
+      </analyse>
+    </article>
+    <article>
+      <title>Hugo Maradona, le fr&#232;re de Diego, est mort &#224; l&#8217;&#226;ge de 52&#160;ans</title>
+      <description>Le cadet du g&#233;nie argentin du football a succomb&#233; &#224; un infarctus dans sa maison de l&#8217;agglom&#233;ration napolitaine, selon des m&#233;dias italiens.</description>
+      <categorie />
+      <analyse>
+        <token forme="Hugo" lemma="Hugo" pos="PROPN" />
+        <token forme="Maradona" lemma="Maradona" pos="PROPN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="fr&#232;re" lemma="fr&#232;re" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="Diego" lemma="Diego" pos="PROPN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="est" lemma="&#234;tre" pos="AUX" />
+        <token forme="mort" lemma="mourir" pos="VERB" />
+        <token forme="&#224;" lemma="&#224;" pos="ADP" />
+        <token forme="l&#8217;" lemma="le" pos="DET" />
+        <token forme="&#226;ge" lemma="&#226;ge" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="52" lemma="52" pos="NUM" />
+        <token forme="ans" lemma="an" pos="NOUN" />
+        <token forme="Le" lemma="le" pos="DET" />
+        <token forme="cadet" lemma="cadet" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="g&#233;nie" lemma="g&#233;nie" pos="NOUN" />
+        <token forme="argentin" lemma="argentin" pos="ADJ" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="football" lemma="football" pos="NOUN" />
+        <token forme="a" lemma="avoir" pos="AUX" />
+        <token forme="succomb&#233;" lemma="succomber" pos="VERB" />
+        <token forme="&#224;" lemma="&#224;" pos="ADP" />
+        <token forme="un" lemma="un" pos="DET" />
+        <token forme="infarctus" lemma="infarctu" pos="NOUN" />
+        <token forme="dans" lemma="dans" pos="ADP" />
+        <token forme="sa" lemma="son" pos="DET" />
+        <token forme="maison" lemma="maison" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="l&#8217;" lemma="le" pos="DET" />
+        <token forme="agglom&#233;ration" lemma="agglom&#233;ration" pos="NOUN" />
+        <token forme="napolitaine" lemma="napolitain" pos="ADJ" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="selon" lemma="selon" pos="ADP" />
+        <token forme="des" lemma="un" pos="DET" />
+        <token forme="m&#233;dias" lemma="m&#233;dia" pos="NOUN" />
+        <token forme="italiens" lemma="italien" pos="ADJ" />
+        <token forme="." lemma="." pos="PUNCT" />
+      </analyse>
+    </article>
+    <article>
+      <title>Jeux olympiques&#160;: de Tokyo &#224; Paris, la gageure du sport fran&#231;ais</title>
+      <description>Apr&#232;s le bilan &#171;&#160;mitig&#233;&#160;&#187; des Bleus au Japon, les athl&#232;tes tricolores ont pour objectif d&#8217;int&#233;grer en&#160;2024, &#224; domicile, le Top 5 des m&#233;dailles. Un objectif illusoire&#160;?</description>
+      <categorie />
+      <analyse>
+        <token forme="Jeux" lemma="jeu" pos="NOUN" />
+        <token forme="olympiques" lemma="olympique" pos="ADJ" />
+        <token forme=":" lemma=":" pos="PUNCT" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="Tokyo" lemma="Tokyo" pos="PROPN" />
+        <token forme="&#224;" lemma="&#224;" pos="ADP" />
+        <token forme="Paris" lemma="Paris" pos="PROPN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="la" lemma="le" pos="DET" />
+        <token forme="gageure" lemma="gageure" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="sport" lemma="sport" pos="NOUN" />
+        <token forme="fran&#231;ais" lemma="fran&#231;ais" pos="ADJ" />
+        <token forme="Apr&#232;s" lemma="apr&#232;s" pos="ADP" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="bilan" lemma="bilan" pos="NOUN" />
+        <token forme="&#171;" lemma="&#171;" pos="PUNCT" />
+        <token forme="mitig&#233;" lemma="mitig&#233;" pos="ADJ" />
+        <token forme="&#187;" lemma="&#187;" pos="PUNCT" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="les" lemma="le" pos="DET" />
+        <token forme="Bleus" lemma="Bleus" pos="PROPN" />
+        <token forme="&#224;" lemma="&#224;" pos="ADP" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="Japon" lemma="Japon" pos="PROPN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="les" lemma="le" pos="DET" />
+        <token forme="athl&#232;tes" lemma="athl&#232;te" pos="NOUN" />
+        <token forme="tricolores" lemma="tricolore" pos="ADJ" />
+        <token forme="ont" lemma="avoir" pos="VERB" />
+        <token forme="pour" lemma="pour" pos="ADP" />
+        <token forme="objectif" lemma="objectif" pos="NOUN" />
+        <token forme="d&#8217;" lemma="de" pos="ADP" />
+        <token forme="int&#233;grer" lemma="int&#233;grer" pos="VERB" />
+        <token forme="en" lemma="en" pos="ADP" />
+        <token forme="2024" lemma="2024" pos="NUM" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="&#224;" lemma="&#224;" pos="ADP" />
+        <token forme="domicile" lemma="domicile" pos="NOUN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="Top" lemma="top" pos="NOUN" />
+        <token forme="5" lemma="5" pos="NUM" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="les" lemma="le" pos="DET" />
+        <token forme="m&#233;dailles" lemma="m&#233;daille" pos="NOUN" />
+        <token forme="." lemma="." pos="PUNCT" />
+        <token forme="Un" lemma="un" pos="DET" />
+        <token forme="objectif" lemma="objectif" pos="NOUN" />
+        <token forme="illusoire" lemma="illusoire" pos="ADJ" />
+        <token forme="?" lemma="?" pos="PUNCT" />
+      </analyse>
+    </article>
+    <article>
+      <title>Football&#160;: les supporteurs de Lille interdits de d&#233;placement &#224; Lens</title>
+      <description>Le minist&#232;re de l&#8217;int&#233;rieur consid&#232;re qu&#8217;il y a &#171;&#160;un risque r&#233;el et s&#233;rieux d&#8217;affrontement&#160;&#187; entre les supporteurs des deux clubs &#224; l&#8217;occasion du match de Coupe de France qui les opposera, mardi 4&#160;janvier.</description>
+      <categorie />
+      <analyse>
+        <token forme="Football" lemma="football" pos="NOUN" />
+        <token forme=":" lemma=":" pos="PUNCT" />
+        <token forme="les" lemma="le" pos="DET" />
+        <token forme="supporteurs" lemma="supporter" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="Lille" lemma="Lille" pos="PROPN" />
+        <token forme="interdits" lemma="interdire" pos="VERB" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="d&#233;placement" lemma="d&#233;placement" pos="NOUN" />
+        <token forme="&#224;" lemma="&#224;" pos="ADP" />
+        <token forme="Lens" lemma="Lens" pos="PROPN" />
+        <token forme="Le" lemma="le" pos="DET" />
+        <token forme="minist&#232;re" lemma="minist&#232;re" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="l&#8217;" lemma="le" pos="DET" />
+        <token forme="int&#233;rieur" lemma="int&#233;rieur" pos="NOUN" />
+        <token forme="consid&#232;re" lemma="consid&#233;rer" pos="VERB" />
+        <token forme="qu&#8217;" lemma="que" pos="SCONJ" />
+        <token forme="il" lemma="il" pos="PRON" />
+        <token forme="y" lemma="y" pos="PRON" />
+        <token forme="a" lemma="avoir" pos="VERB" />
+        <token forme="&#171;" lemma="&#171;" pos="PUNCT" />
+        <token forme="un" lemma="un" pos="DET" />
+        <token forme="risque" lemma="risque" pos="NOUN" />
+        <token forme="r&#233;el" lemma="r&#233;el" pos="ADJ" />
+        <token forme="et" lemma="et" pos="CCONJ" />
+        <token forme="s&#233;rieux" lemma="s&#233;rieux" pos="ADJ" />
+        <token forme="d&#8217;" lemma="de" pos="ADP" />
+        <token forme="affrontement" lemma="affrontement" pos="NOUN" />
+        <token forme="&#187;" lemma="&#187;" pos="PUNCT" />
+        <token forme="entre" lemma="entre" pos="ADP" />
+        <token forme="les" lemma="le" pos="DET" />
+        <token forme="supporteurs" lemma="supporter" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="les" lemma="le" pos="DET" />
+        <token forme="deux" lemma="deux" pos="NUM" />
+        <token forme="clubs" lemma="club" pos="NOUN" />
+        <token forme="&#224;" lemma="&#224;" pos="ADP" />
+        <token forme="l&#8217;" lemma="le" pos="DET" />
+        <token forme="occasion" lemma="occasion" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="match" lemma="match" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="Coupe" lemma="coupe" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="France" lemma="France" pos="PROPN" />
+        <token forme="qui" lemma="qui" pos="PRON" />
+        <token forme="les" lemma="le" pos="PRON" />
+        <token forme="opposera" lemma="opposer" pos="VERB" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="mardi" lemma="mardi" pos="NOUN" />
+        <token forme="4" lemma="4" pos="NUM" />
+        <token forme="janvier" lemma="janvier" pos="NOUN" />
+        <token forme="." lemma="." pos="PUNCT" />
+      </analyse>
+    </article>
+    <article>
+      <title>Au Gabon, trois entra&#238;neurs de football mis en examen pour p&#233;docriminalit&#233;</title>
+      <description>L&#8217;affaire a &#233;t&#233; r&#233;v&#233;l&#233;e par le quotidien britannique &#171;&#160;The Guardian&#160;&#187; le 16&#160;d&#233;cembre. L&#8217;enqu&#234;te sera &#233;largie &#224; toutes les f&#233;d&#233;rations sportives nationales.</description>
+      <categorie />
+      <analyse>
+        <token forme="&#224;" lemma="&#224;" pos="ADP" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="Gabon" lemma="Gabon" pos="PROPN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="trois" lemma="trois" pos="NUM" />
+        <token forme="entra&#238;neurs" lemma="entra&#238;neur" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="football" lemma="football" pos="NOUN" />
+        <token forme="mis" lemma="mettre" pos="VERB" />
+        <token forme="en" lemma="en" pos="ADP" />
+        <token forme="examen" lemma="examen" pos="NOUN" />
+        <token forme="pour" lemma="pour" pos="ADP" />
+        <token forme="p&#233;docriminalit&#233;" lemma="p&#233;docriminalit&#233;" pos="NOUN" />
+        <token forme="L&#8217;" lemma="le" pos="DET" />
+        <token forme="affaire" lemma="affaire" pos="NOUN" />
+        <token forme="a" lemma="avoir" pos="AUX" />
+        <token forme="&#233;t&#233;" lemma="&#234;tre" pos="AUX" />
+        <token forme="r&#233;v&#233;l&#233;e" lemma="r&#233;v&#233;ler" pos="VERB" />
+        <token forme="par" lemma="par" pos="ADP" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="quotidien" lemma="quotidien" pos="NOUN" />
+        <token forme="britannique" lemma="britannique" pos="ADJ" />
+        <token forme="&#171;" lemma="&#171;" pos="PUNCT" />
+        <token forme="The" lemma="The" pos="PROPN" />
+        <token forme="Guardian" lemma="Guardian" pos="PROPN" />
+        <token forme="&#187;" lemma="&#187;" pos="PUNCT" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="16" lemma="16" pos="NUM" />
+        <token forme="d&#233;cembre" lemma="d&#233;cembre" pos="NOUN" />
+        <token forme="." lemma="." pos="PUNCT" />
+        <token forme="L&#8217;" lemma="le" pos="DET" />
+        <token forme="enqu&#234;te" lemma="enqu&#234;te" pos="NOUN" />
+        <token forme="sera" lemma="&#234;tre" pos="AUX" />
+        <token forme="&#233;largie" lemma="&#233;largir" pos="VERB" />
+        <token forme="&#224;" lemma="&#224;" pos="ADP" />
+        <token forme="toutes" lemma="tout" pos="ADJ" />
+        <token forme="les" lemma="le" pos="DET" />
+        <token forme="f&#233;d&#233;rations" lemma="f&#233;d&#233;ration" pos="NOUN" />
+        <token forme="sportives" lemma="sportif" pos="ADJ" />
+        <token forme="nationales" lemma="national" pos="ADJ" />
+        <token forme="." lemma="." pos="PUNCT" />
+      </analyse>
+    </article>
+    <article>
+      <title>Super Ligue, Mondial tous les deux ans&#160;: en&#160;2021, le football a &#233;tal&#233; ses d&#233;chirements</title>
+      <description>L&#8217;ann&#233;e &#233;coul&#233;e a vu la tentative de s&#233;cession de quelques grands clubs europ&#233;ens, avec la Super Ligue, et la volont&#233; de la FIFA de passer &#224; une Coupe du monde bisannuelle, en opposition avec l&#8217;UEFA.</description>
+      <categorie />
+      <analyse>
+        <token forme="Super" lemma="super" pos="ADJ" />
+        <token forme="Ligue" lemma="ligue" pos="NOUN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="Mondial" lemma="Mondial" pos="PROPN" />
+        <token forme="tous" lemma="tout" pos="ADJ" />
+        <token forme="les" lemma="le" pos="DET" />
+        <token forme="deux" lemma="deux" pos="NUM" />
+        <token forme="ans" lemma="an" pos="NOUN" />
+        <token forme=":" lemma=":" pos="PUNCT" />
+        <token forme="en" lemma="en" pos="ADP" />
+        <token forme="2021" lemma="2021" pos="NUM" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="football" lemma="football" pos="NOUN" />
+        <token forme="a" lemma="avoir" pos="AUX" />
+        <token forme="&#233;tal&#233;" lemma="&#233;taler" pos="VERB" />
+        <token forme="ses" lemma="son" pos="DET" />
+        <token forme="d&#233;chirements" lemma="d&#233;chirement" pos="NOUN" />
+        <token forme="L&#8217;" lemma="le" pos="DET" />
+        <token forme="ann&#233;e" lemma="ann&#233;e" pos="NOUN" />
+        <token forme="&#233;coul&#233;e" lemma="&#233;couler" pos="ADJ" />
+        <token forme="a" lemma="avoir" pos="AUX" />
+        <token forme="vu" lemma="voir" pos="VERB" />
+        <token forme="la" lemma="le" pos="DET" />
+        <token forme="tentative" lemma="tentative" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="s&#233;cession" lemma="s&#233;cession" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="quelques" lemma="quelque" pos="DET" />
+        <token forme="grands" lemma="grand" pos="ADJ" />
+        <token forme="clubs" lemma="club" pos="NOUN" />
+        <token forme="europ&#233;ens" lemma="europ&#233;en" pos="ADJ" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="avec" lemma="avec" pos="ADP" />
+        <token forme="la" lemma="le" pos="DET" />
+        <token forme="Super" lemma="Super" pos="PROPN" />
+        <token forme="Ligue" lemma="ligue" pos="NOUN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="et" lemma="et" pos="CCONJ" />
+        <token forme="la" lemma="le" pos="DET" />
+        <token forme="volont&#233;" lemma="volont&#233;" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="la" lemma="le" pos="DET" />
+        <token forme="FIFA" lemma="FIFA" pos="PROPN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="passer" lemma="passer" pos="VERB" />
+        <token forme="&#224;" lemma="&#224;" pos="ADP" />
+        <token forme="une" lemma="un" pos="DET" />
+        <token forme="Coupe" lemma="coupe" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="monde" lemma="monde" pos="NOUN" />
+        <token forme="bisannuelle" lemma="bisannuel" pos="ADJ" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="en" lemma="en" pos="ADP" />
+        <token forme="opposition" lemma="opposition" pos="NOUN" />
+        <token forme="avec" lemma="avec" pos="ADP" />
+        <token forme="l&#8217;" lemma="le" pos="DET" />
+        <token forme="UEFA" lemma="UEFA" pos="PROPN" />
+        <token forme="." lemma="." pos="PUNCT" />
+      </analyse>
+    </article>
+    <article>
+      <title>Le succ&#232;s de Sorare gr&#226;ce &#224; ses vignettes num&#233;riques de footballeurs</title>
+      <description>Acheter des images virtuelles de joueurs, les revendre&#8230; Cr&#233;&#233; par deux Fran&#231;ais, le jeu de fantasy football, qui m&#234;le performances sportives r&#233;elles et cryptomonnaie, d&#233;cha&#238;ne les passions et l&#232;ve des fonds.</description>
+      <categorie />
+      <analyse>
+        <token forme="Le" lemma="le" pos="DET" />
+        <token forme="succ&#232;s" lemma="succ&#232;s" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="Sorare" lemma="Sorare" pos="PROPN" />
+        <token forme="gr&#226;ce" lemma="gr&#226;ce" pos="NOUN" />
+        <token forme="&#224;" lemma="&#224;" pos="ADP" />
+        <token forme="ses" lemma="son" pos="DET" />
+        <token forme="vignettes" lemma="vignette" pos="NOUN" />
+        <token forme="num&#233;riques" lemma="num&#233;rique" pos="ADJ" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="footballeurs" lemma="footballeur" pos="NOUN" />
+        <token forme="Acheter" lemma="acheter" pos="VERB" />
+        <token forme="des" lemma="un" pos="DET" />
+        <token forme="images" lemma="image" pos="NOUN" />
+        <token forme="virtuelles" lemma="vittuel" pos="ADJ" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="joueurs" lemma="joueur" pos="NOUN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="les" lemma="le" pos="PRON" />
+        <token forme="revendre" lemma="revendre" pos="VERB" />
+        <token forme="&#8230;" lemma="..." pos="PUNCT" />
+        <token forme="Cr&#233;&#233;" lemma="cr&#233;er" pos="VERB" />
+        <token forme="par" lemma="par" pos="ADP" />
+        <token forme="deux" lemma="deux" pos="NUM" />
+        <token forme="Fran&#231;ais" lemma="fran&#231;ais" pos="NOUN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="jeu" lemma="jeu" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="fantasy" lemma="fantasy" pos="NOUN" />
+        <token forme="football" lemma="football" pos="NOUN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="qui" lemma="qui" pos="PRON" />
+        <token forme="m&#234;le" lemma="m&#234;ler" pos="VERB" />
+        <token forme="performances" lemma="performance" pos="NOUN" />
+        <token forme="sportives" lemma="sportif" pos="ADJ" />
+        <token forme="r&#233;elles" lemma="r&#233;el" pos="ADJ" />
+        <token forme="et" lemma="et" pos="CCONJ" />
+        <token forme="cryptomonnaie" lemma="cryptomonnaie" pos="NOUN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="d&#233;cha&#238;ne" lemma="d&#233;cha&#238;ner" pos="VERB" />
+        <token forme="les" lemma="le" pos="DET" />
+        <token forme="passions" lemma="passion" pos="NOUN" />
+        <token forme="et" lemma="et" pos="CCONJ" />
+        <token forme="l&#232;ve" lemma="lever" pos="VERB" />
+        <token forme="des" lemma="un" pos="DET" />
+        <token forme="fonds" lemma="fonds" pos="NOUN" />
+        <token forme="." lemma="." pos="PUNCT" />
+      </analyse>
+    </article>
+    <article>
+      <title>AS Monaco&#160;: Niko Kovac, l&#8217;entra&#238;neur du club, a &#233;t&#233; limog&#233;</title>
+      <description>Niko Kovac paie le manque de r&#233;sultats du club, &#233;limin&#233; d&#232;s le tour pr&#233;liminaire de Ligue des champions, et ses relations devenues compliqu&#233;es avec certains cadres de l&#8217;&#233;quipe, dont le capitaine, l&#8217;international fran&#231;ais Wissam Ben Yedder.</description>
+      <categorie />
+      <analyse>
+        <token forme="AS" lemma="AS" pos="PROPN" />
+        <token forme="Monaco" lemma="Monaco" pos="PROPN" />
+        <token forme=":" lemma=":" pos="PUNCT" />
+        <token forme="Niko" lemma="Niko" pos="PROPN" />
+        <token forme="Kovac" lemma="Kovac" pos="PROPN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="l&#8217;" lemma="le" pos="DET" />
+        <token forme="entra&#238;neur" lemma="entra&#238;neur" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="club" lemma="club" pos="NOUN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="a" lemma="avoir" pos="AUX" />
+        <token forme="&#233;t&#233;" lemma="&#234;tre" pos="AUX" />
+        <token forme="limog&#233;" lemma="limoger" pos="VERB" />
+        <token forme="Niko" lemma="Niko" pos="PROPN" />
+        <token forme="Kovac" lemma="Kovac" pos="PROPN" />
+        <token forme="paie" lemma="payer" pos="VERB" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="manque" lemma="manque" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="r&#233;sultats" lemma="r&#233;sultat" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="club" lemma="club" pos="NOUN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="&#233;limin&#233;" lemma="&#233;liminer" pos="VERB" />
+        <token forme="d&#232;s" lemma="d&#232;s" pos="ADP" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="tour" lemma="tour" pos="NOUN" />
+        <token forme="pr&#233;liminaire" lemma="pr&#233;liminaire" pos="ADJ" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="Ligue" lemma="ligue" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="les" lemma="le" pos="DET" />
+        <token forme="champions" lemma="champion" pos="NOUN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="et" lemma="et" pos="CCONJ" />
+        <token forme="ses" lemma="son" pos="DET" />
+        <token forme="relations" lemma="relation" pos="NOUN" />
+        <token forme="devenues" lemma="devenir" pos="VERB" />
+        <token forme="compliqu&#233;es" lemma="compliquer" pos="VERB" />
+        <token forme="avec" lemma="avec" pos="ADP" />
+        <token forme="certains" lemma="certain" pos="DET" />
+        <token forme="cadres" lemma="cadre" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="l&#8217;" lemma="le" pos="DET" />
+        <token forme="&#233;quipe" lemma="&#233;quipe" pos="NOUN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="dont" lemma="dont" pos="PRON" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="capitaine" lemma="capitaine" pos="NOUN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="l&#8217;" lemma="le" pos="DET" />
+        <token forme="international" lemma="international" pos="NOUN" />
+        <token forme="fran&#231;ais" lemma="fran&#231;ais" pos="ADJ" />
+        <token forme="Wissam" lemma="Wissam" pos="PROPN" />
+        <token forme="Ben" lemma="Ben" pos="PROPN" />
+        <token forme="Yedder" lemma="Yedder" pos="PROPN" />
+        <token forme="." lemma="." pos="PUNCT" />
+      </analyse>
+    </article>
+    <article>
+      <title>Explosion des cas de Covid-19&#160;: les clubs sportifs fran&#231;ais confront&#233;s &#224;&#160;des calendriers bouscul&#233;s</title>
+      <description>La crise sanitaire fait de nouveau vaciller le milieu sportif. De nombreux cas positifs ont &#233;t&#233; recens&#233;s en football, basket, handball, rugby et volley, entra&#238;nant reports et annulations, voire de possibles forfaits.</description>
+      <categorie />
+      <analyse>
+        <token forme="Explosion" lemma="explosion" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="les" lemma="le" pos="DET" />
+        <token forme="cas" lemma="cas" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="Covid-19" lemma="Covid-19" pos="PROPN" />
+        <token forme=":" lemma=":" pos="PUNCT" />
+        <token forme="les" lemma="le" pos="DET" />
+        <token forme="clubs" lemma="club" pos="NOUN" />
+        <token forme="sportifs" lemma="sportif" pos="ADJ" />
+        <token forme="fran&#231;ais" lemma="fran&#231;ais" pos="ADJ" />
+        <token forme="confront&#233;s" lemma="confronter" pos="VERB" />
+        <token forme="&#224;" lemma="&#224;" pos="ADP" />
+        <token forme="des" lemma="un" pos="DET" />
+        <token forme="calendriers" lemma="calendrier" pos="NOUN" />
+        <token forme="bouscul&#233;s" lemma="bousculer" pos="VERB" />
+        <token forme="La" lemma="le" pos="DET" />
+        <token forme="crise" lemma="crise" pos="NOUN" />
+        <token forme="sanitaire" lemma="sanitaire" pos="ADJ" />
+        <token forme="fait" lemma="faire" pos="AUX" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="nouveau" lemma="nouveau" pos="ADJ" />
+        <token forme="vaciller" lemma="vaciller" pos="VERB" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="milieu" lemma="milieu" pos="NOUN" />
+        <token forme="sportif" lemma="sportif" pos="ADJ" />
+        <token forme="." lemma="." pos="PUNCT" />
+        <token forme="De" lemma="un" pos="DET" />
+        <token forme="nombreux" lemma="nombreux" pos="ADJ" />
+        <token forme="cas" lemma="cas" pos="NOUN" />
+        <token forme="positifs" lemma="positif" pos="ADJ" />
+        <token forme="ont" lemma="avoir" pos="AUX" />
+        <token forme="&#233;t&#233;" lemma="&#234;tre" pos="AUX" />
+        <token forme="recens&#233;s" lemma="recenser" pos="VERB" />
+        <token forme="en" lemma="en" pos="ADP" />
+        <token forme="football" lemma="football" pos="NOUN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="basket" lemma="basket" pos="NOUN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="handball" lemma="handball" pos="NOUN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="rugby" lemma="rugby" pos="NOUN" />
+        <token forme="et" lemma="et" pos="CCONJ" />
+        <token forme="volley" lemma="volley" pos="NOUN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="entra&#238;nant" lemma="entra&#238;ner" pos="VERB" />
+        <token forme="reports" lemma="report" pos="NOUN" />
+        <token forme="et" lemma="et" pos="CCONJ" />
+        <token forme="annulations" lemma="annulation" pos="NOUN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="voire" lemma="voire" pos="CCONJ" />
+        <token forme="de" lemma="un" pos="DET" />
+        <token forme="possibles" lemma="possible" pos="ADJ" />
+        <token forme="forfaits" lemma="forfait" pos="NOUN" />
+        <token forme="." lemma="." pos="PUNCT" />
+      </analyse>
+    </article>
+    <article>
+      <title>Ligue&#160;1&#160;: Troyes se s&#233;pare de son entra&#238;neur Laurent Batlles</title>
+      <description>Cette annonce, au c&#339;ur d&#8217;une saison en dents de scie, n&#8217;&#233;tait pas attendue. Selon le club, il s&#8217;agit d&#8217;une d&#233;cision prise &#171;&#160;d&#8217;un commun accord&#160;&#187;.</description>
+      <categorie />
+      <analyse>
+        <token forme="Ligue" lemma="ligue" pos="NOUN" />
+        <token forme="1" lemma="1" pos="NUM" />
+        <token forme=":" lemma=":" pos="PUNCT" />
+        <token forme="Troyes" lemma="Troyes" pos="PROPN" />
+        <token forme="se" lemma="se" pos="PRON" />
+        <token forme="s&#233;pare" lemma="s&#233;parer" pos="VERB" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="son" lemma="son" pos="DET" />
+        <token forme="entra&#238;neur" lemma="entra&#238;neur" pos="NOUN" />
+        <token forme="Laurent" lemma="Laurent" pos="PROPN" />
+        <token forme="Batlles" lemma="Batlles" pos="PROPN" />
+        <token forme="Cette" lemma="ce" pos="DET" />
+        <token forme="annonce" lemma="annonce" pos="NOUN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="&#224;" lemma="&#224;" pos="ADP" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="c&#339;ur" lemma="c&#339;ur" pos="NOUN" />
+        <token forme="d&#8217;" lemma="de" pos="ADP" />
+        <token forme="une" lemma="un" pos="DET" />
+        <token forme="saison" lemma="saison" pos="NOUN" />
+        <token forme="en" lemma="en" pos="ADP" />
+        <token forme="dents" lemma="dent" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="scie" lemma="scie" pos="NOUN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="n&#8217;" lemma="ne" pos="ADV" />
+        <token forme="&#233;tait" lemma="&#234;tre" pos="AUX" />
+        <token forme="pas" lemma="pas" pos="ADV" />
+        <token forme="attendue" lemma="attendre" pos="VERB" />
+        <token forme="." lemma="." pos="PUNCT" />
+        <token forme="Selon" lemma="selon" pos="ADP" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="club" lemma="club" pos="NOUN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="il" lemma="il" pos="PRON" />
+        <token forme="s&#8217;" lemma="se" pos="PRON" />
+        <token forme="agit" lemma="agir" pos="VERB" />
+        <token forme="d&#8217;" lemma="de" pos="ADP" />
+        <token forme="une" lemma="un" pos="DET" />
+        <token forme="d&#233;cision" lemma="d&#233;cision" pos="NOUN" />
+        <token forme="prise" lemma="prendre" pos="VERB" />
+        <token forme="&#171;" lemma="&#171;" pos="PUNCT" />
+        <token forme="d&#8217;" lemma="de" pos="ADP" />
+        <token forme="un" lemma="un" pos="DET" />
+        <token forme="commun" lemma="commun" pos="ADJ" />
+        <token forme="accord" lemma="accord" pos="NOUN" />
+        <token forme="&#187;" lemma="&#187;" pos="PUNCT" />
+        <token forme="." lemma="." pos="PUNCT" />
+      </analyse>
+    </article>
+    <article>
+      <title>La Chine interdit les tatouages &#224; ses footballeurs</title>
+      <description>Les joueurs de la s&#233;lection nationale ont dor&#233;navant &#171;&#160;l&#8217;interdiction formelle d&#8217;avoir de nouveaux tatouages&#160;&#187;, a annonc&#233; le minist&#232;re des sports.</description>
+      <categorie />
+      <analyse>
+        <token forme="La" lemma="le" pos="DET" />
+        <token forme="Chine" lemma="Chine" pos="PROPN" />
+        <token forme="interdit" lemma="interdire" pos="VERB" />
+        <token forme="les" lemma="le" pos="DET" />
+        <token forme="tatouages" lemma="tatouage" pos="NOUN" />
+        <token forme="&#224;" lemma="&#224;" pos="ADP" />
+        <token forme="ses" lemma="son" pos="DET" />
+        <token forme="footballeurs" lemma="footballeur" pos="NOUN" />
+        <token forme="Les" lemma="le" pos="DET" />
+        <token forme="joueurs" lemma="joueur" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="la" lemma="le" pos="DET" />
+        <token forme="s&#233;lection" lemma="s&#233;lection" pos="NOUN" />
+        <token forme="nationale" lemma="national" pos="ADJ" />
+        <token forme="ont" lemma="avoir" pos="VERB" />
+        <token forme="dor&#233;navant" lemma="dor&#233;navant" pos="ADV" />
+        <token forme="&#171;" lemma="&#171;" pos="PUNCT" />
+        <token forme="l&#8217;" lemma="le" pos="DET" />
+        <token forme="interdiction" lemma="interdiction" pos="NOUN" />
+        <token forme="formelle" lemma="formel" pos="ADJ" />
+        <token forme="d&#8217;" lemma="de" pos="ADP" />
+        <token forme="avoir" lemma="avoir" pos="VERB" />
+        <token forme="de" lemma="un" pos="DET" />
+        <token forme="nouveaux" lemma="nouveau" pos="ADJ" />
+        <token forme="tatouages" lemma="tatouage" pos="NOUN" />
+        <token forme="&#187;" lemma="&#187;" pos="PUNCT" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="a" lemma="avoir" pos="AUX" />
+        <token forme="annonc&#233;" lemma="annoncer" pos="VERB" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="minist&#232;re" lemma="minist&#232;re" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="les" lemma="le" pos="DET" />
+        <token forme="sports" lemma="sport" pos="NOUN" />
+        <token forme="." lemma="." pos="PUNCT" />
+      </analyse>
+    </article>
+    <article>
+      <title>&#171;&#160;La concurrence dans le sport europ&#233;en doit &#234;tre am&#233;nag&#233;e par de nouveaux m&#233;canismes de r&#233;gulation&#160;&#187;</title>
+      <description>R&#233;gis Juanico, d&#233;put&#233; (G&#233;n&#233;ration.s) de la Loire, vice-pr&#233;sident de la commission des affaires culturelles et de l&#8217;&#233;ducation &#224; l&#8217;Assembl&#233;e nationale, s&#8217;inqui&#232;te, dans une tribune au &#171;&#160;Monde&#160;&#187;, de la privatisation des grandes comp&#233;titions sportives par des int&#233;r&#234;ts priv&#233;s qui, selon lui, captent le &#171;&#160;bien commun&#160;&#187;, et propose un nouveau mod&#232;le.</description>
+      <categorie />
+      <analyse>
+        <token forme="&#171;" lemma="&#171;" pos="PUNCT" />
+        <token forme="La" lemma="le" pos="DET" />
+        <token forme="concurrence" lemma="concurrence" pos="NOUN" />
+        <token forme="dans" lemma="dans" pos="ADP" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="sport" lemma="sport" pos="NOUN" />
+        <token forme="europ&#233;en" lemma="europ&#233;en" pos="ADJ" />
+        <token forme="doit" lemma="devoir" pos="VERB" />
+        <token forme="&#234;tre" lemma="&#234;tre" pos="AUX" />
+        <token forme="am&#233;nag&#233;e" lemma="am&#233;nager" pos="VERB" />
+        <token forme="par" lemma="par" pos="ADP" />
+        <token forme="de" lemma="un" pos="DET" />
+        <token forme="nouveaux" lemma="nouveau" pos="ADJ" />
+        <token forme="m&#233;canismes" lemma="m&#233;canisme" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="r&#233;gulation" lemma="r&#233;gulation" pos="NOUN" />
+        <token forme="&#187;" lemma="&#187;" pos="PUNCT" />
+        <token forme="R&#233;gis" lemma="R&#233;gis" pos="PROPN" />
+        <token forme="Juanico" lemma="Juanico" pos="PROPN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="d&#233;put&#233;" lemma="d&#233;put&#233;" pos="NOUN" />
+        <token forme="(" lemma="(" pos="PUNCT" />
+        <token forme="G&#233;n&#233;ration.s" lemma="G&#233;n&#233;ration.s" pos="PROPN" />
+        <token forme=")" lemma=")" pos="PUNCT" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="la" lemma="le" pos="DET" />
+        <token forme="Loire" lemma="Loire" pos="PROPN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="vice-pr&#233;sident" lemma="vice-pr&#233;sident" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="la" lemma="le" pos="DET" />
+        <token forme="commission" lemma="commission" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="les" lemma="le" pos="DET" />
+        <token forme="affaires" lemma="affaire" pos="NOUN" />
+        <token forme="culturelles" lemma="culturel" pos="ADJ" />
+        <token forme="et" lemma="et" pos="CCONJ" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="l&#8217;" lemma="le" pos="DET" />
+        <token forme="&#233;ducation" lemma="&#233;ducation" pos="NOUN" />
+        <token forme="&#224;" lemma="&#224;" pos="ADP" />
+        <token forme="l&#8217;" lemma="le" pos="DET" />
+        <token forme="Assembl&#233;e" lemma="assembl&#233;e" pos="NOUN" />
+        <token forme="nationale" lemma="national" pos="ADJ" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="s&#8217;" lemma="se" pos="PRON" />
+        <token forme="inqui&#232;te" lemma="inqui&#233;ter" pos="VERB" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="dans" lemma="dans" pos="ADP" />
+        <token forme="une" lemma="un" pos="DET" />
+        <token forme="tribune" lemma="tribune" pos="NOUN" />
+        <token forme="&#224;" lemma="&#224;" pos="ADP" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="&#171;" lemma="&#171;" pos="PUNCT" />
+        <token forme="Monde" lemma="monde" pos="NOUN" />
+        <token forme="&#187;" lemma="&#187;" pos="PUNCT" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="la" lemma="le" pos="DET" />
+        <token forme="privatisation" lemma="privatisation" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="les" lemma="le" pos="DET" />
+        <token forme="grandes" lemma="grand" pos="ADJ" />
+        <token forme="comp&#233;titions" lemma="comp&#233;tition" pos="NOUN" />
+        <token forme="sportives" lemma="sportif" pos="ADJ" />
+        <token forme="par" lemma="par" pos="ADP" />
+        <token forme="des" lemma="un" pos="DET" />
+        <token forme="int&#233;r&#234;ts" lemma="int&#233;r&#234;t" pos="NOUN" />
+        <token forme="priv&#233;s" lemma="priv&#233;" pos="ADJ" />
+        <token forme="qui" lemma="qui" pos="PRON" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="selon" lemma="selon" pos="ADP" />
+        <token forme="lui" lemma="lui" pos="PRON" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="captent" lemma="capter" pos="VERB" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="&#171;" lemma="&#171;" pos="PUNCT" />
+        <token forme="bien" lemma="bien" pos="NOUN" />
+        <token forme="commun" lemma="commun" pos="ADJ" />
+        <token forme="&#187;" lemma="&#187;" pos="PUNCT" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="et" lemma="et" pos="CCONJ" />
+        <token forme="propose" lemma="proposer" pos="VERB" />
+        <token forme="un" lemma="un" pos="DET" />
+        <token forme="nouveau" lemma="nouveau" pos="ADJ" />
+        <token forme="mod&#232;le" lemma="mod&#232;le" pos="NOUN" />
+        <token forme="." lemma="." pos="PUNCT" />
+      </analyse>
+    </article>
+    <article>
+      <title>La revanche dor&#233;e d&#8217;Agbegnenou, le doubl&#233; arc-en-ciel d&#8217;Alaphilippe, le bel &#233;t&#233; des sports co fran&#231;ais&#160;: dix moments forts de l&#8217;ann&#233;e sportive</title>
+      <description>Du retour gagnant du nageur Florent Manaudou &#224; la moisson de m&#233;dailles de la d&#233;l&#233;gation tricolore aux Jeux paralympiques, &#171;&#160;Le Monde&#160;&#187; revient sur quelques belles performances de l&#8217;ann&#233;e &#233;coul&#233;e.</description>
+      <categorie />
+      <analyse>
+        <token forme="La" lemma="le" pos="DET" />
+        <token forme="revanche" lemma="revanche" pos="NOUN" />
+        <token forme="dor&#233;e" lemma="dor&#233;" pos="ADJ" />
+        <token forme="d&#8217;" lemma="de" pos="ADP" />
+        <token forme="Agbegnenou" lemma="Agbegnenou" pos="PROPN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="doubl&#233;" lemma="doubl&#233;" pos="NOUN" />
+        <token forme="arc-en-ciel" lemma="arc-en-ciel" pos="NOUN" />
+        <token forme="d&#8217;" lemma="de" pos="ADP" />
+        <token forme="Alaphilippe" lemma="Alaphilippe" pos="PROPN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="bel" lemma="beau" pos="ADJ" />
+        <token forme="&#233;t&#233;" lemma="&#233;t&#233;" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="les" lemma="le" pos="DET" />
+        <token forme="sports" lemma="sport" pos="NOUN" />
+        <token forme="co" lemma="co" pos="NOUN" />
+        <token forme="fran&#231;ais" lemma="fran&#231;ais" pos="ADJ" />
+        <token forme=":" lemma=":" pos="PUNCT" />
+        <token forme="dix" lemma="dix" pos="NUM" />
+        <token forme="moments" lemma="moment" pos="NOUN" />
+        <token forme="forts" lemma="fort" pos="ADJ" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="l&#8217;" lemma="le" pos="DET" />
+        <token forme="ann&#233;e" lemma="ann&#233;e" pos="NOUN" />
+        <token forme="sportive" lemma="sportif" pos="ADJ" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="retour" lemma="retour" pos="NOUN" />
+        <token forme="gagnant" lemma="gagner" pos="ADJ" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="nageur" lemma="nageur" pos="NOUN" />
+        <token forme="Florent" lemma="Florent" pos="PROPN" />
+        <token forme="Manaudou" lemma="Manaudou" pos="PROPN" />
+        <token forme="&#224;" lemma="&#224;" pos="ADP" />
+        <token forme="la" lemma="le" pos="DET" />
+        <token forme="moisson" lemma="moisson" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="m&#233;dailles" lemma="m&#233;daille" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="la" lemma="le" pos="DET" />
+        <token forme="d&#233;l&#233;gation" lemma="d&#233;l&#233;gation" pos="NOUN" />
+        <token forme="tricolore" lemma="tricolore" pos="ADJ" />
+        <token forme="&#224;" lemma="&#224;" pos="ADP" />
+        <token forme="les" lemma="le" pos="DET" />
+        <token forme="Jeux" lemma="jeu" pos="NOUN" />
+        <token forme="paralympiques" lemma="paralympique" pos="ADJ" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="&#171;" lemma="&#171;" pos="PUNCT" />
+        <token forme="Le" lemma="le" pos="DET" />
+        <token forme="Monde" lemma="monde" pos="NOUN" />
+        <token forme="&#187;" lemma="&#187;" pos="PUNCT" />
+        <token forme="revient" lemma="revenir" pos="VERB" />
+        <token forme="sur" lemma="sur" pos="ADP" />
+        <token forme="quelques" lemma="quelque" pos="DET" />
+        <token forme="belles" lemma="beau" pos="ADJ" />
+        <token forme="performances" lemma="performance" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="l&#8217;" lemma="le" pos="DET" />
+        <token forme="ann&#233;e" lemma="ann&#233;e" pos="NOUN" />
+        <token forme="&#233;coul&#233;e" lemma="&#233;couler" pos="VERB" />
+        <token forme="." lemma="." pos="PUNCT" />
+      </analyse>
+    </article>
+    <article>
+      <title>OGC Nice&#160;: Antoine Bonifaci, &#171;&#160;l&#233;gende&#160;&#187; du club et ex-international, est mort</title>
+      <description>L&#8217;ancien joueur avait 90&#160;ans. C&#8217;est une &#171;&#160;l&#233;gende du club rouge et noir&#160;&#187; qui s&#8217;est &#233;teinte le 29&#160;d&#233;cembre, regrette le club.</description>
+      <categorie />
+      <analyse>
+        <token forme="OGC" lemma="OGC" pos="PROPN" />
+        <token forme="Nice" lemma="Nice" pos="PROPN" />
+        <token forme=":" lemma=":" pos="PUNCT" />
+        <token forme="Antoine" lemma="Antoine" pos="PROPN" />
+        <token forme="Bonifaci" lemma="Bonifaci" pos="PROPN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="&#171;" lemma="&#171;" pos="PUNCT" />
+        <token forme="l&#233;gende" lemma="l&#233;gende" pos="NOUN" />
+        <token forme="&#187;" lemma="&#187;" pos="PUNCT" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="club" lemma="club" pos="NOUN" />
+        <token forme="et" lemma="et" pos="CCONJ" />
+        <token forme="ex-international" lemma="ex-international" pos="NOUN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="est" lemma="&#234;tre" pos="AUX" />
+        <token forme="mort" lemma="mourir" pos="VERB" />
+        <token forme="L&#8217;" lemma="le" pos="DET" />
+        <token forme="ancien" lemma="ancien" pos="ADJ" />
+        <token forme="joueur" lemma="joueur" pos="NOUN" />
+        <token forme="avait" lemma="avoir" pos="VERB" />
+        <token forme="90" lemma="90" pos="NUM" />
+        <token forme="ans" lemma="an" pos="NOUN" />
+        <token forme="." lemma="." pos="PUNCT" />
+        <token forme="C&#8217;" lemma="ce" pos="PRON" />
+        <token forme="est" lemma="&#234;tre" pos="AUX" />
+        <token forme="une" lemma="un" pos="DET" />
+        <token forme="&#171;" lemma="&#171;" pos="PUNCT" />
+        <token forme="l&#233;gende" lemma="l&#233;gende" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="club" lemma="club" pos="NOUN" />
+        <token forme="rouge" lemma="rouge" pos="ADJ" />
+        <token forme="et" lemma="et" pos="CCONJ" />
+        <token forme="noir" lemma="noir" pos="ADJ" />
+        <token forme="&#187;" lemma="&#187;" pos="PUNCT" />
+        <token forme="qui" lemma="qui" pos="PRON" />
+        <token forme="s&#8217;" lemma="se" pos="PRON" />
+        <token forme="est" lemma="&#234;tre" pos="AUX" />
+        <token forme="&#233;teinte" lemma="&#233;teindre" pos="VERB" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="29" lemma="29" pos="NUM" />
+        <token forme="d&#233;cembre" lemma="d&#233;cembre" pos="NOUN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="regrette" lemma="regretter" pos="VERB" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="club" lemma="club" pos="NOUN" />
+        <token forme="." lemma="." pos="PUNCT" />
+      </analyse>
+    </article>
+    <article>
+      <title>Chine, burn-out, vaccin&#160;: trois mots cl&#233;s de l&#8217;ann&#233;e sportive 2021</title>
+      <description>De l&#8217;affaire Peng Shuai &#224; la prise de parole de Naomi Osaka et Simone Biles, en passant par les r&#233;ticences de Novak Djokovic, tour d&#8217;horizon de ce qu&#8217;il s&#8217;est (aussi) pass&#233; en&#160;2021 dans le milieu sportif.</description>
+      <categorie />
+      <analyse>
+        <token forme="Chine" lemma="Chine" pos="PROPN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="burn-out" lemma="burn-out" pos="NOUN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="vaccin" lemma="vaccin" pos="NOUN" />
+        <token forme=":" lemma=":" pos="PUNCT" />
+        <token forme="trois" lemma="trois" pos="NUM" />
+        <token forme="mots" lemma="mot" pos="NOUN" />
+        <token forme="cl&#233;s" lemma="cl&#233;" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="l&#8217;" lemma="le" pos="DET" />
+        <token forme="ann&#233;e" lemma="ann&#233;e" pos="NOUN" />
+        <token forme="sportive" lemma="sportif" pos="ADJ" />
+        <token forme="2021" lemma="2021" pos="NUM" />
+        <token forme="De" lemma="de" pos="ADP" />
+        <token forme="l&#8217;" lemma="le" pos="DET" />
+        <token forme="affaire" lemma="affaire" pos="NOUN" />
+        <token forme="Peng" lemma="Peng" pos="PROPN" />
+        <token forme="Shuai" lemma="Shuai" pos="PROPN" />
+        <token forme="&#224;" lemma="&#224;" pos="ADP" />
+        <token forme="la" lemma="le" pos="DET" />
+        <token forme="prise" lemma="prise" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="parole" lemma="parole" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="Naomi" lemma="Naomi" pos="PROPN" />
+        <token forme="Osaka" lemma="Osaka" pos="PROPN" />
+        <token forme="et" lemma="et" pos="CCONJ" />
+        <token forme="Simone" lemma="Simone" pos="PROPN" />
+        <token forme="Biles" lemma="Biles" pos="PROPN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="en" lemma="en" pos="ADP" />
+        <token forme="passant" lemma="passer" pos="VERB" />
+        <token forme="par" lemma="par" pos="ADP" />
+        <token forme="les" lemma="le" pos="DET" />
+        <token forme="r&#233;ticences" lemma="r&#233;ticence" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="Novak" lemma="Novak" pos="PROPN" />
+        <token forme="Djokovic" lemma="Djokovic" pos="PROPN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="tour" lemma="tour" pos="NOUN" />
+        <token forme="d&#8217;" lemma="de" pos="ADP" />
+        <token forme="horizon" lemma="horizon" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="ce" lemma="ce" pos="PRON" />
+        <token forme="qu&#8217;" lemma="que" pos="PRON" />
+        <token forme="il" lemma="il" pos="PRON" />
+        <token forme="s&#8217;" lemma="se" pos="PRON" />
+        <token forme="est" lemma="&#234;tre" pos="AUX" />
+        <token forme="(" lemma="(" pos="PUNCT" />
+        <token forme="aussi" lemma="aussi" pos="ADV" />
+        <token forme=")" lemma=")" pos="PUNCT" />
+        <token forme="pass&#233;" lemma="passer" pos="VERB" />
+        <token forme="en" lemma="en" pos="ADP" />
+        <token forme="2021" lemma="2021" pos="NUM" />
+        <token forme="dans" lemma="dans" pos="ADP" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="milieu" lemma="milieu" pos="NOUN" />
+        <token forme="sportif" lemma="sportif" pos="ADJ" />
+        <token forme="." lemma="." pos="PUNCT" />
+      </analyse>
+    </article>
+    <article>
+      <title>Euro de football, athl&#233;tisme, tennis, violences dans les stades&#8230; les &#171;&#160;rat&#233;s&#160;&#187; de l&#8217;ann&#233;e sportive 2021</title>
+      <description>De la sortie pr&#233;matur&#233;e des Bleus dans la comp&#233;tition europ&#233;enne, &#224; la crise de la F&#233;d&#233;ration fran&#231;aise d&#8217;athl&#233;tisme en passant par la multiplication des incidents dans les enceintes de football, &#171;&#160;Le&#160;Monde&#160;&#187; revient sur quelques &#171;&#160;couacs&#160;&#187; de l&#8217;ann&#233;e &#233;coul&#233;e.</description>
+      <categorie />
+      <analyse>
+        <token forme="Euro" lemma="Euro" pos="PROPN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="football" lemma="football" pos="NOUN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="athl&#233;tisme" lemma="athl&#233;tisme" pos="NOUN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="tennis" lemma="tennis" pos="NOUN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="violences" lemma="violence" pos="NOUN" />
+        <token forme="dans" lemma="dans" pos="ADP" />
+        <token forme="les" lemma="le" pos="DET" />
+        <token forme="stades" lemma="stade" pos="NOUN" />
+        <token forme="&#8230;" lemma="..." pos="PUNCT" />
+        <token forme="les" lemma="le" pos="DET" />
+        <token forme="&#171;" lemma="&#171;" pos="PUNCT" />
+        <token forme="rat&#233;s" lemma="rat&#233;" pos="NOUN" />
+        <token forme="&#187;" lemma="&#187;" pos="PUNCT" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="l&#8217;" lemma="le" pos="DET" />
+        <token forme="ann&#233;e" lemma="ann&#233;e" pos="NOUN" />
+        <token forme="sportive" lemma="sportif" pos="ADJ" />
+        <token forme="2021" lemma="2021" pos="NUM" />
+        <token forme="De" lemma="de" pos="ADP" />
+        <token forme="la" lemma="le" pos="DET" />
+        <token forme="sortie" lemma="sortie" pos="NOUN" />
+        <token forme="pr&#233;matur&#233;e" lemma="pr&#233;matur&#233;" pos="ADJ" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="les" lemma="le" pos="DET" />
+        <token forme="Bleus" lemma="Bleus" pos="NOUN" />
+        <token forme="dans" lemma="dans" pos="ADP" />
+        <token forme="la" lemma="le" pos="DET" />
+        <token forme="comp&#233;tition" lemma="comp&#233;tition" pos="NOUN" />
+        <token forme="europ&#233;enne" lemma="europ&#233;en" pos="ADJ" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="&#224;" lemma="&#224;" pos="ADP" />
+        <token forme="la" lemma="le" pos="DET" />
+        <token forme="crise" lemma="crise" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="la" lemma="le" pos="DET" />
+        <token forme="F&#233;d&#233;ration" lemma="f&#233;d&#233;ration" pos="NOUN" />
+        <token forme="fran&#231;aise" lemma="fran&#231;ais" pos="ADJ" />
+        <token forme="d&#8217;" lemma="de" pos="ADP" />
+        <token forme="athl&#233;tisme" lemma="athl&#233;tisme" pos="NOUN" />
+        <token forme="en" lemma="en" pos="ADP" />
+        <token forme="passant" lemma="passer" pos="VERB" />
+        <token forme="par" lemma="par" pos="ADP" />
+        <token forme="la" lemma="le" pos="DET" />
+        <token forme="multiplication" lemma="multiplication" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="les" lemma="le" pos="DET" />
+        <token forme="incidents" lemma="incident" pos="NOUN" />
+        <token forme="dans" lemma="dans" pos="ADP" />
+        <token forme="les" lemma="le" pos="DET" />
+        <token forme="enceintes" lemma="enceinte" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="football" lemma="football" pos="NOUN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="&#171;" lemma="&#171;" pos="PUNCT" />
+        <token forme="Le" lemma="le" pos="DET" />
+        <token forme="Monde" lemma="monde" pos="NOUN" />
+        <token forme="&#187;" lemma="&#187;" pos="PUNCT" />
+        <token forme="revient" lemma="revenir" pos="VERB" />
+        <token forme="sur" lemma="sur" pos="ADP" />
+        <token forme="quelques" lemma="quelque" pos="DET" />
+        <token forme="&#171;" lemma="&#171;" pos="PUNCT" />
+        <token forme="couacs" lemma="couacs" pos="NOUN" />
+        <token forme="&#187;" lemma="&#187;" pos="PUNCT" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="l&#8217;" lemma="le" pos="DET" />
+        <token forme="ann&#233;e" lemma="ann&#233;e" pos="NOUN" />
+        <token forme="&#233;coul&#233;e" lemma="&#233;couler" pos="VERB" />
+        <token forme="." lemma="." pos="PUNCT" />
+      </analyse>
+    </article>
+    <article>
+      <title>Hugo Maradona, le fr&#232;re de Diego, est mort &#224; l&#8217;&#226;ge de 52&#160;ans</title>
+      <description>Le cadet du g&#233;nie argentin du football a succomb&#233; &#224; un infarctus dans sa maison de l&#8217;agglom&#233;ration napolitaine, selon des m&#233;dias italiens.</description>
+      <categorie />
+      <analyse>
+        <token forme="Hugo" lemma="Hugo" pos="PROPN" />
+        <token forme="Maradona" lemma="Maradona" pos="PROPN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="fr&#232;re" lemma="fr&#232;re" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="Diego" lemma="Diego" pos="PROPN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="est" lemma="&#234;tre" pos="AUX" />
+        <token forme="mort" lemma="mourir" pos="VERB" />
+        <token forme="&#224;" lemma="&#224;" pos="ADP" />
+        <token forme="l&#8217;" lemma="le" pos="DET" />
+        <token forme="&#226;ge" lemma="&#226;ge" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="52" lemma="52" pos="NUM" />
+        <token forme="ans" lemma="an" pos="NOUN" />
+        <token forme="Le" lemma="le" pos="DET" />
+        <token forme="cadet" lemma="cadet" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="g&#233;nie" lemma="g&#233;nie" pos="NOUN" />
+        <token forme="argentin" lemma="argentin" pos="ADJ" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="football" lemma="football" pos="NOUN" />
+        <token forme="a" lemma="avoir" pos="AUX" />
+        <token forme="succomb&#233;" lemma="succomber" pos="VERB" />
+        <token forme="&#224;" lemma="&#224;" pos="ADP" />
+        <token forme="un" lemma="un" pos="DET" />
+        <token forme="infarctus" lemma="infarctu" pos="NOUN" />
+        <token forme="dans" lemma="dans" pos="ADP" />
+        <token forme="sa" lemma="son" pos="DET" />
+        <token forme="maison" lemma="maison" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="l&#8217;" lemma="le" pos="DET" />
+        <token forme="agglom&#233;ration" lemma="agglom&#233;ration" pos="NOUN" />
+        <token forme="napolitaine" lemma="napolitain" pos="ADJ" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="selon" lemma="selon" pos="ADP" />
+        <token forme="des" lemma="un" pos="DET" />
+        <token forme="m&#233;dias" lemma="m&#233;dia" pos="NOUN" />
+        <token forme="italiens" lemma="italien" pos="ADJ" />
+        <token forme="." lemma="." pos="PUNCT" />
+      </analyse>
+    </article>
+    <article>
+      <title>Football&#160;: six joueurs africains qui ont brill&#233; en&#160;2021</title>
+      <description>Ils sont Gabonais, Ivoirien, Malien, Tunisien, Egyptien ou Marocain, &#233;voluent en Europe et en Afrique, et ont beaucoup fait parler d&#8217;eux gr&#226;ce &#224; leurs performances.</description>
+      <categorie />
+      <analyse>
+        <token forme="Football" lemma="football" pos="NOUN" />
+        <token forme=":" lemma=":" pos="PUNCT" />
+        <token forme="six" lemma="six" pos="NUM" />
+        <token forme="joueurs" lemma="joueur" pos="NOUN" />
+        <token forme="africains" lemma="africain" pos="ADJ" />
+        <token forme="qui" lemma="qui" pos="PRON" />
+        <token forme="ont" lemma="avoir" pos="AUX" />
+        <token forme="brill&#233;" lemma="briller" pos="VERB" />
+        <token forme="en" lemma="en" pos="ADP" />
+        <token forme="2021" lemma="2021" pos="NUM" />
+        <token forme="Ils" lemma="il" pos="PRON" />
+        <token forme="sont" lemma="&#234;tre" pos="AUX" />
+        <token forme="Gabonais" lemma="gabonais" pos="ADJ" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="Ivoirien" lemma="ivoirien" pos="NOUN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="Malien" lemma="Malien" pos="NOUN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="Tunisien" lemma="tunisien" pos="NOUN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="Egyptien" lemma="egyptien" pos="NOUN" />
+        <token forme="ou" lemma="ou" pos="CCONJ" />
+        <token forme="Marocain" lemma="marocain" pos="NOUN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="&#233;voluent" lemma="&#233;voluer" pos="VERB" />
+        <token forme="en" lemma="en" pos="ADP" />
+        <token forme="Europe" lemma="Europe" pos="PROPN" />
+        <token forme="et" lemma="et" pos="CCONJ" />
+        <token forme="en" lemma="en" pos="ADP" />
+        <token forme="Afrique" lemma="Afrique" pos="PROPN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="et" lemma="et" pos="CCONJ" />
+        <token forme="ont" lemma="avoir" pos="AUX" />
+        <token forme="beaucoup" lemma="beaucoup" pos="ADV" />
+        <token forme="fait" lemma="faire" pos="AUX" />
+        <token forme="parler" lemma="parler" pos="VERB" />
+        <token forme="d&#8217;" lemma="de" pos="ADP" />
+        <token forme="eux" lemma="lui" pos="PRON" />
+        <token forme="gr&#226;ce" lemma="gr&#226;ce" pos="NOUN" />
+        <token forme="&#224;" lemma="&#224;" pos="ADP" />
+        <token forme="leurs" lemma="son" pos="DET" />
+        <token forme="performances" lemma="performance" pos="NOUN" />
+        <token forme="." lemma="." pos="PUNCT" />
+      </analyse>
+    </article>
+    <article>
+      <title>Covid-19&#160;: avec le retour des jauges, le sport fran&#231;ais replonge dans l&#8217;incertitude</title>
+      <description>La d&#233;cision de limiter la fr&#233;quentation des enceintes sportives, &#224; compter du 3&#160;janvier, inqui&#232;te fortement les clubs, qui craignent pour leur mod&#232;le &#233;conomique si les restrictions venaient &#224; se durcir encore.</description>
+      <categorie />
+      <analyse>
+        <token forme="Covid-19" lemma="Covid-19" pos="PROPN" />
+        <token forme=":" lemma=":" pos="PUNCT" />
+        <token forme="avec" lemma="avec" pos="ADP" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="retour" lemma="retour" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="les" lemma="le" pos="DET" />
+        <token forme="jauges" lemma="jauge" pos="NOUN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="sport" lemma="sport" pos="NOUN" />
+        <token forme="fran&#231;ais" lemma="fran&#231;ais" pos="ADJ" />
+        <token forme="replonge" lemma="replonger" pos="VERB" />
+        <token forme="dans" lemma="dans" pos="ADP" />
+        <token forme="l&#8217;" lemma="le" pos="DET" />
+        <token forme="incertitude" lemma="incertitude" pos="NOUN" />
+        <token forme="La" lemma="le" pos="DET" />
+        <token forme="d&#233;cision" lemma="d&#233;cision" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="limiter" lemma="limiter" pos="VERB" />
+        <token forme="la" lemma="le" pos="DET" />
+        <token forme="fr&#233;quentation" lemma="fr&#233;quentation" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="les" lemma="le" pos="DET" />
+        <token forme="enceintes" lemma="enceinte" pos="NOUN" />
+        <token forme="sportives" lemma="sportif" pos="ADJ" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="&#224;" lemma="&#224;" pos="ADP" />
+        <token forme="compter" lemma="compter" pos="VERB" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="3" lemma="3" pos="NUM" />
+        <token forme="janvier" lemma="janvier" pos="NOUN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="inqui&#232;te" lemma="inqui&#233;ter" pos="VERB" />
+        <token forme="fortement" lemma="fortement" pos="ADV" />
+        <token forme="les" lemma="le" pos="DET" />
+        <token forme="clubs" lemma="club" pos="NOUN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="qui" lemma="qui" pos="PRON" />
+        <token forme="craignent" lemma="craindre" pos="VERB" />
+        <token forme="pour" lemma="pour" pos="ADP" />
+        <token forme="leur" lemma="son" pos="DET" />
+        <token forme="mod&#232;le" lemma="mod&#232;le" pos="NOUN" />
+        <token forme="&#233;conomique" lemma="&#233;conomique" pos="ADJ" />
+        <token forme="si" lemma="si" pos="SCONJ" />
+        <token forme="les" lemma="le" pos="DET" />
+        <token forme="restrictions" lemma="restriction" pos="NOUN" />
+        <token forme="venaient" lemma="venir" pos="VERB" />
+        <token forme="&#224;" lemma="&#224;" pos="ADP" />
+        <token forme="se" lemma="se" pos="PRON" />
+        <token forme="durcir" lemma="durcir" pos="VERB" />
+        <token forme="encore" lemma="encore" pos="ADV" />
+        <token forme="." lemma="." pos="PUNCT" />
+      </analyse>
+    </article>
+    <article>
+      <title>Ski alpin&#160;: Tessa Worley remporte le slalom g&#233;ant de Lienz</title>
+      <description>La skieuse fran&#231;aise a d&#233;croch&#233; sa premi&#232;re victoire de la saison, en l&#8217;absence de deux des cadors de la discipline, Shiffrin et Gut-Behrami, positives au coronavirus.</description>
+      <categorie />
+      <analyse>
+        <token forme="Ski" lemma="Ski" pos="PROPN" />
+        <token forme="alpin" lemma="alpin" pos="ADJ" />
+        <token forme=":" lemma=":" pos="PUNCT" />
+        <token forme="Tessa" lemma="Tessa" pos="PROPN" />
+        <token forme="Worley" lemma="Worley" pos="PROPN" />
+        <token forme="remporte" lemma="remporter" pos="VERB" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="slalom" lemma="slalom" pos="NOUN" />
+        <token forme="g&#233;ant" lemma="g&#233;ant" pos="ADJ" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="Lienz" lemma="Lienz" pos="PROPN" />
+        <token forme="La" lemma="le" pos="DET" />
+        <token forme="skieuse" lemma="skieur" pos="NOUN" />
+        <token forme="fran&#231;aise" lemma="fran&#231;ais" pos="ADJ" />
+        <token forme="a" lemma="avoir" pos="AUX" />
+        <token forme="d&#233;croch&#233;" lemma="d&#233;crocher" pos="VERB" />
+        <token forme="sa" lemma="son" pos="DET" />
+        <token forme="premi&#232;re" lemma="premier" pos="ADJ" />
+        <token forme="victoire" lemma="victoire" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="la" lemma="le" pos="DET" />
+        <token forme="saison" lemma="saison" pos="NOUN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="en" lemma="en" pos="ADP" />
+        <token forme="l&#8217;" lemma="le" pos="DET" />
+        <token forme="absence" lemma="absence" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="deux" lemma="deux" pos="NUM" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="les" lemma="le" pos="DET" />
+        <token forme="cadors" lemma="cador" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="la" lemma="le" pos="DET" />
+        <token forme="discipline" lemma="discipline" pos="NOUN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="Shiffrin" lemma="Shiffrin" pos="PROPN" />
+        <token forme="et" lemma="et" pos="CCONJ" />
+        <token forme="Gut-Behrami" lemma="Gut-Behrami" pos="PROPN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="positives" lemma="positif" pos="ADJ" />
+        <token forme="&#224;" lemma="&#224;" pos="ADP" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="coronavirus" lemma="coronavirus" pos="NOUN" />
+        <token forme="." lemma="." pos="PUNCT" />
+      </analyse>
+    </article>
+    <article>
+      <title>Football&#160;: les agents de joueurs marquent un point contre les avocats</title>
+      <description>Un arr&#234;t de la cour d&#8217;appel de Paris, mi-octobre, a annul&#233; une d&#233;cision du barreau de la capitale concernant les activit&#233;s de mandataires sportifs.</description>
+      <categorie />
+      <analyse>
+        <token forme="Football" lemma="football" pos="NOUN" />
+        <token forme=":" lemma=":" pos="PUNCT" />
+        <token forme="les" lemma="le" pos="DET" />
+        <token forme="agents" lemma="agent" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="joueurs" lemma="joueur" pos="NOUN" />
+        <token forme="marquent" lemma="marquer" pos="VERB" />
+        <token forme="un" lemma="un" pos="DET" />
+        <token forme="point" lemma="point" pos="NOUN" />
+        <token forme="contre" lemma="contre" pos="ADP" />
+        <token forme="les" lemma="le" pos="DET" />
+        <token forme="avocats" lemma="avocat" pos="NOUN" />
+        <token forme="Un" lemma="un" pos="DET" />
+        <token forme="arr&#234;t" lemma="arr&#234;t" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="la" lemma="le" pos="DET" />
+        <token forme="cour" lemma="cour" pos="NOUN" />
+        <token forme="d&#8217;" lemma="de" pos="ADP" />
+        <token forme="appel" lemma="appel" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="Paris" lemma="Paris" pos="PROPN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="mi-octobre" lemma="mi-octobre" pos="NOUN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="a" lemma="avoir" pos="AUX" />
+        <token forme="annul&#233;" lemma="annuler" pos="VERB" />
+        <token forme="une" lemma="un" pos="DET" />
+        <token forme="d&#233;cision" lemma="d&#233;cision" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="barreau" lemma="barreau" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="la" lemma="le" pos="DET" />
+        <token forme="capitale" lemma="capitale" pos="NOUN" />
+        <token forme="concernant" lemma="concernant" pos="ADP" />
+        <token forme="les" lemma="le" pos="DET" />
+        <token forme="activit&#233;s" lemma="activit&#233;" pos="NOUN" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="mandataires" lemma="mandataire" pos="NOUN" />
+        <token forme="sportifs" lemma="sportif" pos="ADJ" />
+        <token forme="." lemma="." pos="PUNCT" />
+      </analyse>
+    </article>
+    <article>
+      <title>Quiz&#160;: Avez-vous bien suivi le football en&#160;2021&#160;?</title>
+      <description>L&#8217;Euro 2021, le Ballon d&#8217;or f&#233;minin, la Coupe arabe ou le foot fauteuil, mesurez votre connaissance autour du ballon rond.</description>
+      <categorie />
+      <analyse>
+        <token forme="Quiz" lemma="Quiz" pos="PROPN" />
+        <token forme=":" lemma=":" pos="PUNCT" />
+        <token forme="Avez" lemma="avoir" pos="AUX" />
+        <token forme="-vous" lemma="il" pos="PRON" />
+        <token forme="bien" lemma="bien" pos="ADV" />
+        <token forme="suivi" lemma="suivre" pos="VERB" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="football" lemma="football" pos="NOUN" />
+        <token forme="en" lemma="en" pos="ADP" />
+        <token forme="2021" lemma="2021" pos="NUM" />
+        <token forme="?" lemma="?" pos="PUNCT" />
+        <token forme="L&#8217;" lemma="le" pos="DET" />
+        <token forme="Euro" lemma="Euro" pos="PROPN" />
+        <token forme="2021" lemma="2021" pos="NUM" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="Ballon" lemma="ballon" pos="NOUN" />
+        <token forme="d&#8217;" lemma="de" pos="ADP" />
+        <token forme="or" lemma="or" pos="NOUN" />
+        <token forme="f&#233;minin" lemma="f&#233;minin" pos="ADJ" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="la" lemma="le" pos="DET" />
+        <token forme="Coupe" lemma="coupe" pos="NOUN" />
+        <token forme="arabe" lemma="arabe" pos="ADJ" />
+        <token forme="ou" lemma="ou" pos="CCONJ" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="foot" lemma="foot" pos="ADJ" />
+        <token forme="fauteuil" lemma="fauteuil" pos="NOUN" />
+        <token forme="," lemma="," pos="PUNCT" />
+        <token forme="mesurez" lemma="meuurer" pos="VERB" />
+        <token forme="votre" lemma="son" pos="DET" />
+        <token forme="connaissance" lemma="connaissance" pos="NOUN" />
+        <token forme="autour" lemma="autour" pos="ADV" />
+        <token forme="de" lemma="de" pos="ADP" />
+        <token forme="le" lemma="le" pos="DET" />
+        <token forme="ballon" lemma="ballon" pos="NOUN" />
+        <token forme="rond" lemma="rond" pos="ADJ" />
+        <token forme="." lemma="." pos="PUNCT" />
+      </analyse>
+    </article>
+  </content>
+</corpus>
