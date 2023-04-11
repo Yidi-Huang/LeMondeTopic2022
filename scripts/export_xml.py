@@ -5,7 +5,7 @@ def article_to_xml(article:Article) -> ET.Element:
     art = ET.Element("article")
     title = ET.SubElement(art, "title")
     title.text = article.title
-    desc = ET.SubElement(art, "description")
+    desc = ET.SubElement(art, "desc")
     desc.text = article.description
     analyse = ET.SubElement(art, "analyse")
     for token in article.analyse:
@@ -14,6 +14,7 @@ def article_to_xml(article:Article) -> ET.Element:
         token_elem.attrib['lemme'] = token.lemme
         token_elem.attrib['pos'] = token.pos
     return art
+    
 
 def write_xml(corpus:Corpus):
     root = ET.Element("Corpus")

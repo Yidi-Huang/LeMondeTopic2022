@@ -7,6 +7,7 @@ from datetime import date # pour renvoyer dans le bon ordre chronologique
 
 from datastructure import Article, Corpus
 from export_xml import write_xml
+from annotation_trankit import nlp 
 
 # Définir les mois et les jours
 MONTHS = ["Jan",
@@ -102,6 +103,13 @@ def main():
                 desc_elem = ET.SubElement(article, "desc")
                 title_elem.text = title
                 desc_elem.text = desc 
+
+            # annotations = nlp(root)
+            for annotations in nlp(root):
+                analyse = ET.SubElement(root, "analyse")
+                tokens_elem = ET.SubElement(analyse, "tokens")
+                tokens_elem.text = annotations[0]
+
         tree = ET.ElementTree(root)
         tree.write(args.o,xml_declaration=True,encoding="utf-8",method="xml")
 
