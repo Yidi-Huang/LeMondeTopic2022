@@ -1,10 +1,14 @@
-from typing import Optional, List
+from typing import Optional, List, Dict
 from extraire_un import extraire_td
 import xml.etree.ElementTree as ET
 import argparse
 from pathlib import Path
 from datetime import date # pour renvoyer dans le bon ordre chronologique
 
+from datastructure import Article, Corpus
+from export_xml import write_xml
+
+# Définir les mois et les jours
 MONTHS = ["Jan",
           "Feb",
           "Mar",
