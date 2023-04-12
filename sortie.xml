@@ -1,0 +1,1339 @@
+<corpus begin="2022-01-01" end="2022-01-02">
+  <categories>
+    <cat>sport</cat>
+  </categories>
+  <content>
+    <article date="2022-01-02" categorie="sport">
+      <title>Coupe de France de football&#160;: Bastia et Nancy cr&#233;ent la surprise</title>
+      <description>Les deux clubs de Ligue 2 ont &#233;cart&#233; respectivement Clermont et Rennes, deux clubs de Ligue 1. Brest et Montpellier ont domin&#233; Bordeaux et Strasbourg. Nantes est &#233;galement qualifi&#233;.</description>
+      <analyse>
+        <token forme="Coupe" pos="NOUN" lemme="coupe" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="France" pos="PROPN" lemme="France" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="football" pos="NOUN" lemme="football" />
+        <token forme=":" pos="PUNCT" lemme=":" />
+        <token forme="Bastia" pos="PROPN" lemme="Bastia" />
+        <token forme="et" pos="CCONJ" lemme="et" />
+        <token forme="Nancy" pos="PROPN" lemme="Nancy" />
+        <token forme="cr&#233;ent" pos="VERB" lemme="cr&#233;er" />
+        <token forme="la" pos="DET" lemme="le" />
+        <token forme="surprise" pos="NOUN" lemme="surprise" />
+      </analyse>
+    </article>
+    <article date="2022-01-02" categorie="sport">
+      <title>Covid-19&#160;: Lionel Messi et trois joueurs du PSG positifs, la pand&#233;mie bouscule le football europ&#233;en</title>
+      <description>Quatre joueurs du PSG, dont la star argentine, ont &#233;t&#233; diagnostiqu&#233;s positifs, a annonc&#233; le club, dimanche. La pand&#233;mie n&#8217;&#233;pargne aucun championnat europ&#233;en.</description>
+      <analyse>
+        <token forme="Covid-19" pos="PROPN" lemme="Covid-19" />
+        <token forme=":" pos="PUNCT" lemme=":" />
+        <token forme="Lionel" pos="PROPN" lemme="Lionel" />
+        <token forme="Messi" pos="PROPN" lemme="Messi" />
+        <token forme="et" pos="CCONJ" lemme="et" />
+        <token forme="trois" pos="NUM" lemme="trois" />
+        <token forme="joueurs" pos="NOUN" lemme="joueur" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="le" pos="DET" lemme="le" />
+        <token forme="PSG" pos="PROPN" lemme="PSG" />
+        <token forme="positifs" pos="ADJ" lemme="positif" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="la" pos="DET" lemme="le" />
+        <token forme="pand&#233;mie" pos="NOUN" lemme="pand&#233;mie" />
+        <token forme="bouscule" pos="VERB" lemme="bousculer" />
+        <token forme="le" pos="DET" lemme="le" />
+        <token forme="football" pos="NOUN" lemme="football" />
+        <token forme="europ&#233;en" pos="ADJ" lemme="europ&#233;en" />
+        <token forme="Quatre" pos="NUM" lemme="Quatre" />
+        <token forme="joueurs" pos="NOUN" lemme="joueur" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="le" pos="DET" lemme="le" />
+        <token forme="PSG" pos="PROPN" lemme="PSG" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="dont" pos="PRON" lemme="dont" />
+        <token forme="la" pos="DET" lemme="le" />
+        <token forme="star" pos="NOUN" lemme="star" />
+        <token forme="argentine" pos="ADJ" lemme="argentin" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="ont" pos="AUX" lemme="avoir" />
+        <token forme="&#233;t&#233;" pos="AUX" lemme="&#234;tre" />
+        <token forme="diagnostiqu&#233;s" pos="VERB" lemme="diagnostiquer" />
+        <token forme="positifs" pos="ADJ" lemme="positif" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="a" pos="AUX" lemme="avoir" />
+        <token forme="annonc&#233;" pos="VERB" lemme="annoncer" />
+        <token forme="le" pos="DET" lemme="le" />
+        <token forme="club" pos="NOUN" lemme="club" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="dimanche" pos="NOUN" lemme="dimanche" />
+        <token forme="." pos="PUNCT" lemme="." />
+      </analyse>
+    </article>
+    <article date="2022-01-02" categorie="sport">
+      <title>Les grands rendez-vous du sport africain en&#160;2022</title>
+      <description>Pour le continent, l&#8217;ann&#233;e sportive commencera en fanfare le 9&#160;janvier, avec le coup d&#8217;envoi de la Coupe d&#8217;Afrique des nations de football au Cameroun.</description>
+      <analyse>
+        <token forme="Les" pos="DET" lemme="le" />
+        <token forme="grands" pos="ADJ" lemme="grand" />
+        <token forme="rendez" pos="NOUN" lemme="rendez" />
+        <token forme="-vous" pos="PRON" lemme="il" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="le" pos="DET" lemme="le" />
+        <token forme="sport" pos="NOUN" lemme="sport" />
+        <token forme="africain" pos="ADJ" lemme="africain" />
+        <token forme="en" pos="ADP" lemme="en" />
+        <token forme="2022" pos="NUM" lemme="2022" />
+      </analyse>
+    </article>
+    <article date="2022-01-02" categorie="sport">
+      <title>Dakar 2022&#160;: le pilote fran&#231;ais Philippe Boutron bless&#233; dans l&#8217;explosion de sa voiture</title>
+      <description>Bless&#233; &#224; la jambe, il a &#233;t&#233; op&#233;r&#233; en Arabie saoudite et doit &#234;tre rapatri&#233; en France. Des investigations sont en cours pour &#233;lucider les circonstances de l&#8217;explosion.</description>
+      <analyse>
+        <token forme="Dakar" pos="PROPN" lemme="Dakar" />
+        <token forme="2022" pos="NUM" lemme="2022" />
+        <token forme=":" pos="PUNCT" lemme=":" />
+        <token forme="le" pos="DET" lemme="le" />
+        <token forme="pilote" pos="NOUN" lemme="pilote" />
+        <token forme="fran&#231;ais" pos="ADJ" lemme="fran&#231;ais" />
+        <token forme="Philippe" pos="PROPN" lemme="Philippe" />
+        <token forme="Boutron" pos="PROPN" lemme="Boutron" />
+        <token forme="bless&#233;" pos="VERB" lemme="blesser" />
+        <token forme="dans" pos="ADP" lemme="dans" />
+        <token forme="l&#8217;" pos="DET" lemme="le" />
+        <token forme="explosion" pos="NOUN" lemme="explosion" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="sa" pos="DET" lemme="son" />
+        <token forme="voiture" pos="NOUN" lemme="voiture" />
+        <token forme="Bless&#233;" pos="VERB" lemme="blesser" />
+        <token forme="&#224;" pos="ADP" lemme="&#224;" />
+        <token forme="la" pos="DET" lemme="le" />
+        <token forme="jambe" pos="NOUN" lemme="jambe" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="il" pos="PRON" lemme="il" />
+        <token forme="a" pos="AUX" lemme="avoir" />
+        <token forme="&#233;t&#233;" pos="AUX" lemme="&#234;tre" />
+        <token forme="op&#233;r&#233;" pos="VERB" lemme="op&#233;rer" />
+        <token forme="en" pos="ADP" lemme="en" />
+        <token forme="Arabie" pos="PROPN" lemme="Arabie" />
+        <token forme="saoudite" pos="X" lemme="saoudite" />
+        <token forme="et" pos="CCONJ" lemme="et" />
+        <token forme="doit" pos="VERB" lemme="devoir" />
+        <token forme="&#234;tre" pos="AUX" lemme="&#234;tre" />
+        <token forme="rapatri&#233;" pos="VERB" lemme="rapatrier" />
+        <token forme="en" pos="ADP" lemme="en" />
+        <token forme="France" pos="PROPN" lemme="France" />
+        <token forme="." pos="PUNCT" lemme="." />
+      </analyse>
+    </article>
+    <article date="2022-01-02" categorie="sport">
+      <title>Handball&#160;: l&#8217;international fran&#231;ais Elohim Prandi hospitalis&#233; apr&#232;s une agression au couteau</title>
+      <description>L&#8217;arri&#232;re gauche, qui est hors de danger, s&#8217;annon&#231;ait comme un atout fort de la s&#233;lection de Guillaume Gille pour l&#8217;Euro, organis&#233; du 13 au 30&#160;janvier. Une enqu&#234;te a &#233;t&#233; ouverte du chef de tentative d&#8217;homicide et confi&#233;e &#224; la police judiciaire.</description>
+      <analyse>
+        <token forme="Handball" pos="PROPN" lemme="Handball" />
+        <token forme=":" pos="PUNCT" lemme=":" />
+        <token forme="l&#8217;" pos="DET" lemme="le" />
+        <token forme="international" pos="NOUN" lemme="international" />
+        <token forme="fran&#231;ais" pos="ADJ" lemme="fran&#231;ais" />
+        <token forme="Elohim" pos="PROPN" lemme="Elohim" />
+        <token forme="Prandi" pos="PROPN" lemme="Prandi" />
+        <token forme="hospitalis&#233;" pos="VERB" lemme="hospitaliser" />
+        <token forme="apr&#232;s" pos="ADP" lemme="apr&#232;s" />
+        <token forme="une" pos="DET" lemme="un" />
+        <token forme="agression" pos="NOUN" lemme="agression" />
+        <token forme="&#224;" pos="ADP" lemme="&#224;" />
+        <token forme="le" pos="DET" lemme="le" />
+        <token forme="couteau" pos="NOUN" lemme="couteau" />
+        <token forme="L&#8217;" pos="DET" lemme="le" />
+        <token forme="arri&#232;re" pos="NOUN" lemme="arri&#232;re" />
+        <token forme="gauche" pos="ADJ" lemme="gauche" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="qui" pos="PRON" lemme="qui" />
+        <token forme="est" pos="AUX" lemme="&#234;tre" />
+        <token forme="hors" pos="ADV" lemme="hors" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="danger" pos="NOUN" lemme="danger" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="s&#8217;" pos="PRON" lemme="se" />
+        <token forme="annon&#231;ait" pos="VERB" lemme="annoncer" />
+        <token forme="comme" pos="ADP" lemme="comme" />
+        <token forme="un" pos="DET" lemme="un" />
+        <token forme="atout" pos="NOUN" lemme="atout" />
+        <token forme="fort" pos="ADJ" lemme="fort" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="la" pos="DET" lemme="le" />
+        <token forme="s&#233;lection" pos="NOUN" lemme="s&#233;lection" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="Guillaume" pos="PROPN" lemme="Guillaume" />
+        <token forme="Gille" pos="PROPN" lemme="Gille" />
+        <token forme="pour" pos="ADP" lemme="pour" />
+        <token forme="l&#8217;" pos="DET" lemme="le" />
+        <token forme="Euro" pos="PROPN" lemme="Euro" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="organis&#233;" pos="VERB" lemme="organiser" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="le" pos="DET" lemme="le" />
+        <token forme="13" pos="NUM" lemme="13" />
+        <token forme="&#224;" pos="ADP" lemme="&#224;" />
+        <token forme="le" pos="DET" lemme="le" />
+        <token forme="30" pos="NUM" lemme="30" />
+        <token forme="janvier" pos="NOUN" lemme="janvier" />
+        <token forme="." pos="PUNCT" lemme="." />
+      </analyse>
+    </article>
+    <article date="2022-01-02" categorie="sport">
+      <title>Jeux olympiques&#160;: de Tokyo &#224; Paris, la gageure du sport fran&#231;ais</title>
+      <description>Apr&#232;s le bilan &#171;&#160;mitig&#233;&#160;&#187; des Bleus au Japon, les athl&#232;tes tricolores ont pour objectif d&#8217;int&#233;grer en&#160;2024, &#224; domicile, le Top 5 des m&#233;dailles. Un objectif illusoire&#160;?</description>
+      <analyse>
+        <token forme="Jeux" pos="NOUN" lemme="jeu" />
+        <token forme="olympiques" pos="ADJ" lemme="olympique" />
+        <token forme=":" pos="PUNCT" lemme=":" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="Tokyo" pos="PROPN" lemme="Tokyo" />
+        <token forme="&#224;" pos="ADP" lemme="&#224;" />
+        <token forme="Paris" pos="PROPN" lemme="Paris" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="la" pos="DET" lemme="le" />
+        <token forme="gageure" pos="NOUN" lemme="gageure" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="le" pos="DET" lemme="le" />
+        <token forme="sport" pos="NOUN" lemme="sport" />
+        <token forme="fran&#231;ais" pos="ADJ" lemme="fran&#231;ais" />
+        <token forme="Apr&#232;s" pos="ADP" lemme="apr&#232;s" />
+        <token forme="le" pos="DET" lemme="le" />
+        <token forme="bilan" pos="NOUN" lemme="bilan" />
+        <token forme="&#171;" pos="PUNCT" lemme="&#171;" />
+        <token forme="mitig&#233;" pos="ADJ" lemme="mitig&#233;" />
+        <token forme="&#187;" pos="PUNCT" lemme="&#187;" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="les" pos="DET" lemme="le" />
+        <token forme="Bleus" pos="PROPN" lemme="Bleus" />
+        <token forme="&#224;" pos="ADP" lemme="&#224;" />
+        <token forme="le" pos="DET" lemme="le" />
+        <token forme="Japon" pos="PROPN" lemme="Japon" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="les" pos="DET" lemme="le" />
+        <token forme="athl&#232;tes" pos="NOUN" lemme="athl&#232;te" />
+        <token forme="tricolores" pos="ADJ" lemme="tricolore" />
+        <token forme="ont" pos="VERB" lemme="avoir" />
+        <token forme="pour" pos="ADP" lemme="pour" />
+        <token forme="objectif" pos="NOUN" lemme="objectif" />
+        <token forme="d&#8217;" pos="ADP" lemme="de" />
+        <token forme="int&#233;grer" pos="VERB" lemme="int&#233;grer" />
+        <token forme="en" pos="ADP" lemme="en" />
+        <token forme="2024" pos="NUM" lemme="2024" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="&#224;" pos="ADP" lemme="&#224;" />
+        <token forme="domicile" pos="NOUN" lemme="domicile" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="le" pos="DET" lemme="le" />
+        <token forme="Top" pos="NOUN" lemme="top" />
+        <token forme="5" pos="NUM" lemme="5" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="les" pos="DET" lemme="le" />
+        <token forme="m&#233;dailles" pos="NOUN" lemme="m&#233;daille" />
+        <token forme="." pos="PUNCT" lemme="." />
+      </analyse>
+    </article>
+    <article date="2022-01-02" categorie="sport">
+      <title>Football&#160;: les supporteurs de Lille interdits de d&#233;placement &#224; Lens</title>
+      <description>Le minist&#232;re de l&#8217;int&#233;rieur consid&#232;re qu&#8217;il y a &#171;&#160;un risque r&#233;el et s&#233;rieux d&#8217;affrontement&#160;&#187; entre les supporteurs des deux clubs &#224; l&#8217;occasion du match de Coupe de France qui les opposera, mardi 4&#160;janvier.</description>
+      <analyse>
+        <token forme="Football" pos="NOUN" lemme="football" />
+        <token forme=":" pos="PUNCT" lemme=":" />
+        <token forme="les" pos="DET" lemme="le" />
+        <token forme="supporteurs" pos="NOUN" lemme="supporter" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="Lille" pos="PROPN" lemme="Lille" />
+        <token forme="interdits" pos="VERB" lemme="interdire" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="d&#233;placement" pos="NOUN" lemme="d&#233;placement" />
+        <token forme="&#224;" pos="ADP" lemme="&#224;" />
+        <token forme="Lens" pos="PROPN" lemme="Lens" />
+      </analyse>
+    </article>
+    <article date="2022-01-02" categorie="sport">
+      <title>Au Gabon, trois entra&#238;neurs de football mis en examen pour p&#233;docriminalit&#233;</title>
+      <description>L&#8217;affaire a &#233;t&#233; r&#233;v&#233;l&#233;e par le quotidien britannique &#171;&#160;The Guardian&#160;&#187; le 16&#160;d&#233;cembre. L&#8217;enqu&#234;te sera &#233;largie &#224; toutes les f&#233;d&#233;rations sportives nationales.</description>
+      <analyse>
+        <token forme="&#224;" pos="ADP" lemme="&#224;" />
+        <token forme="le" pos="DET" lemme="le" />
+        <token forme="Gabon" pos="PROPN" lemme="Gabon" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="trois" pos="NUM" lemme="trois" />
+        <token forme="entra&#238;neurs" pos="NOUN" lemme="entra&#238;neur" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="football" pos="NOUN" lemme="football" />
+        <token forme="mis" pos="VERB" lemme="mettre" />
+        <token forme="en" pos="ADP" lemme="en" />
+        <token forme="examen" pos="NOUN" lemme="examen" />
+        <token forme="pour" pos="ADP" lemme="pour" />
+        <token forme="p&#233;docriminalit&#233;" pos="NOUN" lemme="p&#233;docriminalit&#233;" />
+      </analyse>
+    </article>
+    <article date="2022-01-02" categorie="sport">
+      <title>Super Ligue, Mondial tous les deux ans&#160;: en&#160;2021, le football a &#233;tal&#233; ses d&#233;chirements</title>
+      <description>L&#8217;ann&#233;e &#233;coul&#233;e a vu la tentative de s&#233;cession de quelques grands clubs europ&#233;ens, avec la Super Ligue, et la volont&#233; de la FIFA de passer &#224; une Coupe du monde bisannuelle, en opposition avec l&#8217;UEFA.</description>
+      <analyse>
+        <token forme="Super" pos="ADJ" lemme="super" />
+        <token forme="Ligue" pos="NOUN" lemme="ligue" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="Mondial" pos="PROPN" lemme="Mondial" />
+        <token forme="tous" pos="ADJ" lemme="tout" />
+        <token forme="les" pos="DET" lemme="le" />
+        <token forme="deux" pos="NUM" lemme="deux" />
+        <token forme="ans" pos="NOUN" lemme="an" />
+        <token forme=":" pos="PUNCT" lemme=":" />
+        <token forme="en" pos="ADP" lemme="en" />
+        <token forme="2021" pos="NUM" lemme="2021" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="le" pos="DET" lemme="le" />
+        <token forme="football" pos="NOUN" lemme="football" />
+        <token forme="a" pos="AUX" lemme="avoir" />
+        <token forme="&#233;tal&#233;" pos="VERB" lemme="&#233;taler" />
+        <token forme="ses" pos="DET" lemme="son" />
+        <token forme="d&#233;chirements" pos="NOUN" lemme="d&#233;chirement" />
+      </analyse>
+    </article>
+    <article date="2022-01-02" categorie="sport">
+      <title>Le succ&#232;s de Sorare gr&#226;ce &#224; ses vignettes num&#233;riques de footballeurs</title>
+      <description>Acheter des images virtuelles de joueurs, les revendre&#8230; Cr&#233;&#233; par deux Fran&#231;ais, le jeu de fantasy football, qui m&#234;le performances sportives r&#233;elles et cryptomonnaie, d&#233;cha&#238;ne les passions et l&#232;ve des fonds.</description>
+      <analyse>
+        <token forme="Le" pos="DET" lemme="le" />
+        <token forme="succ&#232;s" pos="NOUN" lemme="succ&#232;s" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="Sorare" pos="PROPN" lemme="Sorare" />
+        <token forme="gr&#226;ce" pos="NOUN" lemme="gr&#226;ce" />
+        <token forme="&#224;" pos="ADP" lemme="&#224;" />
+        <token forme="ses" pos="DET" lemme="son" />
+        <token forme="vignettes" pos="NOUN" lemme="vignette" />
+        <token forme="num&#233;riques" pos="ADJ" lemme="num&#233;rique" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="footballeurs" pos="NOUN" lemme="footballeur" />
+        <token forme="Acheter" pos="VERB" lemme="acheter" />
+        <token forme="des" pos="DET" lemme="un" />
+        <token forme="images" pos="NOUN" lemme="image" />
+        <token forme="virtuelles" pos="ADJ" lemme="vittuel" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="joueurs" pos="NOUN" lemme="joueur" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="les" pos="PRON" lemme="le" />
+        <token forme="revendre" pos="VERB" lemme="revendre" />
+        <token forme="&#8230;" pos="PUNCT" lemme="..." />
+      </analyse>
+    </article>
+    <article date="2022-01-02" categorie="sport">
+      <title>AS Monaco&#160;: Niko Kovac, l&#8217;entra&#238;neur du club, a &#233;t&#233; limog&#233;</title>
+      <description>Niko Kovac paie le manque de r&#233;sultats du club, &#233;limin&#233; d&#232;s le tour pr&#233;liminaire de Ligue des champions, et ses relations devenues compliqu&#233;es avec certains cadres de l&#8217;&#233;quipe, dont le capitaine, l&#8217;international fran&#231;ais Wissam Ben Yedder.</description>
+      <analyse>
+        <token forme="AS" pos="PROPN" lemme="AS" />
+        <token forme="Monaco" pos="PROPN" lemme="Monaco" />
+        <token forme=":" pos="PUNCT" lemme=":" />
+        <token forme="Niko" pos="PROPN" lemme="Niko" />
+        <token forme="Kovac" pos="PROPN" lemme="Kovac" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="l&#8217;" pos="DET" lemme="le" />
+        <token forme="entra&#238;neur" pos="NOUN" lemme="entra&#238;neur" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="le" pos="DET" lemme="le" />
+        <token forme="club" pos="NOUN" lemme="club" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="a" pos="AUX" lemme="avoir" />
+        <token forme="&#233;t&#233;" pos="AUX" lemme="&#234;tre" />
+        <token forme="limog&#233;" pos="VERB" lemme="limoger" />
+        <token forme="Niko" pos="PROPN" lemme="Niko" />
+        <token forme="Kovac" pos="PROPN" lemme="Kovac" />
+        <token forme="paie" pos="VERB" lemme="payer" />
+        <token forme="le" pos="DET" lemme="le" />
+        <token forme="manque" pos="NOUN" lemme="manque" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="r&#233;sultats" pos="NOUN" lemme="r&#233;sultat" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="le" pos="DET" lemme="le" />
+        <token forme="club" pos="NOUN" lemme="club" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="&#233;limin&#233;" pos="VERB" lemme="&#233;liminer" />
+        <token forme="d&#232;s" pos="ADP" lemme="d&#232;s" />
+        <token forme="le" pos="DET" lemme="le" />
+        <token forme="tour" pos="NOUN" lemme="tour" />
+        <token forme="pr&#233;liminaire" pos="ADJ" lemme="pr&#233;liminaire" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="Ligue" pos="NOUN" lemme="ligue" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="les" pos="DET" lemme="le" />
+        <token forme="champions" pos="NOUN" lemme="champion" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="et" pos="CCONJ" lemme="et" />
+        <token forme="ses" pos="DET" lemme="son" />
+        <token forme="relations" pos="NOUN" lemme="relation" />
+        <token forme="devenues" pos="VERB" lemme="devenir" />
+        <token forme="compliqu&#233;es" pos="VERB" lemme="compliquer" />
+        <token forme="avec" pos="ADP" lemme="avec" />
+        <token forme="certains" pos="DET" lemme="certain" />
+        <token forme="cadres" pos="NOUN" lemme="cadre" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="l&#8217;" pos="DET" lemme="le" />
+        <token forme="&#233;quipe" pos="NOUN" lemme="&#233;quipe" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="dont" pos="PRON" lemme="dont" />
+        <token forme="le" pos="DET" lemme="le" />
+        <token forme="capitaine" pos="NOUN" lemme="capitaine" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="l&#8217;" pos="DET" lemme="le" />
+        <token forme="international" pos="NOUN" lemme="international" />
+        <token forme="fran&#231;ais" pos="ADJ" lemme="fran&#231;ais" />
+        <token forme="Wissam" pos="PROPN" lemme="Wissam" />
+        <token forme="Ben" pos="PROPN" lemme="Ben" />
+        <token forme="Yedder" pos="PROPN" lemme="Yedder" />
+        <token forme="." pos="PUNCT" lemme="." />
+      </analyse>
+    </article>
+    <article date="2022-01-02" categorie="sport">
+      <title>Explosion des cas de Covid-19&#160;: les clubs sportifs fran&#231;ais confront&#233;s &#224;&#160;des calendriers bouscul&#233;s</title>
+      <description>La crise sanitaire fait de nouveau vaciller le milieu sportif. De nombreux cas positifs ont &#233;t&#233; recens&#233;s en football, basket, handball, rugby et volley, entra&#238;nant reports et annulations, voire de possibles forfaits.</description>
+      <analyse>
+        <token forme="Explosion" pos="NOUN" lemme="explosion" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="les" pos="DET" lemme="le" />
+        <token forme="cas" pos="NOUN" lemme="cas" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="Covid-19" pos="PROPN" lemme="Covid-19" />
+        <token forme=":" pos="PUNCT" lemme=":" />
+        <token forme="les" pos="DET" lemme="le" />
+        <token forme="clubs" pos="NOUN" lemme="club" />
+        <token forme="sportifs" pos="ADJ" lemme="sportif" />
+        <token forme="fran&#231;ais" pos="ADJ" lemme="fran&#231;ais" />
+        <token forme="confront&#233;s" pos="VERB" lemme="confronter" />
+        <token forme="&#224;" pos="ADP" lemme="&#224;" />
+        <token forme="des" pos="DET" lemme="un" />
+        <token forme="calendriers" pos="NOUN" lemme="calendrier" />
+        <token forme="bouscul&#233;s" pos="VERB" lemme="bousculer" />
+      </analyse>
+    </article>
+    <article date="2022-01-02" categorie="sport">
+      <title>Ligue&#160;1&#160;: Troyes se s&#233;pare de son entra&#238;neur Laurent Batlles</title>
+      <description>Cette annonce, au c&#339;ur d&#8217;une saison en dents de scie, n&#8217;&#233;tait pas attendue. Selon le club, il s&#8217;agit d&#8217;une d&#233;cision prise &#171;&#160;d&#8217;un commun accord&#160;&#187;.</description>
+      <analyse>
+        <token forme="Ligue" pos="NOUN" lemme="ligue" />
+        <token forme="1" pos="NUM" lemme="1" />
+        <token forme=":" pos="PUNCT" lemme=":" />
+        <token forme="Troyes" pos="PROPN" lemme="Troyes" />
+        <token forme="se" pos="PRON" lemme="se" />
+        <token forme="s&#233;pare" pos="VERB" lemme="s&#233;parer" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="son" pos="DET" lemme="son" />
+        <token forme="entra&#238;neur" pos="NOUN" lemme="entra&#238;neur" />
+        <token forme="Laurent" pos="PROPN" lemme="Laurent" />
+        <token forme="Batlles" pos="PROPN" lemme="Batlles" />
+      </analyse>
+    </article>
+    <article date="2022-01-02" categorie="sport">
+      <title>La Chine interdit les tatouages &#224; ses footballeurs</title>
+      <description>Les joueurs de la s&#233;lection nationale ont dor&#233;navant &#171;&#160;l&#8217;interdiction formelle d&#8217;avoir de nouveaux tatouages&#160;&#187;, a annonc&#233; le minist&#232;re des sports.</description>
+      <analyse>
+        <token forme="La" pos="DET" lemme="le" />
+        <token forme="Chine" pos="PROPN" lemme="Chine" />
+        <token forme="interdit" pos="VERB" lemme="interdire" />
+        <token forme="les" pos="DET" lemme="le" />
+        <token forme="tatouages" pos="NOUN" lemme="tatouage" />
+        <token forme="&#224;" pos="ADP" lemme="&#224;" />
+        <token forme="ses" pos="DET" lemme="son" />
+        <token forme="footballeurs" pos="NOUN" lemme="footballeur" />
+      </analyse>
+    </article>
+    <article date="2022-01-02" categorie="sport">
+      <title>&#171;&#160;La concurrence dans le sport europ&#233;en doit &#234;tre am&#233;nag&#233;e par de nouveaux m&#233;canismes de r&#233;gulation&#160;&#187;</title>
+      <description>R&#233;gis Juanico, d&#233;put&#233; (G&#233;n&#233;ration.s) de la Loire, vice-pr&#233;sident de la commission des affaires culturelles et de l&#8217;&#233;ducation &#224; l&#8217;Assembl&#233;e nationale, s&#8217;inqui&#232;te, dans une tribune au &#171;&#160;Monde&#160;&#187;, de la privatisation des grandes comp&#233;titions sportives par des int&#233;r&#234;ts priv&#233;s qui, selon lui, captent le &#171;&#160;bien commun&#160;&#187;, et propose un nouveau mod&#232;le.</description>
+      <analyse>
+        <token forme="&#171;" pos="PUNCT" lemme="&#171;" />
+        <token forme="La" pos="DET" lemme="le" />
+        <token forme="concurrence" pos="NOUN" lemme="concurrence" />
+        <token forme="dans" pos="ADP" lemme="dans" />
+        <token forme="le" pos="DET" lemme="le" />
+        <token forme="sport" pos="NOUN" lemme="sport" />
+        <token forme="europ&#233;en" pos="ADJ" lemme="europ&#233;en" />
+        <token forme="doit" pos="VERB" lemme="devoir" />
+        <token forme="&#234;tre" pos="AUX" lemme="&#234;tre" />
+        <token forme="am&#233;nag&#233;e" pos="VERB" lemme="am&#233;nager" />
+        <token forme="par" pos="ADP" lemme="par" />
+        <token forme="de" pos="DET" lemme="un" />
+        <token forme="nouveaux" pos="ADJ" lemme="nouveau" />
+        <token forme="m&#233;canismes" pos="NOUN" lemme="m&#233;canisme" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="r&#233;gulation" pos="NOUN" lemme="r&#233;gulation" />
+        <token forme="&#187;" pos="PUNCT" lemme="&#187;" />
+        <token forme="R&#233;gis" pos="PROPN" lemme="R&#233;gis" />
+        <token forme="Juanico" pos="PROPN" lemme="Juanico" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="d&#233;put&#233;" pos="NOUN" lemme="d&#233;put&#233;" />
+        <token forme="(" pos="PUNCT" lemme="(" />
+        <token forme="G&#233;n&#233;ration.s" pos="PROPN" lemme="G&#233;n&#233;ration.s" />
+        <token forme=")" pos="PUNCT" lemme=")" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="la" pos="DET" lemme="le" />
+        <token forme="Loire" pos="PROPN" lemme="Loire" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="vice-pr&#233;sident" pos="NOUN" lemme="vice-pr&#233;sident" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="la" pos="DET" lemme="le" />
+        <token forme="commission" pos="NOUN" lemme="commission" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="les" pos="DET" lemme="le" />
+        <token forme="affaires" pos="NOUN" lemme="affaire" />
+        <token forme="culturelles" pos="ADJ" lemme="culturel" />
+        <token forme="et" pos="CCONJ" lemme="et" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="l&#8217;" pos="DET" lemme="le" />
+        <token forme="&#233;ducation" pos="NOUN" lemme="&#233;ducation" />
+        <token forme="&#224;" pos="ADP" lemme="&#224;" />
+        <token forme="l&#8217;" pos="DET" lemme="le" />
+        <token forme="Assembl&#233;e" pos="NOUN" lemme="assembl&#233;e" />
+        <token forme="nationale" pos="ADJ" lemme="national" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="s&#8217;" pos="PRON" lemme="se" />
+        <token forme="inqui&#232;te" pos="VERB" lemme="inqui&#233;ter" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="dans" pos="ADP" lemme="dans" />
+        <token forme="une" pos="DET" lemme="un" />
+        <token forme="tribune" pos="NOUN" lemme="tribune" />
+        <token forme="&#224;" pos="ADP" lemme="&#224;" />
+        <token forme="le" pos="DET" lemme="le" />
+        <token forme="&#171;" pos="PUNCT" lemme="&#171;" />
+        <token forme="Monde" pos="NOUN" lemme="monde" />
+        <token forme="&#187;" pos="PUNCT" lemme="&#187;" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="la" pos="DET" lemme="le" />
+        <token forme="privatisation" pos="NOUN" lemme="privatisation" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="les" pos="DET" lemme="le" />
+        <token forme="grandes" pos="ADJ" lemme="grand" />
+        <token forme="comp&#233;titions" pos="NOUN" lemme="comp&#233;tition" />
+        <token forme="sportives" pos="ADJ" lemme="sportif" />
+        <token forme="par" pos="ADP" lemme="par" />
+        <token forme="des" pos="DET" lemme="un" />
+        <token forme="int&#233;r&#234;ts" pos="NOUN" lemme="int&#233;r&#234;t" />
+        <token forme="priv&#233;s" pos="ADJ" lemme="priv&#233;" />
+        <token forme="qui" pos="PRON" lemme="qui" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="selon" pos="ADP" lemme="selon" />
+        <token forme="lui" pos="PRON" lemme="lui" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="captent" pos="VERB" lemme="capter" />
+        <token forme="le" pos="DET" lemme="le" />
+        <token forme="&#171;" pos="PUNCT" lemme="&#171;" />
+        <token forme="bien" pos="NOUN" lemme="bien" />
+        <token forme="commun" pos="ADJ" lemme="commun" />
+        <token forme="&#187;" pos="PUNCT" lemme="&#187;" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="et" pos="CCONJ" lemme="et" />
+        <token forme="propose" pos="VERB" lemme="proposer" />
+        <token forme="un" pos="DET" lemme="un" />
+        <token forme="nouveau" pos="ADJ" lemme="nouveau" />
+        <token forme="mod&#232;le" pos="NOUN" lemme="mod&#232;le" />
+        <token forme="." pos="PUNCT" lemme="." />
+      </analyse>
+    </article>
+    <article date="2022-01-02" categorie="sport">
+      <title>La revanche dor&#233;e d&#8217;Agbegnenou, le doubl&#233; arc-en-ciel d&#8217;Alaphilippe, le bel &#233;t&#233; des sports co fran&#231;ais&#160;: dix moments forts de l&#8217;ann&#233;e sportive</title>
+      <description>Du retour gagnant du nageur Florent Manaudou &#224; la moisson de m&#233;dailles de la d&#233;l&#233;gation tricolore aux Jeux paralympiques, &#171;&#160;Le Monde&#160;&#187; revient sur quelques belles performances de l&#8217;ann&#233;e &#233;coul&#233;e.</description>
+      <analyse>
+        <token forme="La" pos="DET" lemme="le" />
+        <token forme="revanche" pos="NOUN" lemme="revanche" />
+        <token forme="dor&#233;e" pos="ADJ" lemme="dor&#233;" />
+        <token forme="d&#8217;" pos="ADP" lemme="de" />
+        <token forme="Agbegnenou" pos="PROPN" lemme="Agbegnenou" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="le" pos="DET" lemme="le" />
+        <token forme="doubl&#233;" pos="NOUN" lemme="doubl&#233;" />
+        <token forme="arc-en-ciel" pos="NOUN" lemme="arc-en-ciel" />
+        <token forme="d&#8217;" pos="ADP" lemme="de" />
+        <token forme="Alaphilippe" pos="PROPN" lemme="Alaphilippe" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="le" pos="DET" lemme="le" />
+        <token forme="bel" pos="ADJ" lemme="beau" />
+        <token forme="&#233;t&#233;" pos="NOUN" lemme="&#233;t&#233;" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="les" pos="DET" lemme="le" />
+        <token forme="sports" pos="NOUN" lemme="sport" />
+        <token forme="co" pos="NOUN" lemme="co" />
+        <token forme="fran&#231;ais" pos="ADJ" lemme="fran&#231;ais" />
+        <token forme=":" pos="PUNCT" lemme=":" />
+        <token forme="dix" pos="NUM" lemme="dix" />
+        <token forme="moments" pos="NOUN" lemme="moment" />
+        <token forme="forts" pos="ADJ" lemme="fort" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="l&#8217;" pos="DET" lemme="le" />
+        <token forme="ann&#233;e" pos="NOUN" lemme="ann&#233;e" />
+        <token forme="sportive" pos="ADJ" lemme="sportif" />
+      </analyse>
+    </article>
+    <article date="2022-01-02" categorie="sport">
+      <title>OGC Nice&#160;: Antoine Bonifaci, &#171;&#160;l&#233;gende&#160;&#187; du club et ex-international, est mort</title>
+      <description>L&#8217;ancien joueur avait 90&#160;ans. C&#8217;est une &#171;&#160;l&#233;gende du club rouge et noir&#160;&#187; qui s&#8217;est &#233;teinte le 29&#160;d&#233;cembre, regrette le club.</description>
+      <analyse>
+        <token forme="OGC" pos="PROPN" lemme="OGC" />
+        <token forme="Nice" pos="PROPN" lemme="Nice" />
+        <token forme=":" pos="PUNCT" lemme=":" />
+        <token forme="Antoine" pos="PROPN" lemme="Antoine" />
+        <token forme="Bonifaci" pos="PROPN" lemme="Bonifaci" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="&#171;" pos="PUNCT" lemme="&#171;" />
+        <token forme="l&#233;gende" pos="NOUN" lemme="l&#233;gende" />
+        <token forme="&#187;" pos="PUNCT" lemme="&#187;" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="le" pos="DET" lemme="le" />
+        <token forme="club" pos="NOUN" lemme="club" />
+        <token forme="et" pos="CCONJ" lemme="et" />
+        <token forme="ex-international" pos="NOUN" lemme="ex-international" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="est" pos="AUX" lemme="&#234;tre" />
+        <token forme="mort" pos="VERB" lemme="mourir" />
+        <token forme="L&#8217;" pos="DET" lemme="le" />
+        <token forme="ancien" pos="ADJ" lemme="ancien" />
+        <token forme="joueur" pos="NOUN" lemme="joueur" />
+        <token forme="avait" pos="VERB" lemme="avoir" />
+        <token forme="90" pos="NUM" lemme="90" />
+        <token forme="ans" pos="NOUN" lemme="an" />
+        <token forme="." pos="PUNCT" lemme="." />
+      </analyse>
+    </article>
+    <article date="2022-01-02" categorie="sport">
+      <title>Chine, burn-out, vaccin&#160;: trois mots cl&#233;s de l&#8217;ann&#233;e sportive 2021</title>
+      <description>De l&#8217;affaire Peng Shuai &#224; la prise de parole de Naomi Osaka et Simone Biles, en passant par les r&#233;ticences de Novak Djokovic, tour d&#8217;horizon de ce qu&#8217;il s&#8217;est (aussi) pass&#233; en&#160;2021 dans le milieu sportif.</description>
+      <analyse>
+        <token forme="Chine" pos="PROPN" lemme="Chine" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="burn-out" pos="NOUN" lemme="burn-out" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="vaccin" pos="NOUN" lemme="vaccin" />
+        <token forme=":" pos="PUNCT" lemme=":" />
+        <token forme="trois" pos="NUM" lemme="trois" />
+        <token forme="mots" pos="NOUN" lemme="mot" />
+        <token forme="cl&#233;s" pos="NOUN" lemme="cl&#233;" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="l&#8217;" pos="DET" lemme="le" />
+        <token forme="ann&#233;e" pos="NOUN" lemme="ann&#233;e" />
+        <token forme="sportive" pos="ADJ" lemme="sportif" />
+        <token forme="2021" pos="NUM" lemme="2021" />
+        <token forme="De" pos="ADP" lemme="de" />
+        <token forme="l&#8217;" pos="DET" lemme="le" />
+        <token forme="affaire" pos="NOUN" lemme="affaire" />
+        <token forme="Peng" pos="PROPN" lemme="Peng" />
+        <token forme="Shuai" pos="PROPN" lemme="Shuai" />
+        <token forme="&#224;" pos="ADP" lemme="&#224;" />
+        <token forme="la" pos="DET" lemme="le" />
+        <token forme="prise" pos="NOUN" lemme="prise" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="parole" pos="NOUN" lemme="parole" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="Naomi" pos="PROPN" lemme="Naomi" />
+        <token forme="Osaka" pos="PROPN" lemme="Osaka" />
+        <token forme="et" pos="CCONJ" lemme="et" />
+        <token forme="Simone" pos="PROPN" lemme="Simone" />
+        <token forme="Biles" pos="PROPN" lemme="Biles" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="en" pos="ADP" lemme="en" />
+        <token forme="passant" pos="VERB" lemme="passer" />
+        <token forme="par" pos="ADP" lemme="par" />
+        <token forme="les" pos="DET" lemme="le" />
+        <token forme="r&#233;ticences" pos="NOUN" lemme="r&#233;ticence" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="Novak" pos="PROPN" lemme="Novak" />
+        <token forme="Djokovic" pos="PROPN" lemme="Djokovic" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="tour" pos="NOUN" lemme="tour" />
+        <token forme="d&#8217;" pos="ADP" lemme="de" />
+        <token forme="horizon" pos="NOUN" lemme="horizon" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="ce" pos="PRON" lemme="ce" />
+        <token forme="qu&#8217;" pos="PRON" lemme="que" />
+        <token forme="il" pos="PRON" lemme="il" />
+        <token forme="s&#8217;" pos="PRON" lemme="se" />
+        <token forme="est" pos="AUX" lemme="&#234;tre" />
+        <token forme="(" pos="PUNCT" lemme="(" />
+        <token forme="aussi" pos="ADV" lemme="aussi" />
+        <token forme=")" pos="PUNCT" lemme=")" />
+        <token forme="pass&#233;" pos="VERB" lemme="passer" />
+        <token forme="en" pos="ADP" lemme="en" />
+        <token forme="2021" pos="NUM" lemme="2021" />
+        <token forme="dans" pos="ADP" lemme="dans" />
+        <token forme="le" pos="DET" lemme="le" />
+        <token forme="milieu" pos="NOUN" lemme="milieu" />
+        <token forme="sportif" pos="ADJ" lemme="sportif" />
+        <token forme="." pos="PUNCT" lemme="." />
+      </analyse>
+    </article>
+    <article date="2022-01-02" categorie="sport">
+      <title>Euro de football, athl&#233;tisme, tennis, violences dans les stades&#8230; les &#171;&#160;rat&#233;s&#160;&#187; de l&#8217;ann&#233;e sportive 2021</title>
+      <description>De la sortie pr&#233;matur&#233;e des Bleus dans la comp&#233;tition europ&#233;enne, &#224; la crise de la F&#233;d&#233;ration fran&#231;aise d&#8217;athl&#233;tisme en passant par la multiplication des incidents dans les enceintes de football, &#171;&#160;Le&#160;Monde&#160;&#187; revient sur quelques &#171;&#160;couacs&#160;&#187; de l&#8217;ann&#233;e &#233;coul&#233;e.</description>
+      <analyse>
+        <token forme="Euro" pos="PROPN" lemme="Euro" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="football" pos="NOUN" lemme="football" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="athl&#233;tisme" pos="NOUN" lemme="athl&#233;tisme" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="tennis" pos="NOUN" lemme="tennis" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="violences" pos="NOUN" lemme="violence" />
+        <token forme="dans" pos="ADP" lemme="dans" />
+        <token forme="les" pos="DET" lemme="le" />
+        <token forme="stades" pos="NOUN" lemme="stade" />
+        <token forme="&#8230;" pos="PUNCT" lemme="..." />
+        <token forme="les" pos="DET" lemme="le" />
+        <token forme="&#171;" pos="PUNCT" lemme="&#171;" />
+        <token forme="rat&#233;s" pos="NOUN" lemme="rat&#233;" />
+        <token forme="&#187;" pos="PUNCT" lemme="&#187;" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="l&#8217;" pos="DET" lemme="le" />
+        <token forme="ann&#233;e" pos="NOUN" lemme="ann&#233;e" />
+        <token forme="sportive" pos="ADJ" lemme="sportif" />
+        <token forme="2021" pos="NUM" lemme="2021" />
+      </analyse>
+    </article>
+    <article date="2022-01-02" categorie="sport">
+      <title>Hugo Maradona, le fr&#232;re de Diego, est mort &#224; l&#8217;&#226;ge de 52&#160;ans</title>
+      <description>Le cadet du g&#233;nie argentin du football a succomb&#233; &#224; un infarctus dans sa maison de l&#8217;agglom&#233;ration napolitaine, selon des m&#233;dias italiens.</description>
+      <analyse>
+        <token forme="Hugo" pos="PROPN" lemme="Hugo" />
+        <token forme="Maradona" pos="PROPN" lemme="Maradona" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="le" pos="DET" lemme="le" />
+        <token forme="fr&#232;re" pos="NOUN" lemme="fr&#232;re" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="Diego" pos="PROPN" lemme="Diego" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="est" pos="AUX" lemme="&#234;tre" />
+        <token forme="mort" pos="VERB" lemme="mourir" />
+        <token forme="&#224;" pos="ADP" lemme="&#224;" />
+        <token forme="l&#8217;" pos="DET" lemme="le" />
+        <token forme="&#226;ge" pos="NOUN" lemme="&#226;ge" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="52" pos="NUM" lemme="52" />
+        <token forme="ans" pos="NOUN" lemme="an" />
+      </analyse>
+    </article>
+    <article date="2022-01-01" categorie="sport">
+      <title>Jeux olympiques&#160;: de Tokyo &#224; Paris, la gageure du sport fran&#231;ais</title>
+      <description>Apr&#232;s le bilan &#171;&#160;mitig&#233;&#160;&#187; des Bleus au Japon, les athl&#232;tes tricolores ont pour objectif d&#8217;int&#233;grer en&#160;2024, &#224; domicile, le Top 5 des m&#233;dailles. Un objectif illusoire&#160;?</description>
+      <analyse>
+        <token forme="Jeux" pos="NOUN" lemme="jeu" />
+        <token forme="olympiques" pos="ADJ" lemme="olympique" />
+        <token forme=":" pos="PUNCT" lemme=":" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="Tokyo" pos="PROPN" lemme="Tokyo" />
+        <token forme="&#224;" pos="ADP" lemme="&#224;" />
+        <token forme="Paris" pos="PROPN" lemme="Paris" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="la" pos="DET" lemme="le" />
+        <token forme="gageure" pos="NOUN" lemme="gageure" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="le" pos="DET" lemme="le" />
+        <token forme="sport" pos="NOUN" lemme="sport" />
+        <token forme="fran&#231;ais" pos="ADJ" lemme="fran&#231;ais" />
+        <token forme="Apr&#232;s" pos="ADP" lemme="apr&#232;s" />
+        <token forme="le" pos="DET" lemme="le" />
+        <token forme="bilan" pos="NOUN" lemme="bilan" />
+        <token forme="&#171;" pos="PUNCT" lemme="&#171;" />
+        <token forme="mitig&#233;" pos="ADJ" lemme="mitig&#233;" />
+        <token forme="&#187;" pos="PUNCT" lemme="&#187;" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="les" pos="DET" lemme="le" />
+        <token forme="Bleus" pos="PROPN" lemme="Bleus" />
+        <token forme="&#224;" pos="ADP" lemme="&#224;" />
+        <token forme="le" pos="DET" lemme="le" />
+        <token forme="Japon" pos="PROPN" lemme="Japon" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="les" pos="DET" lemme="le" />
+        <token forme="athl&#232;tes" pos="NOUN" lemme="athl&#232;te" />
+        <token forme="tricolores" pos="ADJ" lemme="tricolore" />
+        <token forme="ont" pos="VERB" lemme="avoir" />
+        <token forme="pour" pos="ADP" lemme="pour" />
+        <token forme="objectif" pos="NOUN" lemme="objectif" />
+        <token forme="d&#8217;" pos="ADP" lemme="de" />
+        <token forme="int&#233;grer" pos="VERB" lemme="int&#233;grer" />
+        <token forme="en" pos="ADP" lemme="en" />
+        <token forme="2024" pos="NUM" lemme="2024" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="&#224;" pos="ADP" lemme="&#224;" />
+        <token forme="domicile" pos="NOUN" lemme="domicile" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="le" pos="DET" lemme="le" />
+        <token forme="Top" pos="NOUN" lemme="top" />
+        <token forme="5" pos="NUM" lemme="5" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="les" pos="DET" lemme="le" />
+        <token forme="m&#233;dailles" pos="NOUN" lemme="m&#233;daille" />
+        <token forme="." pos="PUNCT" lemme="." />
+      </analyse>
+    </article>
+    <article date="2022-01-01" categorie="sport">
+      <title>Football&#160;: les supporteurs de Lille interdits de d&#233;placement &#224; Lens</title>
+      <description>Le minist&#232;re de l&#8217;int&#233;rieur consid&#232;re qu&#8217;il y a &#171;&#160;un risque r&#233;el et s&#233;rieux d&#8217;affrontement&#160;&#187; entre les supporteurs des deux clubs &#224; l&#8217;occasion du match de Coupe de France qui les opposera, mardi 4&#160;janvier.</description>
+      <analyse>
+        <token forme="Football" pos="NOUN" lemme="football" />
+        <token forme=":" pos="PUNCT" lemme=":" />
+        <token forme="les" pos="DET" lemme="le" />
+        <token forme="supporteurs" pos="NOUN" lemme="supporter" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="Lille" pos="PROPN" lemme="Lille" />
+        <token forme="interdits" pos="VERB" lemme="interdire" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="d&#233;placement" pos="NOUN" lemme="d&#233;placement" />
+        <token forme="&#224;" pos="ADP" lemme="&#224;" />
+        <token forme="Lens" pos="PROPN" lemme="Lens" />
+      </analyse>
+    </article>
+    <article date="2022-01-01" categorie="sport">
+      <title>Au Gabon, trois entra&#238;neurs de football mis en examen pour p&#233;docriminalit&#233;</title>
+      <description>L&#8217;affaire a &#233;t&#233; r&#233;v&#233;l&#233;e par le quotidien britannique &#171;&#160;The Guardian&#160;&#187; le 16&#160;d&#233;cembre. L&#8217;enqu&#234;te sera &#233;largie &#224; toutes les f&#233;d&#233;rations sportives nationales.</description>
+      <analyse>
+        <token forme="&#224;" pos="ADP" lemme="&#224;" />
+        <token forme="le" pos="DET" lemme="le" />
+        <token forme="Gabon" pos="PROPN" lemme="Gabon" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="trois" pos="NUM" lemme="trois" />
+        <token forme="entra&#238;neurs" pos="NOUN" lemme="entra&#238;neur" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="football" pos="NOUN" lemme="football" />
+        <token forme="mis" pos="VERB" lemme="mettre" />
+        <token forme="en" pos="ADP" lemme="en" />
+        <token forme="examen" pos="NOUN" lemme="examen" />
+        <token forme="pour" pos="ADP" lemme="pour" />
+        <token forme="p&#233;docriminalit&#233;" pos="NOUN" lemme="p&#233;docriminalit&#233;" />
+      </analyse>
+    </article>
+    <article date="2022-01-01" categorie="sport">
+      <title>Super Ligue, Mondial tous les deux ans&#160;: en&#160;2021, le football a &#233;tal&#233; ses d&#233;chirements</title>
+      <description>L&#8217;ann&#233;e &#233;coul&#233;e a vu la tentative de s&#233;cession de quelques grands clubs europ&#233;ens, avec la Super Ligue, et la volont&#233; de la FIFA de passer &#224; une Coupe du monde bisannuelle, en opposition avec l&#8217;UEFA.</description>
+      <analyse>
+        <token forme="Super" pos="ADJ" lemme="super" />
+        <token forme="Ligue" pos="NOUN" lemme="ligue" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="Mondial" pos="PROPN" lemme="Mondial" />
+        <token forme="tous" pos="ADJ" lemme="tout" />
+        <token forme="les" pos="DET" lemme="le" />
+        <token forme="deux" pos="NUM" lemme="deux" />
+        <token forme="ans" pos="NOUN" lemme="an" />
+        <token forme=":" pos="PUNCT" lemme=":" />
+        <token forme="en" pos="ADP" lemme="en" />
+        <token forme="2021" pos="NUM" lemme="2021" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="le" pos="DET" lemme="le" />
+        <token forme="football" pos="NOUN" lemme="football" />
+        <token forme="a" pos="AUX" lemme="avoir" />
+        <token forme="&#233;tal&#233;" pos="VERB" lemme="&#233;taler" />
+        <token forme="ses" pos="DET" lemme="son" />
+        <token forme="d&#233;chirements" pos="NOUN" lemme="d&#233;chirement" />
+      </analyse>
+    </article>
+    <article date="2022-01-01" categorie="sport">
+      <title>Le succ&#232;s de Sorare gr&#226;ce &#224; ses vignettes num&#233;riques de footballeurs</title>
+      <description>Acheter des images virtuelles de joueurs, les revendre&#8230; Cr&#233;&#233; par deux Fran&#231;ais, le jeu de fantasy football, qui m&#234;le performances sportives r&#233;elles et cryptomonnaie, d&#233;cha&#238;ne les passions et l&#232;ve des fonds.</description>
+      <analyse>
+        <token forme="Le" pos="DET" lemme="le" />
+        <token forme="succ&#232;s" pos="NOUN" lemme="succ&#232;s" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="Sorare" pos="PROPN" lemme="Sorare" />
+        <token forme="gr&#226;ce" pos="NOUN" lemme="gr&#226;ce" />
+        <token forme="&#224;" pos="ADP" lemme="&#224;" />
+        <token forme="ses" pos="DET" lemme="son" />
+        <token forme="vignettes" pos="NOUN" lemme="vignette" />
+        <token forme="num&#233;riques" pos="ADJ" lemme="num&#233;rique" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="footballeurs" pos="NOUN" lemme="footballeur" />
+        <token forme="Acheter" pos="VERB" lemme="acheter" />
+        <token forme="des" pos="DET" lemme="un" />
+        <token forme="images" pos="NOUN" lemme="image" />
+        <token forme="virtuelles" pos="ADJ" lemme="vittuel" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="joueurs" pos="NOUN" lemme="joueur" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="les" pos="PRON" lemme="le" />
+        <token forme="revendre" pos="VERB" lemme="revendre" />
+        <token forme="&#8230;" pos="PUNCT" lemme="..." />
+      </analyse>
+    </article>
+    <article date="2022-01-01" categorie="sport">
+      <title>AS Monaco&#160;: Niko Kovac, l&#8217;entra&#238;neur du club, a &#233;t&#233; limog&#233;</title>
+      <description>Niko Kovac paie le manque de r&#233;sultats du club, &#233;limin&#233; d&#232;s le tour pr&#233;liminaire de Ligue des champions, et ses relations devenues compliqu&#233;es avec certains cadres de l&#8217;&#233;quipe, dont le capitaine, l&#8217;international fran&#231;ais Wissam Ben Yedder.</description>
+      <analyse>
+        <token forme="AS" pos="PROPN" lemme="AS" />
+        <token forme="Monaco" pos="PROPN" lemme="Monaco" />
+        <token forme=":" pos="PUNCT" lemme=":" />
+        <token forme="Niko" pos="PROPN" lemme="Niko" />
+        <token forme="Kovac" pos="PROPN" lemme="Kovac" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="l&#8217;" pos="DET" lemme="le" />
+        <token forme="entra&#238;neur" pos="NOUN" lemme="entra&#238;neur" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="le" pos="DET" lemme="le" />
+        <token forme="club" pos="NOUN" lemme="club" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="a" pos="AUX" lemme="avoir" />
+        <token forme="&#233;t&#233;" pos="AUX" lemme="&#234;tre" />
+        <token forme="limog&#233;" pos="VERB" lemme="limoger" />
+        <token forme="Niko" pos="PROPN" lemme="Niko" />
+        <token forme="Kovac" pos="PROPN" lemme="Kovac" />
+        <token forme="paie" pos="VERB" lemme="payer" />
+        <token forme="le" pos="DET" lemme="le" />
+        <token forme="manque" pos="NOUN" lemme="manque" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="r&#233;sultats" pos="NOUN" lemme="r&#233;sultat" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="le" pos="DET" lemme="le" />
+        <token forme="club" pos="NOUN" lemme="club" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="&#233;limin&#233;" pos="VERB" lemme="&#233;liminer" />
+        <token forme="d&#232;s" pos="ADP" lemme="d&#232;s" />
+        <token forme="le" pos="DET" lemme="le" />
+        <token forme="tour" pos="NOUN" lemme="tour" />
+        <token forme="pr&#233;liminaire" pos="ADJ" lemme="pr&#233;liminaire" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="Ligue" pos="NOUN" lemme="ligue" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="les" pos="DET" lemme="le" />
+        <token forme="champions" pos="NOUN" lemme="champion" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="et" pos="CCONJ" lemme="et" />
+        <token forme="ses" pos="DET" lemme="son" />
+        <token forme="relations" pos="NOUN" lemme="relation" />
+        <token forme="devenues" pos="VERB" lemme="devenir" />
+        <token forme="compliqu&#233;es" pos="VERB" lemme="compliquer" />
+        <token forme="avec" pos="ADP" lemme="avec" />
+        <token forme="certains" pos="DET" lemme="certain" />
+        <token forme="cadres" pos="NOUN" lemme="cadre" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="l&#8217;" pos="DET" lemme="le" />
+        <token forme="&#233;quipe" pos="NOUN" lemme="&#233;quipe" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="dont" pos="PRON" lemme="dont" />
+        <token forme="le" pos="DET" lemme="le" />
+        <token forme="capitaine" pos="NOUN" lemme="capitaine" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="l&#8217;" pos="DET" lemme="le" />
+        <token forme="international" pos="NOUN" lemme="international" />
+        <token forme="fran&#231;ais" pos="ADJ" lemme="fran&#231;ais" />
+        <token forme="Wissam" pos="PROPN" lemme="Wissam" />
+        <token forme="Ben" pos="PROPN" lemme="Ben" />
+        <token forme="Yedder" pos="PROPN" lemme="Yedder" />
+        <token forme="." pos="PUNCT" lemme="." />
+      </analyse>
+    </article>
+    <article date="2022-01-01" categorie="sport">
+      <title>Explosion des cas de Covid-19&#160;: les clubs sportifs fran&#231;ais confront&#233;s &#224;&#160;des calendriers bouscul&#233;s</title>
+      <description>La crise sanitaire fait de nouveau vaciller le milieu sportif. De nombreux cas positifs ont &#233;t&#233; recens&#233;s en football, basket, handball, rugby et volley, entra&#238;nant reports et annulations, voire de possibles forfaits.</description>
+      <analyse>
+        <token forme="Explosion" pos="NOUN" lemme="explosion" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="les" pos="DET" lemme="le" />
+        <token forme="cas" pos="NOUN" lemme="cas" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="Covid-19" pos="PROPN" lemme="Covid-19" />
+        <token forme=":" pos="PUNCT" lemme=":" />
+        <token forme="les" pos="DET" lemme="le" />
+        <token forme="clubs" pos="NOUN" lemme="club" />
+        <token forme="sportifs" pos="ADJ" lemme="sportif" />
+        <token forme="fran&#231;ais" pos="ADJ" lemme="fran&#231;ais" />
+        <token forme="confront&#233;s" pos="VERB" lemme="confronter" />
+        <token forme="&#224;" pos="ADP" lemme="&#224;" />
+        <token forme="des" pos="DET" lemme="un" />
+        <token forme="calendriers" pos="NOUN" lemme="calendrier" />
+        <token forme="bouscul&#233;s" pos="VERB" lemme="bousculer" />
+      </analyse>
+    </article>
+    <article date="2022-01-01" categorie="sport">
+      <title>Ligue&#160;1&#160;: Troyes se s&#233;pare de son entra&#238;neur Laurent Batlles</title>
+      <description>Cette annonce, au c&#339;ur d&#8217;une saison en dents de scie, n&#8217;&#233;tait pas attendue. Selon le club, il s&#8217;agit d&#8217;une d&#233;cision prise &#171;&#160;d&#8217;un commun accord&#160;&#187;.</description>
+      <analyse>
+        <token forme="Ligue" pos="NOUN" lemme="ligue" />
+        <token forme="1" pos="NUM" lemme="1" />
+        <token forme=":" pos="PUNCT" lemme=":" />
+        <token forme="Troyes" pos="PROPN" lemme="Troyes" />
+        <token forme="se" pos="PRON" lemme="se" />
+        <token forme="s&#233;pare" pos="VERB" lemme="s&#233;parer" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="son" pos="DET" lemme="son" />
+        <token forme="entra&#238;neur" pos="NOUN" lemme="entra&#238;neur" />
+        <token forme="Laurent" pos="PROPN" lemme="Laurent" />
+        <token forme="Batlles" pos="PROPN" lemme="Batlles" />
+      </analyse>
+    </article>
+    <article date="2022-01-01" categorie="sport">
+      <title>La Chine interdit les tatouages &#224; ses footballeurs</title>
+      <description>Les joueurs de la s&#233;lection nationale ont dor&#233;navant &#171;&#160;l&#8217;interdiction formelle d&#8217;avoir de nouveaux tatouages&#160;&#187;, a annonc&#233; le minist&#232;re des sports.</description>
+      <analyse>
+        <token forme="La" pos="DET" lemme="le" />
+        <token forme="Chine" pos="PROPN" lemme="Chine" />
+        <token forme="interdit" pos="VERB" lemme="interdire" />
+        <token forme="les" pos="DET" lemme="le" />
+        <token forme="tatouages" pos="NOUN" lemme="tatouage" />
+        <token forme="&#224;" pos="ADP" lemme="&#224;" />
+        <token forme="ses" pos="DET" lemme="son" />
+        <token forme="footballeurs" pos="NOUN" lemme="footballeur" />
+      </analyse>
+    </article>
+    <article date="2022-01-01" categorie="sport">
+      <title>&#171;&#160;La concurrence dans le sport europ&#233;en doit &#234;tre am&#233;nag&#233;e par de nouveaux m&#233;canismes de r&#233;gulation&#160;&#187;</title>
+      <description>R&#233;gis Juanico, d&#233;put&#233; (G&#233;n&#233;ration.s) de la Loire, vice-pr&#233;sident de la commission des affaires culturelles et de l&#8217;&#233;ducation &#224; l&#8217;Assembl&#233;e nationale, s&#8217;inqui&#232;te, dans une tribune au &#171;&#160;Monde&#160;&#187;, de la privatisation des grandes comp&#233;titions sportives par des int&#233;r&#234;ts priv&#233;s qui, selon lui, captent le &#171;&#160;bien commun&#160;&#187;, et propose un nouveau mod&#232;le.</description>
+      <analyse>
+        <token forme="&#171;" pos="PUNCT" lemme="&#171;" />
+        <token forme="La" pos="DET" lemme="le" />
+        <token forme="concurrence" pos="NOUN" lemme="concurrence" />
+        <token forme="dans" pos="ADP" lemme="dans" />
+        <token forme="le" pos="DET" lemme="le" />
+        <token forme="sport" pos="NOUN" lemme="sport" />
+        <token forme="europ&#233;en" pos="ADJ" lemme="europ&#233;en" />
+        <token forme="doit" pos="VERB" lemme="devoir" />
+        <token forme="&#234;tre" pos="AUX" lemme="&#234;tre" />
+        <token forme="am&#233;nag&#233;e" pos="VERB" lemme="am&#233;nager" />
+        <token forme="par" pos="ADP" lemme="par" />
+        <token forme="de" pos="DET" lemme="un" />
+        <token forme="nouveaux" pos="ADJ" lemme="nouveau" />
+        <token forme="m&#233;canismes" pos="NOUN" lemme="m&#233;canisme" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="r&#233;gulation" pos="NOUN" lemme="r&#233;gulation" />
+        <token forme="&#187;" pos="PUNCT" lemme="&#187;" />
+        <token forme="R&#233;gis" pos="PROPN" lemme="R&#233;gis" />
+        <token forme="Juanico" pos="PROPN" lemme="Juanico" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="d&#233;put&#233;" pos="NOUN" lemme="d&#233;put&#233;" />
+        <token forme="(" pos="PUNCT" lemme="(" />
+        <token forme="G&#233;n&#233;ration.s" pos="PROPN" lemme="G&#233;n&#233;ration.s" />
+        <token forme=")" pos="PUNCT" lemme=")" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="la" pos="DET" lemme="le" />
+        <token forme="Loire" pos="PROPN" lemme="Loire" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="vice-pr&#233;sident" pos="NOUN" lemme="vice-pr&#233;sident" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="la" pos="DET" lemme="le" />
+        <token forme="commission" pos="NOUN" lemme="commission" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="les" pos="DET" lemme="le" />
+        <token forme="affaires" pos="NOUN" lemme="affaire" />
+        <token forme="culturelles" pos="ADJ" lemme="culturel" />
+        <token forme="et" pos="CCONJ" lemme="et" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="l&#8217;" pos="DET" lemme="le" />
+        <token forme="&#233;ducation" pos="NOUN" lemme="&#233;ducation" />
+        <token forme="&#224;" pos="ADP" lemme="&#224;" />
+        <token forme="l&#8217;" pos="DET" lemme="le" />
+        <token forme="Assembl&#233;e" pos="NOUN" lemme="assembl&#233;e" />
+        <token forme="nationale" pos="ADJ" lemme="national" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="s&#8217;" pos="PRON" lemme="se" />
+        <token forme="inqui&#232;te" pos="VERB" lemme="inqui&#233;ter" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="dans" pos="ADP" lemme="dans" />
+        <token forme="une" pos="DET" lemme="un" />
+        <token forme="tribune" pos="NOUN" lemme="tribune" />
+        <token forme="&#224;" pos="ADP" lemme="&#224;" />
+        <token forme="le" pos="DET" lemme="le" />
+        <token forme="&#171;" pos="PUNCT" lemme="&#171;" />
+        <token forme="Monde" pos="NOUN" lemme="monde" />
+        <token forme="&#187;" pos="PUNCT" lemme="&#187;" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="la" pos="DET" lemme="le" />
+        <token forme="privatisation" pos="NOUN" lemme="privatisation" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="les" pos="DET" lemme="le" />
+        <token forme="grandes" pos="ADJ" lemme="grand" />
+        <token forme="comp&#233;titions" pos="NOUN" lemme="comp&#233;tition" />
+        <token forme="sportives" pos="ADJ" lemme="sportif" />
+        <token forme="par" pos="ADP" lemme="par" />
+        <token forme="des" pos="DET" lemme="un" />
+        <token forme="int&#233;r&#234;ts" pos="NOUN" lemme="int&#233;r&#234;t" />
+        <token forme="priv&#233;s" pos="ADJ" lemme="priv&#233;" />
+        <token forme="qui" pos="PRON" lemme="qui" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="selon" pos="ADP" lemme="selon" />
+        <token forme="lui" pos="PRON" lemme="lui" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="captent" pos="VERB" lemme="capter" />
+        <token forme="le" pos="DET" lemme="le" />
+        <token forme="&#171;" pos="PUNCT" lemme="&#171;" />
+        <token forme="bien" pos="NOUN" lemme="bien" />
+        <token forme="commun" pos="ADJ" lemme="commun" />
+        <token forme="&#187;" pos="PUNCT" lemme="&#187;" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="et" pos="CCONJ" lemme="et" />
+        <token forme="propose" pos="VERB" lemme="proposer" />
+        <token forme="un" pos="DET" lemme="un" />
+        <token forme="nouveau" pos="ADJ" lemme="nouveau" />
+        <token forme="mod&#232;le" pos="NOUN" lemme="mod&#232;le" />
+        <token forme="." pos="PUNCT" lemme="." />
+      </analyse>
+    </article>
+    <article date="2022-01-01" categorie="sport">
+      <title>La revanche dor&#233;e d&#8217;Agbegnenou, le doubl&#233; arc-en-ciel d&#8217;Alaphilippe, le bel &#233;t&#233; des sports co fran&#231;ais&#160;: dix moments forts de l&#8217;ann&#233;e sportive</title>
+      <description>Du retour gagnant du nageur Florent Manaudou &#224; la moisson de m&#233;dailles de la d&#233;l&#233;gation tricolore aux Jeux paralympiques, &#171;&#160;Le Monde&#160;&#187; revient sur quelques belles performances de l&#8217;ann&#233;e &#233;coul&#233;e.</description>
+      <analyse>
+        <token forme="La" pos="DET" lemme="le" />
+        <token forme="revanche" pos="NOUN" lemme="revanche" />
+        <token forme="dor&#233;e" pos="ADJ" lemme="dor&#233;" />
+        <token forme="d&#8217;" pos="ADP" lemme="de" />
+        <token forme="Agbegnenou" pos="PROPN" lemme="Agbegnenou" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="le" pos="DET" lemme="le" />
+        <token forme="doubl&#233;" pos="NOUN" lemme="doubl&#233;" />
+        <token forme="arc-en-ciel" pos="NOUN" lemme="arc-en-ciel" />
+        <token forme="d&#8217;" pos="ADP" lemme="de" />
+        <token forme="Alaphilippe" pos="PROPN" lemme="Alaphilippe" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="le" pos="DET" lemme="le" />
+        <token forme="bel" pos="ADJ" lemme="beau" />
+        <token forme="&#233;t&#233;" pos="NOUN" lemme="&#233;t&#233;" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="les" pos="DET" lemme="le" />
+        <token forme="sports" pos="NOUN" lemme="sport" />
+        <token forme="co" pos="NOUN" lemme="co" />
+        <token forme="fran&#231;ais" pos="ADJ" lemme="fran&#231;ais" />
+        <token forme=":" pos="PUNCT" lemme=":" />
+        <token forme="dix" pos="NUM" lemme="dix" />
+        <token forme="moments" pos="NOUN" lemme="moment" />
+        <token forme="forts" pos="ADJ" lemme="fort" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="l&#8217;" pos="DET" lemme="le" />
+        <token forme="ann&#233;e" pos="NOUN" lemme="ann&#233;e" />
+        <token forme="sportive" pos="ADJ" lemme="sportif" />
+      </analyse>
+    </article>
+    <article date="2022-01-01" categorie="sport">
+      <title>OGC Nice&#160;: Antoine Bonifaci, &#171;&#160;l&#233;gende&#160;&#187; du club et ex-international, est mort</title>
+      <description>L&#8217;ancien joueur avait 90&#160;ans. C&#8217;est une &#171;&#160;l&#233;gende du club rouge et noir&#160;&#187; qui s&#8217;est &#233;teinte le 29&#160;d&#233;cembre, regrette le club.</description>
+      <analyse>
+        <token forme="OGC" pos="PROPN" lemme="OGC" />
+        <token forme="Nice" pos="PROPN" lemme="Nice" />
+        <token forme=":" pos="PUNCT" lemme=":" />
+        <token forme="Antoine" pos="PROPN" lemme="Antoine" />
+        <token forme="Bonifaci" pos="PROPN" lemme="Bonifaci" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="&#171;" pos="PUNCT" lemme="&#171;" />
+        <token forme="l&#233;gende" pos="NOUN" lemme="l&#233;gende" />
+        <token forme="&#187;" pos="PUNCT" lemme="&#187;" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="le" pos="DET" lemme="le" />
+        <token forme="club" pos="NOUN" lemme="club" />
+        <token forme="et" pos="CCONJ" lemme="et" />
+        <token forme="ex-international" pos="NOUN" lemme="ex-international" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="est" pos="AUX" lemme="&#234;tre" />
+        <token forme="mort" pos="VERB" lemme="mourir" />
+        <token forme="L&#8217;" pos="DET" lemme="le" />
+        <token forme="ancien" pos="ADJ" lemme="ancien" />
+        <token forme="joueur" pos="NOUN" lemme="joueur" />
+        <token forme="avait" pos="VERB" lemme="avoir" />
+        <token forme="90" pos="NUM" lemme="90" />
+        <token forme="ans" pos="NOUN" lemme="an" />
+        <token forme="." pos="PUNCT" lemme="." />
+      </analyse>
+    </article>
+    <article date="2022-01-01" categorie="sport">
+      <title>Chine, burn-out, vaccin&#160;: trois mots cl&#233;s de l&#8217;ann&#233;e sportive 2021</title>
+      <description>De l&#8217;affaire Peng Shuai &#224; la prise de parole de Naomi Osaka et Simone Biles, en passant par les r&#233;ticences de Novak Djokovic, tour d&#8217;horizon de ce qu&#8217;il s&#8217;est (aussi) pass&#233; en&#160;2021 dans le milieu sportif.</description>
+      <analyse>
+        <token forme="Chine" pos="PROPN" lemme="Chine" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="burn-out" pos="NOUN" lemme="burn-out" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="vaccin" pos="NOUN" lemme="vaccin" />
+        <token forme=":" pos="PUNCT" lemme=":" />
+        <token forme="trois" pos="NUM" lemme="trois" />
+        <token forme="mots" pos="NOUN" lemme="mot" />
+        <token forme="cl&#233;s" pos="NOUN" lemme="cl&#233;" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="l&#8217;" pos="DET" lemme="le" />
+        <token forme="ann&#233;e" pos="NOUN" lemme="ann&#233;e" />
+        <token forme="sportive" pos="ADJ" lemme="sportif" />
+        <token forme="2021" pos="NUM" lemme="2021" />
+        <token forme="De" pos="ADP" lemme="de" />
+        <token forme="l&#8217;" pos="DET" lemme="le" />
+        <token forme="affaire" pos="NOUN" lemme="affaire" />
+        <token forme="Peng" pos="PROPN" lemme="Peng" />
+        <token forme="Shuai" pos="PROPN" lemme="Shuai" />
+        <token forme="&#224;" pos="ADP" lemme="&#224;" />
+        <token forme="la" pos="DET" lemme="le" />
+        <token forme="prise" pos="NOUN" lemme="prise" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="parole" pos="NOUN" lemme="parole" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="Naomi" pos="PROPN" lemme="Naomi" />
+        <token forme="Osaka" pos="PROPN" lemme="Osaka" />
+        <token forme="et" pos="CCONJ" lemme="et" />
+        <token forme="Simone" pos="PROPN" lemme="Simone" />
+        <token forme="Biles" pos="PROPN" lemme="Biles" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="en" pos="ADP" lemme="en" />
+        <token forme="passant" pos="VERB" lemme="passer" />
+        <token forme="par" pos="ADP" lemme="par" />
+        <token forme="les" pos="DET" lemme="le" />
+        <token forme="r&#233;ticences" pos="NOUN" lemme="r&#233;ticence" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="Novak" pos="PROPN" lemme="Novak" />
+        <token forme="Djokovic" pos="PROPN" lemme="Djokovic" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="tour" pos="NOUN" lemme="tour" />
+        <token forme="d&#8217;" pos="ADP" lemme="de" />
+        <token forme="horizon" pos="NOUN" lemme="horizon" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="ce" pos="PRON" lemme="ce" />
+        <token forme="qu&#8217;" pos="PRON" lemme="que" />
+        <token forme="il" pos="PRON" lemme="il" />
+        <token forme="s&#8217;" pos="PRON" lemme="se" />
+        <token forme="est" pos="AUX" lemme="&#234;tre" />
+        <token forme="(" pos="PUNCT" lemme="(" />
+        <token forme="aussi" pos="ADV" lemme="aussi" />
+        <token forme=")" pos="PUNCT" lemme=")" />
+        <token forme="pass&#233;" pos="VERB" lemme="passer" />
+        <token forme="en" pos="ADP" lemme="en" />
+        <token forme="2021" pos="NUM" lemme="2021" />
+        <token forme="dans" pos="ADP" lemme="dans" />
+        <token forme="le" pos="DET" lemme="le" />
+        <token forme="milieu" pos="NOUN" lemme="milieu" />
+        <token forme="sportif" pos="ADJ" lemme="sportif" />
+        <token forme="." pos="PUNCT" lemme="." />
+      </analyse>
+    </article>
+    <article date="2022-01-01" categorie="sport">
+      <title>Euro de football, athl&#233;tisme, tennis, violences dans les stades&#8230; les &#171;&#160;rat&#233;s&#160;&#187; de l&#8217;ann&#233;e sportive 2021</title>
+      <description>De la sortie pr&#233;matur&#233;e des Bleus dans la comp&#233;tition europ&#233;enne, &#224; la crise de la F&#233;d&#233;ration fran&#231;aise d&#8217;athl&#233;tisme en passant par la multiplication des incidents dans les enceintes de football, &#171;&#160;Le&#160;Monde&#160;&#187; revient sur quelques &#171;&#160;couacs&#160;&#187; de l&#8217;ann&#233;e &#233;coul&#233;e.</description>
+      <analyse>
+        <token forme="Euro" pos="PROPN" lemme="Euro" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="football" pos="NOUN" lemme="football" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="athl&#233;tisme" pos="NOUN" lemme="athl&#233;tisme" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="tennis" pos="NOUN" lemme="tennis" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="violences" pos="NOUN" lemme="violence" />
+        <token forme="dans" pos="ADP" lemme="dans" />
+        <token forme="les" pos="DET" lemme="le" />
+        <token forme="stades" pos="NOUN" lemme="stade" />
+        <token forme="&#8230;" pos="PUNCT" lemme="..." />
+        <token forme="les" pos="DET" lemme="le" />
+        <token forme="&#171;" pos="PUNCT" lemme="&#171;" />
+        <token forme="rat&#233;s" pos="NOUN" lemme="rat&#233;" />
+        <token forme="&#187;" pos="PUNCT" lemme="&#187;" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="l&#8217;" pos="DET" lemme="le" />
+        <token forme="ann&#233;e" pos="NOUN" lemme="ann&#233;e" />
+        <token forme="sportive" pos="ADJ" lemme="sportif" />
+        <token forme="2021" pos="NUM" lemme="2021" />
+      </analyse>
+    </article>
+    <article date="2022-01-01" categorie="sport">
+      <title>Hugo Maradona, le fr&#232;re de Diego, est mort &#224; l&#8217;&#226;ge de 52&#160;ans</title>
+      <description>Le cadet du g&#233;nie argentin du football a succomb&#233; &#224; un infarctus dans sa maison de l&#8217;agglom&#233;ration napolitaine, selon des m&#233;dias italiens.</description>
+      <analyse>
+        <token forme="Hugo" pos="PROPN" lemme="Hugo" />
+        <token forme="Maradona" pos="PROPN" lemme="Maradona" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="le" pos="DET" lemme="le" />
+        <token forme="fr&#232;re" pos="NOUN" lemme="fr&#232;re" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="Diego" pos="PROPN" lemme="Diego" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="est" pos="AUX" lemme="&#234;tre" />
+        <token forme="mort" pos="VERB" lemme="mourir" />
+        <token forme="&#224;" pos="ADP" lemme="&#224;" />
+        <token forme="l&#8217;" pos="DET" lemme="le" />
+        <token forme="&#226;ge" pos="NOUN" lemme="&#226;ge" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="52" pos="NUM" lemme="52" />
+        <token forme="ans" pos="NOUN" lemme="an" />
+      </analyse>
+    </article>
+    <article date="2022-01-01" categorie="sport">
+      <title>Football&#160;: six joueurs africains qui ont brill&#233; en&#160;2021</title>
+      <description>Ils sont Gabonais, Ivoirien, Malien, Tunisien, Egyptien ou Marocain, &#233;voluent en Europe et en Afrique, et ont beaucoup fait parler d&#8217;eux gr&#226;ce &#224; leurs performances.</description>
+      <analyse>
+        <token forme="Football" pos="NOUN" lemme="football" />
+        <token forme=":" pos="PUNCT" lemme=":" />
+        <token forme="six" pos="NUM" lemme="six" />
+        <token forme="joueurs" pos="NOUN" lemme="joueur" />
+        <token forme="africains" pos="ADJ" lemme="africain" />
+        <token forme="qui" pos="PRON" lemme="qui" />
+        <token forme="ont" pos="AUX" lemme="avoir" />
+        <token forme="brill&#233;" pos="VERB" lemme="briller" />
+        <token forme="en" pos="ADP" lemme="en" />
+        <token forme="2021" pos="NUM" lemme="2021" />
+      </analyse>
+    </article>
+    <article date="2022-01-01" categorie="sport">
+      <title>Covid-19&#160;: avec le retour des jauges, le sport fran&#231;ais replonge dans l&#8217;incertitude</title>
+      <description>La d&#233;cision de limiter la fr&#233;quentation des enceintes sportives, &#224; compter du 3&#160;janvier, inqui&#232;te fortement les clubs, qui craignent pour leur mod&#232;le &#233;conomique si les restrictions venaient &#224; se durcir encore.</description>
+      <analyse>
+        <token forme="Covid-19" pos="PROPN" lemme="Covid-19" />
+        <token forme=":" pos="PUNCT" lemme=":" />
+        <token forme="avec" pos="ADP" lemme="avec" />
+        <token forme="le" pos="DET" lemme="le" />
+        <token forme="retour" pos="NOUN" lemme="retour" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="les" pos="DET" lemme="le" />
+        <token forme="jauges" pos="NOUN" lemme="jauge" />
+        <token forme="," pos="PUNCT" lemme="," />
+        <token forme="le" pos="DET" lemme="le" />
+        <token forme="sport" pos="NOUN" lemme="sport" />
+        <token forme="fran&#231;ais" pos="ADJ" lemme="fran&#231;ais" />
+        <token forme="replonge" pos="VERB" lemme="replonger" />
+        <token forme="dans" pos="ADP" lemme="dans" />
+        <token forme="l&#8217;" pos="DET" lemme="le" />
+        <token forme="incertitude" pos="NOUN" lemme="incertitude" />
+      </analyse>
+    </article>
+    <article date="2022-01-01" categorie="sport">
+      <title>Ski alpin&#160;: Tessa Worley remporte le slalom g&#233;ant de Lienz</title>
+      <description>La skieuse fran&#231;aise a d&#233;croch&#233; sa premi&#232;re victoire de la saison, en l&#8217;absence de deux des cadors de la discipline, Shiffrin et Gut-Behrami, positives au coronavirus.</description>
+      <analyse>
+        <token forme="Ski" pos="PROPN" lemme="Ski" />
+        <token forme="alpin" pos="ADJ" lemme="alpin" />
+        <token forme=":" pos="PUNCT" lemme=":" />
+        <token forme="Tessa" pos="PROPN" lemme="Tessa" />
+        <token forme="Worley" pos="PROPN" lemme="Worley" />
+        <token forme="remporte" pos="VERB" lemme="remporter" />
+        <token forme="le" pos="DET" lemme="le" />
+        <token forme="slalom" pos="NOUN" lemme="slalom" />
+        <token forme="g&#233;ant" pos="ADJ" lemme="g&#233;ant" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="Lienz" pos="PROPN" lemme="Lienz" />
+      </analyse>
+    </article>
+    <article date="2022-01-01" categorie="sport">
+      <title>Football&#160;: les agents de joueurs marquent un point contre les avocats</title>
+      <description>Un arr&#234;t de la cour d&#8217;appel de Paris, mi-octobre, a annul&#233; une d&#233;cision du barreau de la capitale concernant les activit&#233;s de mandataires sportifs.</description>
+      <analyse>
+        <token forme="Football" pos="NOUN" lemme="football" />
+        <token forme=":" pos="PUNCT" lemme=":" />
+        <token forme="les" pos="DET" lemme="le" />
+        <token forme="agents" pos="NOUN" lemme="agent" />
+        <token forme="de" pos="ADP" lemme="de" />
+        <token forme="joueurs" pos="NOUN" lemme="joueur" />
+        <token forme="marquent" pos="VERB" lemme="marquer" />
+        <token forme="un" pos="DET" lemme="un" />
+        <token forme="point" pos="NOUN" lemme="point" />
+        <token forme="contre" pos="ADP" lemme="contre" />
+        <token forme="les" pos="DET" lemme="le" />
+        <token forme="avocats" pos="NOUN" lemme="avocat" />
+      </analyse>
+    </article>
+    <article date="2022-01-01" categorie="sport">
+      <title>Quiz&#160;: Avez-vous bien suivi le football en&#160;2021&#160;?</title>
+      <description>L&#8217;Euro 2021, le Ballon d&#8217;or f&#233;minin, la Coupe arabe ou le foot fauteuil, mesurez votre connaissance autour du ballon rond.</description>
+      <analyse>
+        <token forme="Quiz" pos="PROPN" lemme="Quiz" />
+        <token forme=":" pos="PUNCT" lemme=":" />
+        <token forme="Avez" pos="AUX" lemme="avoir" />
+        <token forme="-vous" pos="PRON" lemme="il" />
+        <token forme="bien" pos="ADV" lemme="bien" />
+        <token forme="suivi" pos="VERB" lemme="suivre" />
+        <token forme="le" pos="DET" lemme="le" />
+        <token forme="football" pos="NOUN" lemme="football" />
+        <token forme="en" pos="ADP" lemme="en" />
+        <token forme="2021" pos="NUM" lemme="2021" />
+        <token forme="?" pos="PUNCT" lemme="?" />
+      </analyse>
+    </article>
+  </content>
+</corpus>
