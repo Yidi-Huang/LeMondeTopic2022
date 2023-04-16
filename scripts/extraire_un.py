@@ -3,7 +3,8 @@
 
 import xml.etree.ElementTree as ET
 import feedparser
-import argparse
+from datastructures import Article
+from pathlib import Path
 
 def extraire_td(rss_file):	
 	# Créer un élément racine pour le fichier XML
@@ -18,16 +19,10 @@ def extraire_td(rss_file):
 		description = entry.description
 		yield title, description
 
-def main():
-	parser = argparse.ArgumentParser(description='Extraction des titres et descriptions des articles d\'un flux RSS')
-	parser.add_argument('chemin', nargs = '*', help='Chemin du fichier RSS')
-	args = parser.parse_args()
-	if len(args)>1 :
-		rss_file = args.chemin[0]
-		extraire_td(rss_file)
-	else:
-		print('Il manque un argument du chemin du fichier')
+def extraire_a(rss_file,date,categorie):
+	feed = feedparser.parse(rss_file)
+	for entry in feed.entries:
+		article = Article(entry.title,entry.description,date,categorie,[])
+		yield article	
 
-if __name__ == '__main__':
-	main()
 

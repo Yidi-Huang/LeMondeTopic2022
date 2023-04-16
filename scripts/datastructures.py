@@ -1,4 +1,4 @@
-from typing import List, Dict
+from typing import List, Dict, Optional
 from dataclasses import dataclass
 from pathlib import Path
 
@@ -14,7 +14,9 @@ class Token:
 class Article:
     titre: str
     description: str
-    analyse: List[Token]
+    date: str = ""
+    categorie: str = ""
+    analyse: Optional[List[Token]] = None
 
 @dataclass
 class Corpus:
