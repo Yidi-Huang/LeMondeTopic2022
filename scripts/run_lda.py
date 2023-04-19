@@ -65,7 +65,7 @@ import tarfile
 
 import smart_open
 
-def extract_documents (url="Corpus/X-arborescence-filsdumonde-2022-tljours-19h.tar.gz"):
+def extract_documents (url="https://cs.nyu.edu/~roweis/data/nips12raw_str602.tgz"):
     with smart_open.open(url, "rb") as file:
         with tarfile.open(fileobj=file) as tar:
             for member in tar.getmembers():
