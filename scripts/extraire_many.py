@@ -103,6 +103,10 @@ def main():
         parser = spacy.create_parser()
         for a in tqdm(corpus.articles): 
             spacy.analyse_article(parser, a)
+    if args.p == "stanza" :
+    	import analyse_st as analyse
+    if args.p == "trankit":
+    	import analyse_tk as analyse
     if args.o is None:
         for title, description in extraire_td(args.corpus_dir):
             print(title)
