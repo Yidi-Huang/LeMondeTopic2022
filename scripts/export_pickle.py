@@ -27,7 +27,7 @@ def corpus_to_pickle(corpus: Corpus) -> dict:
         'begin': corpus.begin,
         'end': corpus.end,
         'categories': corpus.categories,
-        'chemin': corpus.chemin,
+        'chemin': str(corpus.chemin),
         'articles': [article_to_pickle(article) for article in corpus.articles]
     }
 
