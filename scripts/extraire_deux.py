@@ -4,13 +4,15 @@ import argparse
 import re
 from pathlib import Path
 from datetime import date # pour renvoyer dans le bon ordre chronologique
-from tqdm import tqdm
+from tqdm import tqdm 
 
 from extraire_un import extraire_td, extraire_a
 from datastructures import Corpus, Article, Token
 from export_xml import write_xml
 from export_json import write_json
-import analyse_sp as analyse
+from export_pickle import write_pickle
+import analyse_sp as spacy
+import analyse_tk as trankit
 
 MONTHS = ["Jan",
           "Feb",
@@ -88,8 +90,9 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("-s", help="start date (iso format)", default="2022-01-01")
     parser.add_argument("-e", help="end date (iso format)", default="2023-01-01")
-    parser.add_argument("-o", help="output xml file (stdout si non spécifié)")
+    parser.add_argument("-o", help="output xml file (stdout si non spécifié)",required= False)
     parser.add_argument("-f", help="format de sortie (xml par défault)", default="xml")
+    parser.add_argument("-p", help="parser à utiliser (spacy par défault)", default="spacy")
     parser.add_argument("corpus_dir", help="la racine du dossier")
     parser.add_argument("categories",nargs="*", help="catégories à retenir")
     args = parser.parse_args()
@@ -97,9 +100,14 @@ def main():
     for xml_file, d, c in tqdm(parcours_dossier(Path(args.corpus_dir), args.categories, date.fromisoformat(args.s), date.fromisoformat(args.e))):
         for article in extraire_a(xml_file, d, c):
             corpus.articles.append(article)
-    parser = analyse.create_parser()
-    for a in tqdm(corpus.articles):
-        analyse.analyse_article(parser, a)
+    if args.p == "spacy" or args.p == None:
+        parser = spacy.create_parser()
+        for a in tqdm(corpus.articles): 
+            spacy.analyse_article(parser, a)
+    elif args.p == "trankit":
+        parser = trankit.create_parser()
+        for a in tqdm(corpus.articles): 
+            trankit.analyse_article(parser, a)
     if args.o is None:
         for title, description in extraire_td(args.corpus_dir):
             print(title)
@@ -109,6 +117,8 @@ def main():
             write_xml(corpus, args.o)
         elif args.f == "json":
             write_json(corpus, args.o)
+        elif args.f == "pickle":
+            write_pickle(corpus, args.o)
         else:
             print("format non supporté")
 
