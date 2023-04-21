@@ -3,15 +3,14 @@ import xml.etree.ElementTree as ET
 import argparse
 import re
 from pathlib import Path
-from datetime import date # pour renvoyer dans le bon ordre chronologique
-from tqdm import tqdm 
+from datetime import date  # pour renvoyer dans le bon ordre chronologique
+from tqdm import tqdm
 
 from extraire_un import extraire_td, extraire_a
 from datastructures import Corpus, Article, Token
 from export_xml import write_xml
 from export_json import write_json
 from export_pickle import write_pickle
-import analyse_sp as spacy
 
 MONTHS = ["Jan",
           "Feb",
@@ -20,13 +19,13 @@ MONTHS = ["Jan",
           "May",
           "Jun",
           "Jul",
-          "Aug", 
+          "Aug",
           "Sep",
           "Oct",
-          "Nov", 
+          "Nov",
           "Dec"]
 
-DAYS = [f"{x:02}" for x in range(1,32)]
+DAYS = [f"{x:02}" for x in range(1, 32)]
 
 # Définir le dictionnaire de correspondance entre les catégories et les noms de fichiers XML
 categories_dict = {
@@ -49,17 +48,20 @@ categories_dict = {
 }
 new_dict = {valeur: cle for cle, valeur in categories_dict.items()}
 
+
 def categorie_of_filename(filename: str) -> Optional[str]:
     for nom, code in categories_dict.items():
         if code in filename:
             return nom
     return None
 
-def convert_month(m:str) -> int:
-   return MONTHS.index(m) + 1
 
-def parcours_dossier(corpus_dir:Path, categories: Optional[List[str]] = None, 
-start_date: Optional[date]=None, end_date: Optional[date] = None):
+def convert_month(m: str) -> int:
+    return MONTHS.index(m) + 1
+
+
+def parcours_dossier(corpus_dir: Path, categories: Optional[List[str]] = None,
+                     start_date: Optional[date] = None, end_date: Optional[date] = None):
     if categories is not None and len(categories) > 0:
         categories = [categories_dict[c.lower()] for c in categories]
     else:
@@ -81,32 +83,38 @@ start_date: Optional[date]=None, end_date: Optional[date] = None):
                 if re.match(r"\d{2}-\d{2}-\d{2}", hour_dir.name):
                     for xml_file in hour_dir.iterdir():
                         if xml_file.name.endswith(".xml") and any([xml_file.name.startswith(c) for c in categories]):
-                        #yield(xml_file.name, extraire_td(xml_file.as_posix()))
+                            # yield(xml_file.name, extraire_td(xml_file.as_posix()))
                             c = categorie_of_filename(xml_file.name)
                             yield xml_file, d.isoformat(), c
 
+
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("-s", help="start date (iso format)", default="2022-01-01")
-    parser.add_argument("-e", help="end date (iso format)", default="2023-01-01")
-    parser.add_argument("-o", help="output xml file (stdout si non spécifié)",required = False)
-    parser.add_argument("-f", help="format de sortie (xml par défault)", default="xml")
-    parser.add_argument("-p", help="parser à utiliser (spacy par défault)", default="spacy")
+    parser.add_argument(
+        "-s", help="start date (iso format)", default="2022-01-01")
+    parser.add_argument("-e", help="end date (iso format)",
+                        default="2023-01-01")
+    parser.add_argument(
+        "-o", help="output xml file (stdout si non spécifié)", required=False)
+    parser.add_argument(
+        "-f", help="format de sortie (xml par défault)", default="xml")
+    parser.add_argument(
+        "-p", help="parser à utiliser (spacy par défault)", default="spacy")
     parser.add_argument("corpus_dir", help="la racine du dossier")
-    parser.add_argument("categories",nargs="*", help="catégories à retenir")
+    parser.add_argument("categories", nargs="*", help="catégories à retenir")
     args = parser.parse_args()
-    corpus = Corpus(categories=args.categories, begin=args.s, end=args.e, chemin=Path(args.corpus_dir), articles=[])    
+    corpus = Corpus(categories=args.categories, begin=args.s,
+                    end=args.e, chemin=Path(args.corpus_dir), articles=[])
     for xml_file, d, c in tqdm(parcours_dossier(Path(args.corpus_dir), args.categories, date.fromisoformat(args.s), date.fromisoformat(args.e))):
         for article in extraire_a(xml_file, d, c):
             corpus.articles.append(article)
-    if args.p == "spacy" or args.p == None:
-        parser = spacy.create_parser()
-        for a in tqdm(corpus.articles): 
-            spacy.analyse_article(parser, a)
-    if args.p == "stanza" :
-    	import analyse_st as analyse
-    if args.p == "trankit":
-    	import analyse_tk as analyse
+    for a in tqdm(corpus.articles):
+        if args.p == "spacy" or args.p == None:
+            import analyse_sp as analyse
+        if args.p == "stanza":
+            import analyse_st as analyse
+        if args.p == "trankit":
+            import analyse_tk as analyse
     if args.o is None:
         for title, description in extraire_td(args.corpus_dir):
             print(title)
@@ -121,7 +129,8 @@ def main():
         else:
             print("format non supporté")
 
+
 if __name__ == "__main__":
     main()
-    
-#exemple d'utilisation: python3 extraire_deux.py -s 2022-01-01 -e 2022-01-31 -o corpus.xml /home/.../corpus une international
+
+# exemple d'utilisation: python3 extraire_deux.py -s 2022-01-01 -e 2022-01-31 -o corpus.xml /home/.../corpus une international
