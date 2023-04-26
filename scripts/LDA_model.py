@@ -9,7 +9,7 @@ Introduces Gensim's LDA model and demonstrates its use on the NIPS corpus.
 import logging
 logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
 
-
+import argparse
 import nltk
 from nltk.tokenize import RegexpTokenizer
 from nltk.stem.wordnet import WordNetLemmatizer
@@ -151,3 +151,38 @@ def visualize_lda_model(model, corpus, dictionary, output_filename='lda_visualiz
 
 # Example usage:
 #visualize_lda_model(trained_model, corpus, dictionary, output_filename='sortie.html')
+
+def main():
+    parser = argparse.ArgumentParser(description='Modèle LDA')
+    parser.add_argument('--input', type=str, required=True, help='Chemin du fichier d\'entrée (format XML, JSON ou pickle)')
+    parser.add_argument('--format', type=str, choices=['xml', 'json', 'pickle'], required=True, help='Format du fichier d\'entrée (xml, json ou pickle)')
+    parser.add_argument('--output', type=str, required=True, help='Chemin du fichier de sortie pour la visualisation (format HTML)')
+    parser.add_argument('--num_topics', type=int, default=10, help='Nombre de sujets pour le modèle LDA (par défaut=10)')
+    parser.add_argument('--chunksize', type=int, default=2000, help='Taille des lots pour l\'entraînement du modèle LDA (par défaut=2000)')
+    parser.add_argument('--passes', type=int, default=20, help='Nombre de passes pour l\'entraînement du modèle LDA (par défaut=20)')
+    parser.add_argument('--iterations', type=int, default=400, help='Nombre d\'itérations pour l\'entraînement du modèle LDA (par défaut=400)')
+    args = parser.parse_args()
+
+    # Charger les documents depuis le fichier
+    if args.format == 'xml':
+        docs = charge_xml(args.input)
+    elif args.format == 'json':
+        docs = charge_json(args.input)
+    elif args.format == 'pickle':
+        docs = charge_pickle(args.input)
+    else:
+        raise ValueError('Format d\'entrée inconnu')
+
+    # Prétraiter les documents
+    corpus, dictionary = preprocess_documents(docs)
+
+    # Entraîner le modèle LDA
+    lda_model = train_lda_model(corpus, dictionary, num_topics=args.num_topics, chunksize=args.chunksize, passes=args.passes, iterations=args.iterations)
+
+    # Visualiser le modèle LDA
+    visualize_lda_model(lda_model, corpus, dictionary, output_filename=args.output)
+
+if __name__ == '__main__':
+    main()
+
+#exemple d'appel : python3 LDA_model.py --input ../data/Le_Monde_1994-1995.xml --format xml --output ../data/lda.html --num_topics 10 --chunksize 2000 --passes 20 --iterations 400
