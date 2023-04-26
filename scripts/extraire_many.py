@@ -95,11 +95,11 @@ def main():
     parser.add_argument("-e", help="end date (iso format)",
                         default="2023-01-01")
     parser.add_argument(
-        "-o", help="output xml file (stdout si non spécifié)", required=False)
+        "-o", help="output file (stdout si non spécifié)", required=True)
     parser.add_argument(
-        "-f", help="format de sortie (xml par défault)", default="xml")
+        "-f", help="format de sortie (xml par défault)", choices = ['xml','json','pickle'], default="xml",required = True)
     parser.add_argument(
-        "-p", help="parser à utiliser (spacy par défault)", default="spacy")
+        "-p", help="parser à utiliser (spacy par défault)",choices = ['spacy','stanza','trankit'], required = True, default="spacy")
     parser.add_argument("corpus_dir", help="la racine du dossier")
     parser.add_argument("categories", nargs="*", help="catégories à retenir")
     args = parser.parse_args()
@@ -108,13 +108,15 @@ def main():
     for xml_file, d, c in tqdm(parcours_dossier(Path(args.corpus_dir), args.categories, date.fromisoformat(args.s), date.fromisoformat(args.e))):
         for article in extraire_a(xml_file, d, c):
             corpus.articles.append(article)
+    if args.p == "spacy" or args.p == None:
+        import analyse_sp as analyse
+    elif args.p == "stanza":
+        import analyse_st as analyse
+    elif args.p == "trankit":
+        import analyse_tk as analyse
     for a in tqdm(corpus.articles):
-        if args.p == "spacy" or args.p == None:
-            import analyse_sp as analyse
-        if args.p == "stanza":
-            import analyse_st as analyse
-        if args.p == "trankit":
-            import analyse_tk as analyse
+        parser = analyse.create_parser()
+        analyse.analyse_article(parser, a)
     if args.o is None:
         for title, description in extraire_td(args.corpus_dir):
             print(title)

@@ -16,7 +16,6 @@ from nltk.stem.wordnet import WordNetLemmatizer
 from gensim.models import Phrases
 from gensim.corpora import Dictionary
 
-import xml.etree.ElementTree as ET
 
 def charge_xml(xmlfile):
     import xml.etree.ElementTree as ET 
@@ -40,9 +39,9 @@ def charge_json(jsonfile):
     with open(jsonfile, 'r') as f:
         data = json.load(f)
         docs = []
-        for article in data:
+        for article in data['articles']:
             doc = []
-            for token in article['tokens']:
+            for token in article['analyse']:
                 form = token['forme']
                 lemme = token['lemme']
                 pos = token['pos']
@@ -57,9 +56,9 @@ def charge_pickle(picklefile):
     with open(picklefile, 'rb') as f:
         data = pickle.load(f)
         docs = []
-        for article in data:
+        for article in data['articles']:
             doc = []
-            for token in article['tokens']:
+            for token in article['analyse']:
                 form = token['forme']
                 lemme = token['lemme']
                 pos = token['pos']
