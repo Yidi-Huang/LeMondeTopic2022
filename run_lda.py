@@ -31,11 +31,11 @@ def load_xml(path: str) -> List[List[str]]:
         for article in xml.findall(".//analyse"):
             doc = []
             for token in article.findall("./token"):
-                #if token.attrib['pos'] in ["PROPN", "NOUN"]:
-                lemme = token.attrib['lemme']
-                pos = token.attrib['pos']
-                token_label = f"{lemme}/{pos}" 
-                doc.append(token_label)
+                if token.attrib['pos'] in ["PROPN", "NOUN","ADJ"]:
+                    lemme = token.attrib['lemme']
+                    pos = token.attrib['pos']
+                    token_label = f"{lemme}/{pos}"
+                    doc.append(token_label)
             if len(doc) > 0:
                 docs.append(doc)
     return docs
@@ -59,7 +59,7 @@ def build_lda_model(
         passes = 20,
         iterations = 400,
         eval_every = None,
-        no_below=20,
+        no_below=15,
         no_above=0.5
         ):
 
@@ -130,3 +130,4 @@ if __name__ == "__main__":
     main(args.xml_file, args.n, args.o, args.c)
 
 
+#python3 run_lda.py sortie.xml -n 5 -o sortie.htmL
