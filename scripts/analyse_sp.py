@@ -7,7 +7,7 @@ from datastructures import Token, Article
 
 
 def create_parser():
-    return spacy.load("fr_core_news_md")
+    return spacy.load("fr_core_news_sm")
 
 
 def analyse_article(parser, article: Article) -> Article:
