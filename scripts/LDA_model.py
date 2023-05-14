@@ -17,7 +17,7 @@ from gensim.models import Phrases
 from gensim.corpora import Dictionary
 
 
-def charge_xml(xmlfile):
+def charge_xml(xmlfile,upos):
     import xml.etree.ElementTree as ET 
     with open(xmlfile, 'r') as f:
         xml = ET.parse(f)
@@ -25,16 +25,17 @@ def charge_xml(xmlfile):
         for article in xml.findall("//analyse"):
             doc = []
             for token in article.findall("./token"):
-                form = token.attrib['forme']
-                lemme = token.attrib['lemme']
-                pos = token.attrib['pos']
-                doc.append(f"{form}/{lemme}/{pos}")
+                if token.attrib['pos'] in upos:
+                    form = token.attrib['forme']
+                    lemme = token.attrib['lemme']
+                    pos = token.attrib['pos']
+                    doc.append(f"{form}/{lemme}/{pos}")
             if len(doc) > 0:
                 docs.append(doc)
     return docs
 
 
-def charge_json(jsonfile):
+def charge_json(jsonfile,upos):
     import json
     with open(jsonfile, 'r') as f:
         data = json.load(f)
@@ -42,16 +43,17 @@ def charge_json(jsonfile):
         for article in data['articles']:
             doc = []
             for token in article['analyse']:
-                form = token['forme']
-                lemme = token['lemme']
-                pos = token['pos']
-                doc.append(f"{form}/{lemme}/{pos}")
+                if token.attrib['pos'] in upos:
+                    form = token.attrib['forme']
+                    lemme = token.attrib['lemme']
+                    pos = token.attrib['pos']
+                    doc.append(f"{form}/{lemme}/{pos}")
             if len(doc) > 0:
                 docs.append(doc)
     return docs
 
 
-def charge_pickle(picklefile):
+def charge_pickle(picklefile,upos):
     import pickle
     with open(picklefile, 'rb') as f:
         data = pickle.load(f)
@@ -59,10 +61,11 @@ def charge_pickle(picklefile):
         for article in data['articles']:
             doc = []
             for token in article['analyse']:
-                form = token['forme']
-                lemme = token['lemme']
-                pos = token['pos']
-                doc.append(f"{form}/{lemme}/{pos}")
+                if token.attrib['pos'] in upos:
+                    form = token.attrib['forme']
+                    lemme = token.attrib['lemme']
+                    pos = token.attrib['pos']
+                    doc.append(f"{form}/{lemme}/{pos}")
             if len(doc) > 0:
                 docs.append(doc)
     return docs
@@ -160,15 +163,16 @@ def main():
     parser.add_argument('--chunksize', type=int, default=2000, help='Taille des lots pour l\'entraînement du modèle LDA (par défaut=2000)')
     parser.add_argument('--passes', type=int, default=20, help='Nombre de passes pour l\'entraînement du modèle LDA (par défaut=20)')
     parser.add_argument('--iterations', type=int, default=400, help='Nombre d\'itérations pour l\'entraînement du modèle LDA (par défaut=400)')
+    parser.add_argument('POS',nargs= '*', help='parties du discours à retenir')
     args = parser.parse_args()
 
     # Charger les documents depuis le fichier
     if args.format == 'xml':
-        docs = charge_xml(args.input)
+        docs = charge_xml(args.input,args.POS)
     elif args.format == 'json':
-        docs = charge_json(args.input)
+        docs = charge_json(args.input,args.POS)
     elif args.format == 'pickle':
-        docs = charge_pickle(args.input)
+        docs = charge_pickle(args.input,args.POS)
     else:
         raise ValueError('Format d\'entrée inconnu')
 
@@ -184,4 +188,4 @@ def main():
 if __name__ == '__main__':
     main()
 
-#exemple d'appel : python3 LDA_model.py --input ../data/Le_Monde_1994-1995.xml --format xml --output ../data/lda.html --num_topics 10 --chunksize 2000 --passes 20 --iterations 400
+#exemple d'appel : python3 LDA_model.py --input ../data/Le_Monde_1994-1995.xml --format xml --output ../data/lda.html --num_topics 10 --chunksize 2000 --passes 20 --iterations 400 NOUN VERB ADJ
