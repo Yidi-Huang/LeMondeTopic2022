@@ -30,8 +30,8 @@
 		<section id = "wrapper">	
         <header>
             <div class="inner">
-                <h2>Boîte à Outil 1</h2>
-                <p>Parcours du répertoire arborescent, extraction du texte</p>
+                <h2>Boîte à Outils 1</h2>
+                <p>Parcours du répertoire arborescent, extraction de texte</p>
             </div>
         </header>
 
@@ -40,19 +40,20 @@
                 <div class="inner">
 
                     <h3 class="major">Idée principale</h3>
-                    <p>RSS (« Really Simple Syndication ») est un des applications de XML, qui est généré automatiquement et régulièrement pendant la mise à jour d’un site web. Il comporte les titres et les résumés des dernières infos, qui nous permet de suivre les nouvelles d’un site. Ici, on utilise l’ensemble des fils RSS de l’an 2019, recueilli par M. Fleury, comme notre corpus de travail.</p>
-                    <p>La première méthode n’utilise que Perl et le RegExp. On trouve que les titres et leur description suivent l’élément « item ». Après avoir récupérer le contenu entre deux balises, on fait un petit nettoyage.</p>
-                    <p>Néanmoins, pour que le script puisse traiter tous les fichiers en lançant une seule fois, on doit aussi utiliser l’idée de récursivité, qui nous permet de parcourir le corpus arborescent.</p>
-                    <p>Dans mon script, à part le corps principal, j’ai créé trois sous-fonctions : la première sert à parcourir le corpus et trouver les fichiers RSS de la rubrique demandée; la 2e sert à extraire le texte; la 3e est pour le nettoyage.</p>
+                    <p>RSS (« Really Simple Syndication ») est un des applications de XML, qui est généré automatiquement et régulièrement pendant la mise à jour d’un site web. Il comporte les titres et les résumés des dernières infos, qui nous permet de suivre les nouvelles d’un site. Ici, on utilise l’ensemble des fils RSS de l’année, recueilli par M. Fleury, en tant que notre corpus de travail.</p>
+                    <p>La première méthode serait d'utiliser le module `etree` `re` `feedparser` en Python pour extraire les titres et les descriptions du fichier xml. Tout d'abord, `etree` est plus simple au module re, car il s'adapte à la structure de XML avec les fonctions root() et tree(). Il est possible de détecter les titres et les descriptions du item en respectant le chemin et la forme root.findall(".//item"). En plus, en utilisant le module, les crochet à la fin et les caractères au début (CDATA) ne seront pas affichés dans le résultat.</p>
+                    <p>Après un aperçu sur les strctures de ces trois modules en classe, nous avons décidé d'utiliser le module `feedparser` comme notre méthode d'extraction.
+                        Ce dernier s'adapte précisément à la structure de XML, ce qui évite beaucoup de problèmes liés à des balises. En plus, le module est moins complexe à appliquer par rapport à deux autres.</p>
+                    <p>Néanmoins, pour que le script puisse traiter tous les fichiers en lançant le script une seule fois, on derait aussi utiliser l’idée de récursivité, qui nous permet de parcourir le corpus arborescent. Dans ce cas, nous avons essayé deux modules utiles `pathlib` `os`.</p>
+                    <p>En employant `argparser`, on pourrait simplement parvenir à notre obejctif en déterminant les arguments lors du lancement du script en question.</p>
                     
                     <h3 class="major">Script</h3>
-                    <p>4 rubriques sont traitées par ce script : "À la une"(3208), "International"(3210), "Economie"(3234) et "Technologies"(651865). Voici le script et les résultats.</p>
+                    <p>3 rubriques sont traitées par notre script : "une", "international", "politique". Voici le script et les résultats obtenus.</p>
                     <ul class="actions">
                         <li><a href="./fichiers/scripts/extraire_un.py" class="button primary">Script</a></li>
-                        <li><a href="#" class="button">Résultat 3208</a></li>
-                        <li><a href="#" class="button">Résultat 3210</a></li>
-                        <li><a href="#" class="button">Résultat 3234</a></li>
-                        <li><a href="#" class="button">Résultat 651865</a></li>
+                        <li><a href="#" class="button">Résultat UNE</a></li>
+                        <li><a href="#" class="button">Résultat INTERNATIONAL</a></li>
+                        <li><a href="#" class="button">Résultat POLITIQUE</a></li>
                     </ul>
                     <pre><code>#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
@@ -86,12 +87,12 @@ def extraire_a(rss_file,date,categorie):
                     <section class="features">
                         <article>
                             <h3 class="major">boîte à outils 2</h3>
-                            <p>Annotation du texte</p>
+                            <p>Enrichissement des données</p>
                             <a href="./BAO2.html" class="special">Savoir plus</a>
                         </article>
                         <article>
                             <h3 class="major">boîte à outils 3</h3>
-                            <p>Récupération des patrons morphosyntaxiques</p>
+                            <p>Récupération automatique des patrons</p>
                             <a href="./BAO3.html" class="special">Savoir plus</a>
                         </article>
                     </section>
