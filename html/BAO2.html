@@ -30,35 +30,35 @@
             <div class="wrapper">
                 <div class="inner">
                     <h3 class="major">Idée principale</h3>
-                    <p>BAO 2 consiste à traiter les fichiers XML extraits des flux RSS. L'objectif
+                    <p align = "justify">BAO 2 consiste à traiter les fichiers XML extraits des flux RSS. L'objectif
                         principal de ce processus est d'associer aux mots des valeurs syntaxiques
                         telles que le lemme et la partie du discours, et de trouver leurs schémas.
                         Pour y parvenir, nous commençons par effectuer une analyse automatique.</p>
-                    <p>L'analyse automatique est réalisée à l'aide de trois analyseurs syntaxiques :
+                    <p align = "justify">L'analyse automatique est réalisée à l'aide de trois analyseurs syntaxiques :
                         `spacy`, `trankit` et `stanza`, dans notre cas. Ces trois analyseurs nous
                         permettent tout d'abord de tokenizer les mots de notre fichier XML, puis de
                         leur attribuer un lemme et une partie du discours, ce qui est utile pour
                         sélectionner les catégories de mots à traiter dans le BAO 3.</p>
-                    <p>La première étape consiste à appliquer les trois modules au contenu XML afin
+                    <p align = "justify">La première étape consiste à appliquer les trois modules au contenu XML afin
                         d'obtenir les mots tokenisés. En important le module et suivant chacun les
                         règles d'application, la tokenisation est réalisée automatiquement. Ensuite,
                         en se basant sur ces tokens, les analyseurs leur attribuent des valeurs
                         syntaxiques comprenant la forme, la partie du discours et le lemme.</p>
-                    <p>Après avoir évalué globalement les performances des trois analyseurs
+                    <p align = "justify">Après avoir évalué globalement les performances des trois analyseurs
                         automatiques, nous avons finalement choisi spacy comme module par défaut. En
                         réalité, les trois analyseurs présentent une qualité de tokenisation
                         similaire. Cependant, compte tenu du temps de téléchargement du module,
                         trankit est trop lourd à utiliser. De plus, étant donné que spacy est déjà
                         largement utilisé dans nos flux de travail, nous avons opté pour ce choix
                         par défaut.</p>
-                    <p>L'enrichissement de données (les valeurs syntaxiques des mots) nous permet
+                    <p align = "justify">L'enrichissement de données (les valeurs syntaxiques des mots) nous permet
                         d'obtenir finalement des fichiers xml, contenant toujours les titres et les
                         descriptions de nouvelles, mais cette fois avec les trois valeurs
                         syntaxiques de chaque mot dans le corpus.</p>
-                    <p>Nous avons augmenter les choix de traitement à l'aide de `argparser`, il est
+                    <p align = "justify">Nous avons augmenter les choix de traitement à l'aide de `argparser`, il est
                         maitenant possible de choisir le module préféré pour traiter le corpus.</p>
                     <h3 class="major">Script</h3>
-                    <p>3 rubriques sont traitées par notre script : "une", "international",
+                    <p align = "justify">3 rubriques sont traitées par notre script : "une", "international",
                         "politique". Voici le script et les résultats obtenus. Nous vous présentons
                         ici l'application du module `spacy`.</p>
                     <ul class="actions">
