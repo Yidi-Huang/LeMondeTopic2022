@@ -4,56 +4,74 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel = "stylesheet" href = "./css/sous-style1.css" />
-        <link
-            href = "https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-            rel = "stylesheet"
-        />
+        <link rel="stylesheet" href="./css/sous-style1.css" />
+        <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
         <title>bao1</title>
     </head>
     <body>
-        <header class = "header">
-            <a href = "#" class = "logo">Projet Encadré: <h1 class="title">Boite À Outils 1</h1></a>
-            
-
-            <nav class = "navbar">
-                <a href="./index.html" class = "item" style = "--i: 1">Accueil</a>
-                <a href="./BAO1.html" class = "active item" style = "--i:  2">BAO1</a>
-                <a href="./BAO2.html" class = "item" style = "--i:  3">BAO2</a>
-                <a href="./BAO3.html" class = "item" style = "--i:  4">BAO3</a>
-                <a href="./BAO4.html" class = "item" style = "--i:  5">BAO4</a>
+        <header class="header">
+            <a href="#" class="logo">Projet Encadré: <h1 class="title">Boite À Outils 1</h1></a>
+            <nav class="navbar">
+                <a href="./index.html" class="item" style="--i: 1">Accueil</a>
+                <a href="./BAO1.html" class="active item" style="--i:  2">BA01</a>
+                <a href="./BAO2.html" class="item" style="--i:  3">BAO2</a>
+                <a href="./BAO3.html" class="item" style="--i:  4">BAO3</a>
+                <a href="./BAO4.html" class="item" style="--i:  5">BAO4</a>
             </nav>
-
         </header>
-        
-
-		<section id = "wrapper">	
-        <header>
-            <div class="inner">
-                <h2>Boîte à Outils 1</h2>
-                <p>Parcours du répertoire arborescent, extraction de texte</p>
-            </div>
-        </header>
-
-        <!-- Content -->
+        <section id="wrapper">
+            <header>
+                <div class="inner">
+                    <h2>Boîte à Outils 1</h2>
+                    <p>Lecture de fichiers RSS, Extraction (récursive) de texte et métadonnées</p>
+                </div>
+            </header>
+            <!-- Content -->
             <div class="wrapper">
                 <div class="inner">
-
                     <h3 class="major">Idée principale</h3>
-                    <p>RSS (« Really Simple Syndication ») est un des applications de XML, qui est généré automatiquement et régulièrement pendant la mise à jour d’un site web. Il comporte les titres et les résumés des dernières infos, qui nous permet de suivre les nouvelles d’un site. Ici, on utilise l’ensemble des fils RSS de l’année, recueilli par M. Fleury, en tant que notre corpus de travail.</p>
-                    <p>La première méthode serait d'utiliser le module `etree` `re` `feedparser` en Python pour extraire les titres et les descriptions du fichier xml. Tout d'abord, `etree` est plus simple au module re, car il s'adapte à la structure de XML avec les fonctions root() et tree(). Il est possible de détecter les titres et les descriptions du item en respectant le chemin et la forme root.findall(".//item"). En plus, en utilisant le module, les crochet à la fin et les caractères au début (CDATA) ne seront pas affichés dans le résultat.</p>
-                    <p>Après un aperçu sur les strctures de ces trois modules en classe, nous avons décidé d'utiliser le module `feedparser` comme notre méthode d'extraction.
-                        Ce dernier s'adapte précisément à la structure de XML, ce qui évite beaucoup de problèmes liés à des balises. En plus, le module est moins complexe à appliquer par rapport à deux autres.</p>
-                    <p>Néanmoins, pour que le script puisse traiter tous les fichiers en lançant le script une seule fois, on derait aussi utiliser l’idée de récursivité, qui nous permet de parcourir le corpus arborescent. Dans ce cas, nous avons essayé deux modules utiles `pathlib` `os`.</p>
-                    <p>En employant `argparser`, on pourrait simplement parvenir à notre obejctif en déterminant les arguments lors du lancement du script en question.</p>
-                    
+                    <p>RSS (« Really Simple Syndication ») est un des applications de XML, qui est
+                        généré automatiquement et régulièrement pendant la mise à jour d’un site
+                        web. Il comporte les titres et les résumés des dernières infos, qui nous
+                        permet de suivre les nouvelles d’un site. Ici, on utilise l’ensemble des
+                        fils RSS de l’année, recueilli par M. Fleury, en tant que notre corpus de
+                        travail.</p>
+                    <p>La première méthode serait d'utiliser le module `etree` `re` `feedparser` en
+                        Python pour extraire les titres et les descriptions du fichier xml. Tout
+                        d'abord, `etree` est plus simple au module re, car il s'adapte à la
+                        structure de XML avec les fonctions root() et tree(). Il est possible de
+                        détecter les titres et les descriptions du item en respectant le chemin et
+                        la forme root.findall(".//item"). En plus, en utilisant le module, les
+                        crochet à la fin et les caractères au début (CDATA) ne seront pas affichés
+                        dans le résultat.</p>
+                    <p>Après un aperçu sur les strctures de ces trois modules en classe, nous avons
+                        décidé d'utiliser le module `feedparser` comme notre méthode d'extraction.
+                        Ce dernier s'adapte précisément à la structure de XML, ce qui évite beaucoup
+                        de problèmes liés à des balises. En plus, le module est moins complexe à
+                        appliquer par rapport à deux autres.</p>
+                    <p>Néanmoins, pour que le script puisse traiter tous les fichiers en lançant le
+                        script une seule fois, on derait aussi utiliser l’idée de récursivité, qui
+                        nous permet de parcourir le corpus arborescent. Dans ce cas, nous avons
+                        essayé deux modules utiles `pathlib` `os`.</p>
+                    <p>En employant `argparser`, on pourrait simplement parvenir à notre obejctif en
+                        déterminant les arguments lors du lancement du script en question.</p>
                     <h3 class="major">Script</h3>
-                    <p>3 rubriques sont traitées par notre script : "une", "international", "politique". Voici le script et les résultats obtenus.</p>
+                    <p>3 rubriques sont traitées par notre script : "une", "international",
+                        "politique". Voici le script et les résultats obtenus.</p>
                     <ul class="actions">
-                        <li><a href="./fichiers/scripts/extraire_un.py" class="button primary">Script</a></li>
-                        <li><a href="#" class="button">Résultat UNE</a></li>
-                        <li><a href="#" class="button">Résultat INTERNATIONAL</a></li>
-                        <li><a href="#" class="button">Résultat POLITIQUE</a></li>
+                        <li>
+                            <a href="./fichiers/scripts/extraire_un.py" class="button primary"
+                                >Script</a>
+                        </li>
+                        <li>
+                            <a href="#" class="button">Résultat UNE</a>
+                        </li>
+                        <li>
+                            <a href="#" class="button">Résultat INTERNATIONAL</a>
+                        </li>
+                        <li>
+                            <a href="#" class="button">Résultat POLITIQUE</a>
+                        </li>
                     </ul>
                     <pre><code>#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
@@ -83,7 +101,6 @@ def extraire_a(rss_file,date,categorie):
     yield article	
                                                 
                     </code></pre>
-                    
                     <section class="features">
                         <article>
                             <h3 class="major">boîte à outils 2</h3>
@@ -96,23 +113,21 @@ def extraire_a(rss_file,date,categorie):
                             <a href="./BAO3.html" class="special">Savoir plus</a>
                         </article>
                     </section>
-
                 </div>
             </div>
         </section>
-                    
-
         <footer id="footer">
-			<ul class="copyright">
-				<li>&copy; ppe2_chz</li>
-				<li>Xinhao, Weixuan, Yidi</li>
-			</ul>
-		</footer>
+            <ul class="copyright">
+                <li>&copy; ppe2_chz</li>
+                <li>Xinhao, Weixuan, Yidi</li>
+            </ul>
+        </footer>
         <!--scripts-->
-        <script src = "javascript/jquery.min.js"></script>
-        <script src = "javascript/jquery.scrollex.min.js"></script>
-        <script src = "javascript/browser.min.js"></script>
-        <script src = "javascript/breakpoints.min.js"></script>
-        <script src = "javascript/util.js"></script>
+        <script src="javascript/jquery.min.js"></script>
+        <script src="javascript/jquery.scrollex.min.js"></script>
+        <script src="javascript/browser.min.js"></script>
+        <script src="javascript/breakpoints.min.js"></script>
+        <script src="javascript/util.js"></script>
     </body>
 </html>
+
