@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel = "stylesheet" href = "./css/sous-style.css" />
+        <link rel = "stylesheet" href = "./css/sous-style1.css" />
         <link
             href = "https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
             rel = "stylesheet"
@@ -27,11 +27,79 @@
         </header>
         
 
-		<section class="wrapper style5">
-            <div class="inner inner-table">
-                {CONTENT}
+		<section id = "wrapper">	
+        <header>
+            <div class="inner">
+                <h2>Boîte à Outil 1</h2>
+                <p>Parcours du répertoire arborescent, extraction du texte</p>
+            </div>
+        </header>
+
+        <!-- Content -->
+            <div class="wrapper">
+                <div class="inner">
+
+                    <h3 class="major">Idée principale</h3>
+                    <p>RSS (« Really Simple Syndication ») est un des applications de XML, qui est généré automatiquement et régulièrement pendant la mise à jour d’un site web. Il comporte les titres et les résumés des dernières infos, qui nous permet de suivre les nouvelles d’un site. Ici, on utilise l’ensemble des fils RSS de l’an 2019, recueilli par M. Fleury, comme notre corpus de travail.</p>
+                    <p>La première méthode n’utilise que Perl et le RegExp. On trouve que les titres et leur description suivent l’élément « item ». Après avoir récupérer le contenu entre deux balises, on fait un petit nettoyage.</p>
+                    <p>Néanmoins, pour que le script puisse traiter tous les fichiers en lançant une seule fois, on doit aussi utiliser l’idée de récursivité, qui nous permet de parcourir le corpus arborescent.</p>
+                    <p>Dans mon script, à part le corps principal, j’ai créé trois sous-fonctions : la première sert à parcourir le corpus et trouver les fichiers RSS de la rubrique demandée; la 2e sert à extraire le texte; la 3e est pour le nettoyage.</p>
+                    
+                    <h3 class="major">Script</h3>
+                    <p>4 rubriques sont traitées par ce script : "À la une"(3208), "International"(3210), "Economie"(3234) et "Technologies"(651865). Voici le script et les résultats.</p>
+                    <ul class="actions">
+                        <li><a href="./fichiers/scripts/extraire_un.py" class="button primary">Script</a></li>
+                        <li><a href="#" class="button">Résultat 3208</a></li>
+                        <li><a href="#" class="button">Résultat 3210</a></li>
+                        <li><a href="#" class="button">Résultat 3234</a></li>
+                        <li><a href="#" class="button">Résultat 651865</a></li>
+                    </ul>
+                    <pre><code>#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+                        
+import xml.etree.ElementTree as ET
+import feedparser
+from datastructures import Article
+from pathlib import Path
+                        
+def extraire_td(rss_file):	
+    # Créer un élément racine pour le fichier XML
+    root = ET.Element("channel")
+                            
+    # Analyse du fichier XML
+    feed = feedparser.parse(rss_file)
+                            
+    # Parcourir les éléments <item> du fichier RSS
+    for entry in feed.entries:
+        title = entry.title
+        description = entry.description
+    yield title, description
+                        
+def extraire_a(rss_file,date,categorie):
+    feed = feedparser.parse(rss_file)
+    for entry in feed.entries:
+        article = Article(entry.title,entry.description,date,categorie,[])
+    yield article	
+                                                
+                    </code></pre>
+                    
+                    <section class="features">
+                        <article>
+                            <h3 class="major">boîte à outils 2</h3>
+                            <p>Annotation du texte</p>
+                            <a href="./BAO2.html" class="special">Savoir plus</a>
+                        </article>
+                        <article>
+                            <h3 class="major">boîte à outils 3</h3>
+                            <p>Récupération des patrons morphosyntaxiques</p>
+                            <a href="./BAO3.html" class="special">Savoir plus</a>
+                        </article>
+                    </section>
+
+                </div>
             </div>
         </section>
+                    
 
         <footer id="footer">
 			<ul class="copyright">
@@ -39,7 +107,11 @@
 				<li>Xinhao, Weixuan, Yidi</li>
 			</ul>
 		</footer>
-        <script src = "https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
-        <script src="./javascript/bao1.js"></script>
+        <!--scripts-->
+        <script src = "javascript/jquery.min.js"></script>
+        <script src = "javascript/jquery.scrollex.min.js"></script>
+        <script src = "javascript/browser.min.js"></script>
+        <script src = "javascript/breakpoints.min.js"></script>
+        <script src = "javascript/util.js"></script>
     </body>
 </html>
