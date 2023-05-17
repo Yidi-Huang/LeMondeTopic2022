@@ -1,0 +1,8 @@
+BAO4-Visualisation
+
+• mise en forme des sorties du modèle
+• export pour le rapport web
+
+Description:
+La visualisation des données vise à présenter de manière claire et explicite les résultats du modèle LDA. Cette étape nous permet d'explorer les graphiques illustrant la probabilité des mots et des topics associés à la catégorie que nous avons choisie. Ces visualisations offrent un aperçu visuel des relations entre les mots et les topics, ce qui peut faciliter la compréhension des tendances et des motifs dans nos données. Elles permettent également d'identifier les mots clés les plus significatifs dans chaque topic et d'observer leur distribution. Grâce à ces graphiques, nous sommes en mesure d'analyser et d'interpréter les résultats du modèle LDA de manière plus approfondie, ce qui peut être utile pour la prise de décisions et la recherche future.
+
