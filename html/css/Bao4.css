@@ -8,16 +8,18 @@ body {
 }
 
 section {
-    background: #363d49;
+    background: #3b414d;
     background-image: url(../img/statistique2.png);
     background-size: cover;
-    background-color: rgba(157, 177, 43, 0.164);
+    background-color: #2b1a69a9;
+    background-blend-mode: multiply;
     min-height: 80vh;
     display: flex;
     padding:2em;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
 }
 
 .titre h2{
@@ -30,7 +32,8 @@ section {
     max-width:1500px;
     margin : 0 auto;
     background-image:url(../img/statistique2.png);
-    background-color: rgba(0, 0, 0, 0);
+    background-blend-mode: multiply;
+    background-color: #564e8bea;
     box-shadow: 
         0 8px 32p 0
         rgba(0, 0, 0, 0.37);
@@ -85,4 +88,71 @@ section {
         0 8px 32px 0
         rgba(0, 0, 0, 0.37);
     color: #fff;
+}
+
+div {
+    margin: 0;
+    padding: 0;
+}
+
+.main_text{
+    margin-bottom: 7em;
+    margin-top: 5em;
+    margin-left : 14em;
+    margin-right: 14em;
+    padding: 1em;
+    color: #c0c2b2ea;
+    text-align: justify;
+
+}
+
+.main_text h2{
+    font-size: 2.3em;
+    text-transform: uppercase;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.main_text p{
+    margin: 1em, auto;
+    margin-bottom: 1em;
+    padding: 0;
+    font-size: 1.1em;
+    line-height: 1.8em;
+    color: #aeb9b5ea;
+}
+
+.sous_text{
+    margin-bottom: 7em;
+    margin-top: 1em;
+    margin-left : 14em;
+    margin-right: 14em;
+    padding: 1em;
+    color: #c0c2b2ea;
+    text-align: justify;
+    padding: 1em;
+}
+
+.sous_text h2{
+    font-size: 2.3em;
+    text-transform: uppercase;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.sous_text p{
+    margin: 1em, auto;
+    margin-bottom: 4em;
+    padding: 0;
+    font-size: 1.1em;
+    color: #aeb9b5ea;
+}
+
+.main_text li{
+    margin-top: 2em;
+    margin-left : 2.5em;
+    padding: 1em;
+    font-size: 1em;
+    line-height: 1.8em;
+    color: #aeb9b5ea;
 }
