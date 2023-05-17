@@ -4,42 +4,103 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel = "stylesheet" href = "./css/sous-style.css" />
-        <link
-            href = "https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-            rel = "stylesheet"
-        />
+        <link rel="stylesheet" href="./css/sous-style1.css" />
+        <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
         <title>bao3</title>
     </head>
     <body>
-        <header class = "header">
-            <a href = "#" class = "logo">Projet Encadré: <h1 class="title">Boite À Outils 3</h1></a>
-            
-
-            <nav class = "navbar">
-                <a href="./index.html" class = "item" style = "--i: 1">Accueil</a>
-                <a href="./BAO1.html" class = "item" style = "--i:  2">BAO1</a>
-                <a href="./BAO2.html" class = "item" style = "--i:  3">BAO2</a>
-                <a href="./BAO3.html" class = " active item" style = "--i:  4">BAO3</a>
-                <a href="./BAO4.html" class = "item" style = "--i:  5">BAO4</a>
+        <header class="header">
+            <a href="#" class="logo">Projet Encadré: <h1 class="title">Boite À Outils 3</h1></a>
+            <nav class="navbar">
+                <a href="./index.html" class="item" style="--i: 1">Accueil</a>
+                <a href="./BAO1.html" class="active item" style="--i:  2">BA01</a>
+                <a href="./BAO2.html" class="item" style="--i:  3">BAO2</a>
+                <a href="./BAO3.html" class="item" style="--i:  4">BAO3</a>
+                <a href="./BAO4.html" class="item" style="--i:  5">BAO4</a>
             </nav>
-
         </header>
-        
+        <section id="wrapper">
+            <header>
+                <div class="inner">
+                    <h2>Boîte à Outils 2</h2>
+                    <p>Topic modeling, Analyse dans le temps</p>
+                </div>
+            </header>
+            <!-- Content -->
+            <div class="wrapper">
+                <div class="inner">
+                    <h3 class="major">Idée principale</h3>
+                    <p>content</p>
+                    <h3 class="major">Script</h3>
+                    <p>3 rubriques sont traitées par notre script : "une", "international",
+                        "politique". Voici le script et les résultats obtenus. Nous vous présentons
+                        ici l'application du module `spacy`.</p>
+                    <ul class="actions">
+                        <li>
+                            <a href="./fichiers/scripts/analyse_sp.py" class="button primary"
+                                >Script</a>
+                        </li>
+                        <li>
+                            <a href="#" class="button">Résultat UNE</a>
+                        </li>
+                        <li>
+                            <a href="#" class="button">Résultat INTERNATIONAL</a>
+                        </li>
+                        <li>
+                            <a href="#" class="button">Résultat POLITIQUE</a>
+                        </li>
+                    </ul>
+                    <pre><code>#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+                        
+import spacy
 
-		<section class="wrapper style5">
-            <div class="inner inner-table">
-                {CONTENT}
+from collections import namedtuple
+from dataclasses import dataclass
+
+from datastructures import Token, Article
+
+
+def create_parser():
+    return spacy.load("fr_core_news_md")
+
+
+def analyse_article(parser, article: Article) -> Article:
+    result = parser( (article.titre or "" ) + "\n" + (article.description or ""))
+    output = []
+    for token in result:
+        output.append(Token(token.text, token.lemma_, token.pos_))
+    article.analyse = output
+    return article	
+                                                
+                    </code></pre>
+                    <section class="features">
+                        <article>
+                            <h3 class="major">boîte à outils 1</h3>
+                            <p>Enrichissement des données</p>
+                            <a href="./BAO1.html" class="special">Savoir plus</a>
+                        </article>
+                        <article>
+                            <h3 class="major">boîte à outils 2</h3>
+                            <p>Récupération automatique des patrons</p>
+                            <a href="./BAO2.html" class="special">Savoir plus</a>
+                        </article>
+                    </section>
+                </div>
             </div>
         </section>
-
         <footer id="footer">
-			<ul class="copyright">
-				<li>&copy; ppe2_chz</li>
-				<li>Xinhao, Weixuan, Yidi</li>
-			</ul>
-		</footer>
-        <script src = "https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
-        <script src="./javascript/bao1.js"></script>
+            <ul class="copyright">
+                <li>&copy; ppe2_chz</li>
+                <li>Xinhao, Weixuan, Yidi</li>
+            </ul>
+        </footer>
+        <!--scripts-->
+        <script src="javascript/jquery.min.js"></script>
+        <script src="javascript/jquery.scrollex.min.js"></script>
+        <script src="javascript/browser.min.js"></script>
+        <script src="javascript/breakpoints.min.js"></script>
+        <script src="javascript/util.js"></script>
     </body>
 </html>
+
