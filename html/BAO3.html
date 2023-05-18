@@ -30,11 +30,21 @@
             <div class="wrapper">
                 <div class="inner">
                     <h3 class="major">Idée principale</h3>
-                    <p>content</p>
+                    <p>PyLDA (Python Latent Dirichlet Allocation) est une bibliothèque Python puissante et facile à utiliser pour effectuer l'analyse de sujets à l'aide de la méthode de Latent Dirichlet Allocation (LDA). LDA est une technique populaire d'apprentissage automatique non supervisé qui permet d'extraire des thèmes à partir d'un ensemble de documents textuels. PyLDA offre une interface simple pour charger des données textuelles, former des modèles LDA et explorer les résultats obtenus.</p>
+                    <p>Dans BAO 3, nous avons procédé au topic modeling à l'aide de LDA. Le module LDA nous permet d'analyser les sujets de nouvelles en prenant en compte les fréquences de mots. Ainsi, il est pertinent de choisir les catégories et les durées de nouvelles à l'aide du script `extraire_many.py`, et utiliser les fichiers xml produits pour repérer les sujets.</p>
+                    <p>Plusieurs paramètres dans le module peuvent être ajustés pour amélioréer la performance de l'analyse.</p>
+                    <p>• docs: Il s'agit de la liste des documents à utiliser pour construire le modèle LDA. Chaque document est 			représenté comme une liste de mots.</p>
+                    <p>• num_topics: Ce paramètre spécifie le nombre de sujets (topics) que le modèle LDA doit identifier dans les documents.</p>
+                    <p>• chunksize: Il indique la taille des morceaux (chunks) utilisés lors de l'apprentissage du modèle. Un chunk est une portion de documents traités simultanément.</p>
+                    <p>• passes: Ce paramètre détermine le nombre de passages (iterations) complets sur le corpus d'apprentissage lors de la construction du modèle.</p>
+                    <p>• iterations: C'est le nombre d'itérations pour chaque passage sur le corpus. Une itération correspond à un passage sur chaque document du corpus.</p>
+                    <p>• eval_every: Ce paramètre contrôle la fréquence à laquelle la log-vraisemblance du modèle est évaluée. Si sa valeur est définie à None, la log-vraisemblance n'est pas évaluée.</p>
+                    <p>• no_below: Il spécifie le nombre minimum d'occurrences qu'un mot doit avoir dans le corpus pour être inclus dans le modèle.</p>
+                    <p>• no_above: Ce paramètre détermine la proportion maximale de documents dans lesquels un mot peut apparaître pour être inclus dans le modèle. Les mots qui apparaissent dans plus de no_above% des documents seront ignorés.</p>
+                    <p>Ces paramètres, notamment le nombre de sujet peuvent être les arguments dans la commande à l'aide de `argparse`. En plus, en choisissant les catégories de tokens (pos), il est possible d'éviter la pollution des mots vides.</p>
                     <h3 class="major">Script</h3>
                     <p align = "justify">3 rubriques sont traitées par notre script : "une", "international",
-                        "politique". Voici le script et les résultats obtenus. Nous vous présentons
-                        ici l'application du module `spacy`.</p>
+                        "politique". Voici le script et les résultats obtenus. Nous vous présentons ici le LDA script modifié.</p>
                     <ul class="actions">
                         <li>
                             <a href="./fichiers/scripts/analyse_sp.py" class="button primary"
@@ -53,25 +63,139 @@
                     <pre><code>#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
                         
-import spacy
+r"""
+LDA Model
+=========
 
-from collections import namedtuple
-from dataclasses import dataclass
+Introduces Gensim's LDA model and demonstrates its use on the NIPS corpus.
 
-from datastructures import Token, Article
+"""
+from typing import List,Optional
+import sys
+import logging
+logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
+
+from xml.etree import ElementTree as ET
+import argparse
 
 
-def create_parser():
-    return spacy.load("fr_core_news_md")
+from gensim.models import Phrases
+from gensim.corpora import Dictionary
+from gensim.models import LdaModel
+import pyLDAvis
+import pyLDAvis.gensim_models as gensimvis
 
 
-def analyse_article(parser, article: Article) -> Article:
-    result = parser( (article.titre or "" ) + "\n" + (article.description or ""))
-    output = []
-    for token in result:
-        output.append(Token(token.text, token.lemma_, token.pos_))
-    article.analyse = output
-    return article	
+# Dans le tuto de départ il y avait:
+# docs = [[lemmatizer.lemmatize(token) for token in doc] for doc in docs]
+# donc on veut une fonction quie -> List[List[str]]
+def load_xml(path: str) -> List[List[str]]: 
+    with open(path, "r") as f:
+        xml = ET.parse(f)
+        docs = []
+        for article in xml.findall(".//analyse"):
+            doc = []
+            for token in article.findall("./token"):
+                if token.attrib['pos'] in ["PROPN", "NOUN"]:
+                    lemme = token.attrib['lemme']
+                    pos = token.attrib['pos']
+                    token_label = f"{lemme}/{pos}"
+                    doc.append(token_label)
+            if len(doc) > 0:
+                docs.append(doc)
+    return docs
+    
+
+# Add bigrams and trigrams to docs (only ones that appear 20 times or more).
+
+def add_bigrams(docs: List[List[str]], min_count=20):
+    bigram = Phrases(docs, min_count=20)
+    for idx in range(len(docs)):
+        for token in bigram[docs[idx]]:
+            if '_' in token:
+                # Token is a bigram, add to document.
+                docs[idx].append(token)
+    return docs
+
+def build_lda_model(
+        docs: List[List[str]],
+        num_topics = 10,
+        chunksize = 2000,
+        passes = 30,
+        iterations = 400,
+        eval_every = None,
+        no_below=15,
+        no_above=0.4
+        ):
+
+
+    dictionary = Dictionary(docs)
+    dictionary.filter_extremes(no_below=no_below, no_above=no_above)
+    corpus = [dictionary.doc2bow(doc) for doc in docs]
+    print('Number of unique tokens: %d' % len(dictionary),sys.stderr)
+    print('Number of documents: %d' % len(corpus))
+
+    temp = dictionary[0]  # This is only to "load" the dictionary.
+    id2word = dictionary.id2token
+
+    model = LdaModel(
+        corpus=corpus,
+        id2word=id2word,
+        chunksize=chunksize,
+        alpha='auto',
+        eta='auto',
+        iterations=iterations,
+        num_topics=num_topics,
+        passes=passes,
+        eval_every=eval_every)
+    return corpus, dictionary, model
+
+def print_coherence(model, corpus):
+    top_topics = model.top_topics(corpus)
+
+# Average topic coherence is the sum of topic coherences of all topics, divided by the number of topics.
+    avg_topic_coherence = sum([t[1] for t in top_topics]) / model.num_topics
+    print('Average topic coherence: %.4f.' % avg_topic_coherence)
+
+    from pprint import pprint
+    pprint(top_topics)
+
+
+
+def save_html_viz(model, corpus, dictionary, output_path):
+    # ATTENTION, nécessite pandas en version 1.x
+    # pip install pandas==1.5.*
+    # (ce qui désinstallera pandas 2 si vous l'avez)
+    # (d'où l'intérêt d'avoir un venv par projet) 
+    vis_data = gensimvis.prepare(model, corpus, dictionary)
+    with open(output_path, "w") as f:
+        pyLDAvis.save_html(vis_data, f)
+
+
+
+
+def main(corpus_file:str, num_topics, output_path: Optional[str]=None, show_coherence: bool=False):
+    docs = load_xml(corpus_file)
+    c, d, m = build_lda_model(docs, num_topics=num_topics)
+    if output_path is not None:
+        save_html_viz(m, c, d, output_path)
+    if show_coherence:
+        print_coherence(m, c)
+
+
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument("xml_file", help="fichier xml contenant le corpus à analyser")
+    parser.add_argument("-n", default=10, type=int, help="nombre de topics (10)")
+    parser.add_argument("-o", default=None, help="génère la visualisation ldaviz et la sauvegarde dans le fichier html indiqué")
+    parser.add_argument("-c", action="store_true", default=False, help="affiche les topics et leur cohérence")
+    args = parser.parse_args()
+    main(args.xml_file, args.n, args.o, args.c)
+
+
+#python3 run_lda.py sortie.xml -n 5 -o sortie.htmL	
                                                 
                     </code></pre>
                     <section class="features">
