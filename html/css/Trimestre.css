@@ -1,0 +1,37 @@
+.head{
+    padding :2em;
+    justify-content: center;
+    background-image: url(../img/une.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgb(60, 62, 71);
+}
+
+.head h1{
+    font-size: 4em;
+    text-align: left;
+    color: #ded1c1;
+    text-transform: uppercase;
+    margin-bottom: 0.4em;
+    margin-top: 3em;
+    border-bottom: 0.5px solid #ded1c1;
+    padding-bottom: 0.5em;
+}
+
+.head h2{
+    font-size: 1em;
+    text-align: left;
+    color: #fff;
+    margin-bottom: 0.4em;
+    margin-top: 0.4em;
+}
+.head h3{
+    font-size: 0.9em;
+    text-align: left;
+    color: #fff;
+    margin-bottom: 0.4em;
+    margin-top: 0.4em;
+}
+
