@@ -101,7 +101,7 @@ def preprocess_documents(docs):
     dictionary = Dictionary(docs)
 
     # Filter out words that occur less than 20 documents, or more than 50% of the documents
-    dictionary.filter_extremes(no_below=20, no_above=0.5)
+    dictionary.filter_extremes(no_below=60, no_above=0.6)
 
     # Bag-of-words representation of the documents
     corpus = [dictionary.doc2bow(doc) for doc in docs]
