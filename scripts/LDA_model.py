@@ -10,7 +10,7 @@ import logging
 logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
 
 import argparse
-import nltk
+import sys
 from nltk.tokenize import RegexpTokenizer
 from nltk.stem.wordnet import WordNetLemmatizer
 from gensim.models import Phrases
@@ -70,49 +70,33 @@ def charge_pickle(picklefile,upos):
                 docs.append(doc)
     return docs
 
+# Add bigrams and trigrams to docs (only ones that appear 20 times or more).
 
-def preprocess_documents(docs):
-    # Tokenize the documents
-    tokenizer = RegexpTokenizer(r'\w+')
-    for idx in range(len(docs)):
-        docs[idx] = str(docs[idx]).lower()  # Convert to lowercase
-        docs[idx] = tokenizer.tokenize(docs[idx])  # Split into words
-
-    # Remove numbers, but not words that contain numbers
-    docs = [[token for token in doc if not token.isnumeric()] for doc in docs]
-
-    # Remove words that are only one character
-    docs = [[token for token in doc if len(token) > 1] for doc in docs]
-
-    # Lemmatize the documents
-    nltk.download('wordnet', quiet=True)
-    lemmatizer = WordNetLemmatizer()
-    docs = [[lemmatizer.lemmatize(token) for token in doc] for doc in docs]
-
-    # Compute bigrams
+def add_bigrams(docs, min_count=20):
     bigram = Phrases(docs, min_count=20)
     for idx in range(len(docs)):
         for token in bigram[docs[idx]]:
             if '_' in token:
-                # Token is a bigram, add to document
+                # Token is a bigram, add to document.
                 docs[idx].append(token)
+    return docs
+
+from gensim.models import LdaModel
+
+def train_lda_model(docs, num_topics=10, chunksize=2000, passes=20, iterations=400, eval_every=None,no_below=50,no_above=0.6):
+    # fixer les paramètres du modèle
 
     # Create a dictionary representation of the documents
     dictionary = Dictionary(docs)
 
     # Filter out words that occur less than 20 documents, or more than 50% of the documents
-    dictionary.filter_extremes(no_below=60, no_above=0.6)
+    dictionary.filter_extremes(no_below=no_below, no_above=no_above)
 
     # Bag-of-words representation of the documents
     corpus = [dictionary.doc2bow(doc) for doc in docs]
+    print('Number of unique tokens: %d' % len(dictionary),sys.stderr)
+    print('Number of documents: %d' % len(corpus))
 
-    return corpus, dictionary
-
-from gensim.models import LdaModel
-from pprint import pprint
-
-def train_lda_model(corpus, dictionary, num_topics=10, chunksize=2000, passes=20, iterations=400, eval_every=None):
-    # Set training parameters.
 
     # Make an index to word dictionary.
     temp = dictionary[0]  # This is only to "load" the dictionary.
@@ -130,23 +114,23 @@ def train_lda_model(corpus, dictionary, num_topics=10, chunksize=2000, passes=20
         eval_every=eval_every
     )
 
+    return corpus, dictionary, model
+
+def print_coherence(model,corpus):
+
     top_topics = model.top_topics(corpus)
 
     # Average topic coherence is the sum of topic coherences of all topics, divided by the number of topics.
-    avg_topic_coherence = sum([t[1] for t in top_topics]) / num_topics
+    avg_topic_coherence = sum([t[1] for t in top_topics]) / model.num_topics
     print('Average topic coherence: %.4f.' % avg_topic_coherence)
-
+    from pprint import pprint
     pprint(top_topics)
     
-    return model
-
-# Example usage:
-#trained_model = train_lda_model(corpus, dictionary)
 
 import pyLDAvis
 import pyLDAvis.gensim_models as gensimvis
 
-def visualize_lda_model(model, corpus, dictionary, output_filename='lda_visualization.html'):
+def visualize_lda_model(model, corpus,dictionary, output_filename='lda_visualization.html'):
     vis_data = gensimvis.prepare(model, corpus, dictionary)
     with open(output_filename, 'w') as fout:
         pyLDAvis.save_html(vis_data, fout)
@@ -156,9 +140,12 @@ def visualize_lda_model(model, corpus, dictionary, output_filename='lda_visualiz
 
 def main():
     parser = argparse.ArgumentParser(description='Modèle LDA')
-    parser.add_argument('--input', type=str, required=True, help='Chemin du fichier d\'entrée (format XML, JSON ou pickle)')
-    parser.add_argument('--format', type=str, choices=['xml', 'json', 'pickle'], required=True, help='Format du fichier d\'entrée (xml, json ou pickle)')
-    parser.add_argument('--output', type=str, required=True, help='Chemin du fichier de sortie pour la visualisation (format HTML)')
+    parser.add_argument('-i', type=str, required=True, help='Chemin du fichier d\'entrée (format XML, JSON ou pickle)')
+    parser.add_argument('-f', type=str, choices=['xml', 'json', 'pickle'], required=True, help='Format du fichier d\'entrée (xml, json ou pickle)')
+    parser.add_argument('-o', type=str, default = None, help='Chemin du fichier de sortie pour la visualisation (format HTML)')
+    parser.add_argument('-c', action='store_true',default = False, help='Afficher la cohérence des sujets')
+    parser.add_argument('--no_below', type=int, default=50, help='Nombre minimum de documents dans lesquels un mot doit apparaître pour être conservé (par défaut=20)')
+    parser.add_argument('--no_above', type=float, default=0.6, help='Pourcentage maximum de documents dans lesquels un mot peut apparaître pour être conservé (par défaut=0.5)')
     parser.add_argument('--num_topics', type=int, default=10, help='Nombre de sujets pour le modèle LDA (par défaut=10)')
     parser.add_argument('--chunksize', type=int, default=2000, help='Taille des lots pour l\'entraînement du modèle LDA (par défaut=2000)')
     parser.add_argument('--passes', type=int, default=20, help='Nombre de passes pour l\'entraînement du modèle LDA (par défaut=20)')
@@ -167,28 +154,28 @@ def main():
     args = parser.parse_args()
 
     # Charger les documents depuis le fichier
-    if args.format == 'xml':
-        docs = charge_xml(args.input,args.POS)
-        docs = charge_xml(args.input,args.POS)
-    elif args.format == 'json':
-        docs = charge_json(args.input,args.POS)
-        docs = charge_json(args.input,args.POS)
-    elif args.format == 'pickle':
-        docs = charge_pickle(args.input,args.POS)
-        docs = charge_pickle(args.input,args.POS)
+    if args.f == 'xml':
+        docs = charge_xml(args.i,args.POS)
+    elif args.f == 'json':
+        docs = charge_json(args.i,args.POS)
+    elif args.f == 'pickle':
+        docs = charge_pickle(args.i,args.POS)
     else:
         raise ValueError('Format d\'entrée inconnu')
 
     # Prétraiter les documents
-    corpus, dictionary = preprocess_documents(docs)
+    docs = add_bigrams(docs)
 
     # Entraîner le modèle LDA
-    lda_model = train_lda_model(corpus, dictionary, num_topics=args.num_topics, chunksize=args.chunksize, passes=args.passes, iterations=args.iterations)
+    corpus,dic,lda_model = train_lda_model(docs, num_topics=args.num_topics, chunksize=args.chunksize, passes=args.passes, iterations=args.iterations,no_below=args.no_below,no_above=args.no_above)
 
-    # Visualiser le modèle LDA
-    visualize_lda_model(lda_model, corpus, dictionary, output_filename=args.output)
+    if args.o is not None:
+        # Visualiser le modèle LDA
+        visualize_lda_model(lda_model, corpus, dic, output_filename=args.o)
+    if args.c is True:
+        print_coherence(lda_model,corpus)
 
 if __name__ == '__main__':
     main()
 
-#exemple d'appel : python3 LDA_model.py --input ../data/Le_Monde_1994-1995.xml --format xml --output ../data/lda.html --num_topics 10 --chunksize 2000 --passes 20 --iterations 400 NOUN VERB ADJ
+# exemple d'utilisation: python3 LDA_model.py -i ../data/2022-01-01.xml -f xml -o sortie.html -c True --num_topics 10 --chunksize 2000 --passes 20 --iterations 400 --no_below 50 --no_above 0.6 ADJ NOUN VERB PROPN
