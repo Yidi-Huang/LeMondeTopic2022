@@ -304,3 +304,7 @@ body {
         transform: scale(1);
     }
 }
+
+a.custom-link {
+  color: #b7b2a9; /* Remplacez "red" par la couleur souhaitée */
+}
