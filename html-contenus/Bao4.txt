@@ -13,3 +13,7 @@ D'un point de vue plus global, nous souhaitons établir des liens entre les diff
 Par ailleurs, en analysant les corpus trimestriels, nous pourrons également mettre en évidence les sujets et les problématiques qui suscitent le plus d'attention de la part des médias. Cette approche nous permettra de mieux comprendre les préoccupations et les sujets dominants dans l'actualité, ce qui peut être extrêmement précieux pour les décideurs et les chercheurs d'informations.
 
 En résumé, notre approche de division en trimestres nous permet d'explorer à la fois les spécificités des sujets traités au cours de chaque période et les relations entre les différentes catégories. Cette approche combinée micro et macro offre une perspective plus complète et nous permet de tirer des enseignements pertinents et significatifs à partir des données.
+
+Explication : 
+- Paramètres 
+- premier image : Comme ce qu'on peut voir sur l'image, les topics les plus fréquents sont les suivants : . Les  premiers sont beaucoup plus nombreux par rapport aux autres topics. 

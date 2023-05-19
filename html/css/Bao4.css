@@ -96,7 +96,7 @@ div {
 }
 
 .main_text{
-    margin-bottom: 7em;
+    margin-bottom: 4em;
     margin-top: 5em;
     margin-left : 18em;
     margin-right: 18em;
@@ -133,6 +133,7 @@ div {
     color: #ded1c1;
     text-align: justify;
     padding: 1em;
+    position : relative;
 }
 
 .sous_text h2{
@@ -140,10 +141,12 @@ div {
     text-transform: uppercase;
     margin-top: 2em;
     margin-bottom: 1em;
+    border-bottom: 0.5px solid #ded1c1;
+    padding-bottom: 0.5em;
 }
 
 .sous_text p{
-    margin: 1em, auto;
+    margin: 0,auto;
     margin-bottom: 4em;
     padding: 0;
     font-size: 1.1em;
