@@ -19,33 +19,26 @@
     border-bottom: 0.5px solid #ded1c1;
     padding-bottom: 0.5em;
 }
-.cat1,.cat3{
+
+.cat1{
     padding : 4em;
     text-align: justify;
     display: block;
 }
-
-.cat1 h1, .cat3 h1{
-    text-transform: uppercase;
-    background-color: #ded1c157;
-}
-
 .cat1 h1{
+    text-transform: uppercase;
+    background-color: #8881777e;
     float: left;
     background-size: 100%;
     font-size: 2em;
     line-height: 1.5em;
 }
-.cat3 h1{
-    float: right;
-    font-size: 3em;
-}
+
 .text_img1{
     padding: 0em;
     padding-left: 2.5em;
     margin-left: 3em;
 }
-
 .text_img1 .titre{
     margin-top: 3em;
     margin-bottom: 1em;
@@ -59,7 +52,6 @@
     padding: 1em;
     margin-right: 6em;
 }
-
 .text p{
     margin-bottom: 1em;
     padding: 0;
@@ -104,12 +96,12 @@
     margin-bottom: 0.4em;
     margin-top: 0.4em;
 }
+
 .cat2{
-    display: grid;
-    grid-template-columns: 1fr 5fr;
     background-color: antiquewhite;
     background-size: cover;
     color:#2b333f;
+    padding : 3em;
 }
 
 .cat2 h1{
@@ -118,10 +110,11 @@
     float: left;
     text-transform: uppercase;
     font-size: 2.5em;
-    border-right: #2b333f;
 }
 
 .text_img2{
+    display: flex;
+    flex: wrap;
     color: #2b333f;
     text-align: justify;
 }
@@ -134,10 +127,30 @@
     color:#2b333f
 }
 
-.text_img3{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
 
+.cat3{
+    background-size: cover;
+    text-align: justify;
+    padding: 3em;
+    margin : 2em;
+}
+.cat3 h1{
+    font-size: 3em;
+    color: #ded1c1;
+    text-transform: uppercase;
+    float: right;
+}
+
+.cat3.text_img3{
+    display: flex;
+    flex:colum;
+}
+.text_img3 .text3{
+    margin-top: 2em;
+    margin-bottom: 1em;
+    margin : 3em;
+    font-size: 1.3em;
+    color: #ded1c1;
 }
 .lien_vers_la_prochaine_page{
     text-align: right;
@@ -235,6 +248,19 @@
     margin-top: 0.4em;
 }
 
+#ldavis_el39554139706137985984613013140,#ldavis_el1280651402160067490723698442624，#ldavis_el1284061399671323963207029765650,#ldavis_el397021402950218427685973338256,#ldavis_el128852139931875224352180649529,#ldavis_el398501397248363507526739362222，#ldavis_el399991402026509607207759629913，#ldavis_el1292601400507531865926778965559{
+    width: 90%;;
+    height: 85%;
+    margin: auto;
+    margin-top: 5em;
+}
+
+#ldavis_el1322561397842509607848717689925，#ldavis_el13286513984968528134426084049,#ldavis_el1333931396224953332645806621310，#ldavis_el1336531404683783320486293870883{
+    width: 85%;
+    height: auto;
+    margin-left: 14em;
+    margin-bottom : 2em;
+}
 a.custom-link {
   color: white; /* Remplacez "red" par la couleur souhaitée */
 }
