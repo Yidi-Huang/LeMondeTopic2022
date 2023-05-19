@@ -57,7 +57,7 @@ section {
     text-transform: uppercase;
 }
 .menu_visualisation p {
-    color: #d7d5df;
+    color: #a5b4c0;
     margin: 0;
     padding: 0;
     font-size: 0.8em;
@@ -96,12 +96,12 @@ div {
 }
 
 .main_text{
-    margin-bottom: 7em;
+    margin-bottom: 4em;
     margin-top: 5em;
-    margin-left : 14em;
-    margin-right: 14em;
+    margin-left : 18em;
+    margin-right: 18em;
     padding: 1em;
-    color: #c0c2b2ea;
+    color: #ded1c1;
     text-align: justify;
 
 }
@@ -111,6 +111,8 @@ div {
     text-transform: uppercase;
     margin-top: 2em;
     margin-bottom: 1em;
+    border-bottom: 0.5px solid #ded1c1;
+    padding-bottom: 0.5em;
 }
 
 .main_text p{
@@ -119,18 +121,18 @@ div {
     padding: 0;
     font-size: 1.1em;
     line-height: 1.8em;
-    color: #aeb9b5ea;
+    color: #ded1c1;
 }
 
 .sous_text{
     margin-bottom: 7em;
-    margin-top: 1em;
-    margin-left : 14em;
-    margin-right: 14em;
-    padding: 1em;
-    color: #c0c2b2ea;
+    margin-right: 18em;
+    margin-left: 18em;
+    padding: 5em;
+    color: #ded1c1;
     text-align: justify;
     padding: 1em;
+    position : relative;
 }
 
 .sous_text h2{
@@ -138,14 +140,16 @@ div {
     text-transform: uppercase;
     margin-top: 2em;
     margin-bottom: 1em;
+    border-bottom: 0.5px solid #ded1c1;
+    padding-bottom: 0.5em;
 }
 
 .sous_text p{
-    margin: 1em, auto;
+    margin: 0,auto;
     margin-bottom: 4em;
     padding: 0;
     font-size: 1.1em;
-    color: #aeb9b5ea;
+    color: #ded1c1;
 }
 
 .main_text li{
@@ -154,5 +158,5 @@ div {
     padding: 1em;
     font-size: 1em;
     line-height: 1.8em;
-    color: #aeb9b5ea;
+    color: #ded1c1;
 }

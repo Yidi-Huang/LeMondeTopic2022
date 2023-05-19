@@ -10,8 +10,8 @@ for(let i=0; i<navbarItems.length; i++){
 
 var typed = new Typed('.multiple-text', {
     strings:['Xinhao ZHANG', 'Yidi HUANG', 'Weixuan CHENG'],
-    typeSpeed: 100,
-    backSpeed: 100,
-    backDelay: 1000,
+    typeSpeed: 70,
+    backSpeed: 70,
+    backDelay: 900,
     loop: true
 });
