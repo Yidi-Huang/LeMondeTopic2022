@@ -49,7 +49,7 @@
 .text{
     margin-bottom: 2em;
     margin-top: 1em;
-    padding: 1em;
+    padding: 5em;
     margin-right: 6em;
 }
 .text p{
@@ -148,7 +148,7 @@
 .text_img3 .text3{
     margin-top: 2em;
     margin-bottom: 1em;
-    margin : 3em;
+    margin : 4em;
     font-size: 1.3em;
     color: #ded1c1;
 }
