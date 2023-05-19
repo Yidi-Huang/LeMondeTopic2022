@@ -121,10 +121,26 @@
 .text_img2 .titre{
     margin-top: 1.5em;
     margin-bottom: 1em;
-    position : center;
+    padding: 0.5em;
+    font-size: 1.6em; 
+    float: left;
+}
+.text_img2 .text2{
+    margin-top: 2em;
+    margin-bottom: 1em;
+    margin : 4em;
+    font-size: 1.1em;
+    color: #2b333f;
 }
 .text2 p{
-    color:#2b333f
+    margin-bottom: 1em;
+    padding: 0;
+    font-size: 1.1em;
+    line-height: 1.8em;
+    color: #2b333f;
+    transition: all 0.5s;
+    transition-duration:1s;
+    transition-property: all;
 }
 
 
