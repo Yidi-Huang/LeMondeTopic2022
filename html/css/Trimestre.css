@@ -278,7 +278,7 @@ button{
     margin-top: 0.4em;
 }
 
-.cat1 .site_button, .cat3 .site_button{
+.cat1 .site_button, .cat3 .site_button, .cat2 .site_button{
     margin-top: 1em;
     margin-left: 8em;
     text-align: justify;
@@ -287,7 +287,7 @@ button{
     background-color: #2b333f;
     border-radius: 8px;
 }
-.cat1 .site_button a, .cat3 .site_button a{
+.cat1 .site_button a, .cat3 .site_button a, .cat2 .site_button a{
     color: #ded1c1;
     font-size: 1em;
     line-height: 30px;
@@ -297,7 +297,7 @@ button{
     transition-duration:0.s;
     transition-property: all;
 }
-.cat1 .site_button a:hover, .cat3 .site_button a:hover{
+.cat1 .site_button a:hover, .cat3 .site_button a:hover, .cat2 .site_button a:hover{
     color: #2b333f;
     background-color: #ded1c176;
     border-radius: 8px;
@@ -310,17 +310,12 @@ button{
     margin-top: 3em;
 }
 
-#ldavis_el1322561397842509607848717689925, #ldavis_el13286513984968528134426084049, #ldavis_el1333931396224953332645806621310, #ldavis_el1336531404683783320486293870883{
-    width: 80%;
-    height: 90%;
-    margin-left: 14em;
+#ldavis_el1322561397842509607848717689925, #ldavis_el13286513984968528134426084049, #ldavis_el1333931396224953332645806621310, #ldavis_el1336531404683783320486293870883, #ldavis_el1647271399860359753126746862678, #ldavis_el1644961402402676616486095314312, #ldavis_el1642891401767724594086129317768, #ldavis_el1649801404575794901921122696464{
+    width: 86%;
+    height: 80%;
+    padding : 3em;
+    margin-left : 7em;
     margin-bottom : 2em;
 }
-a.custom-link {
-  color: white; /* Remplacez "red" par la couleur souhaitée */
-}
 
-a.custom-link-une {
-  color: #2b333f; /* Remplacez "red" par la couleur souhaitée */
-}
 

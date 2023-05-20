@@ -1,5 +1,0 @@
-BAO3-Analyse
-
-• Topic modeling
-• analyse dans le temps (et par catégorie)
-
