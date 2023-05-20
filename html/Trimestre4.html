@@ -11,7 +11,7 @@
         />
         <link rel = "stylesheet" href = "./css/Trimestre.css" />
         <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/bmabey/pyLDAvis@3.4.0/pyLDAvis/js/ldavis.v1.0.0.css">
-        <title>Trimestre2</title>
+        <title>Trimestre4</title>
     </head>
     <body>
         <header class = "header">
@@ -25,17 +25,21 @@
             </nav>
         </header>
         <div class="head4">
-            <h1>Trimestre 2</h1>
+            <h1>Trimestre 4</h1>
             <h2>10.1-12.31</h3>
         </div>
         <div class="cat1">
             <h1>International</h1>
             <div class="text_img1">
                 <h2 class="titre">
-                Top 30 topics
+                Top 3 topics
                 </h2>
                 <div class="text">
-                    <p>j</p>
+                    <p>Au cours du dernier trimestre de l'année 2022, nous avons constaté une diversification des tendances dans les actualités internationales, tout en maintenant une prédominance politique. En dehors du thème le plus important de l'année, à savoir la "guerre entre l'Ukraine et la Russie", les mots-clés tels que "France", "président", "Chine", "états-unis", "gouvernement", "ministre" et "nouvelle" ont augmenté en proportion, en particulier le thème du "gouvernement" a suscité de nombreux reportages médiatiques. Contrairement aux trimestres précédents, les médias se sont davantage concentrés sur les décisions politiques et les tendances internationales, ce qui a entraîné une dispersion des points d'intérêt médiatiques et une couverture plus variée des événements.</p>
+                    <p>En regroupant tous les mots-clés fréquents, les sujets de ce trimestre peuvent être classés en trois grandes catégories avec plusieurs sous-catégories :</p>
+                    <p>1. Le premier topic est "la guerre" : centrée sur le conflit entre l'Ukraine et la Russie. Les mots-clés "Ukraine", "Guerre", "Russie", "direct", "Kiev" et "armée" sont fortement présents, ce qui indique une couverture médiatique concrète et ciblée sur la guerre en question, avec une concentration élevée de nouvelles liées à ce sujet (représenté par la catégorie 1 sur le graphique de distribution).</p>
+                    <p>2. Le deuxième topic est "le gouvernement" : elle concerne les nouvelles liées aux "décisions politiques" et représente une part importante de l'ensemble des reportages. Cette catégorie peut être subdivisée en deux perspectives : interne, avec un focus sur la politique française, et externe, avec un intérêt pour les évolutions des politiques d'autres pays. Les mots-clés tels que "ministre", "gouvernement" et "premier" sont associés à la politique interne, soulignant la présence fréquente du terme "gouvernement" dans les actualités internationales, tandis que les mots-clés "Iran", "Chine" et "États-unis" reflètent des aspects de la politique étrangère, révélant ainsi une orientation médiatique vers l'internationalisation.</p>
+                    <p>3. Le troisième topic est "les préoccupations socio-économiques et les réformes" : elle met l'accent sur les problèmes sociaux. Nous pouvons observer l'apparition de mots-clés tels que "pouvoir", "mort" et "ancien". Ces mots-clés soulignent la préoccupation pour les droits de l'homme, notamment la notion implicite de "nouveauté" derrière le terme "ancien", évoquant ainsi un contraste entre l'ancien et le nouveau. Par ailleurs, le mot "mort" met en lumière la transparence des droits de l'homme et les médias ont largement abordé cette question avec un souci de sensibilisation.</p>
                 </div>
             </div>
             <button class="site_button">
@@ -133,6 +137,14 @@ if(typeof(LDAvis) !== "undefined"){
         <div class="cat3">
             <h1>Politique</h1>
             <div class="text_img3">
+                <h2 class="titre">Top 4 topics</h2>
+                <div class="text">
+                    <p>Au cours du trimestre 4 de 2022, les mots-clés mentionnés suggèrent plusieurs sujets d'actualité liés à la situation politique en France. Voici quelques thèmes possibles qui pourraient avoir fait l'objet de nouvelles :</p>
+                    <p>1. Réformes politiques : Les termes tels que "réforme", "député", "ministre", "gouvernement" et "loi" indiquent que des réformes politiques importantes ont pu être discutées ou mises en œuvre pendant cette période. Il est possible qu'il y ait eu des débats sur des sujets tels que la réforme des retraites, la réforme de l'assurance, ou des changements législatifs dans différents domaines.</p>
+                    <p>2. Mouvements politiques et partis : Les mots "gauche", "droite", "parti", "maire" et les noms de personnalités politiques comme Ciotti et Nouvelle indiquent que les activités politiques des différents mouvements et partis ont pu être médiatisées. Les stratégies politiques, les déclarations des leaders et les enjeux électoraux ont pu faire l'objet de couverture médiatique.</p>
+                    <p>3. Grèves et contestations : La mention des mots "grève", "motion", "censure" et les chiffres "49.3" (qui fait référence à l'article 49.3 de la Constitution française) suggère que des mouvements de grève, des débats parlementaires animés et des contestations politiques ont pu se produire. Les conflits sociaux, les positions des syndicats et les tensions politiques peuvent avoir été des sujets d'actualité.</p>
+                    <p>4. Budget et économie : Les termes "budget", "euro" et "milliard" indiquent que des questions économiques et budgétaires ont pu être abordées. Les discussions sur le budget national, les politiques économiques du gouvernement et les enjeux financiers ont pu être traités dans les médias.</p>
+                </div>
                 <div id="ldavis_el399991402026509607207759629913" style="background-color:white;"></div>
                 <script type="text/javascript">
 
@@ -169,24 +181,18 @@ if(typeof(LDAvis) !== "undefined"){
             })
          });
 }
-                </script>
+                </script>                
                 <div class="site_button">
                     <a href="../visus/politique/politique_s4.html" class="custom-link">Politique(trimestre 4) : vers le modèle LDA</a>
-                </div>
-                <div class="text3">
-                    <h2>Top 30 topics</h2>
-                        <p>xxx</p>
-                    <h2>Carte de la distributions des topics.</h2>
-                        <p>xxx</p>
                 </div>
             </div>
         </div>
 
-        <div class="lien_vers_la_page_avant">
-            <a href="Trimestre3.html" class="custom-link">Voir trimestre 3</a>
-        </div>
-        <div class="lien_vers_la_page_suivant">
-            <a href="BAO4.html" class="custom-link">Retour à BAO4</a>
-        </div>
+        <button class="gauche">
+            <a href="Trimestre3.html">Voir Trimestre 3</a>
+        </button>
+        <button class="droite">
+            <a href="BAO4.html">Retour à Bao4</a>
+        </button>
     </body>
 </html>
